@@ -1,0 +1,1471 @@
+EmployeeNumber,DepartmentID,SatisfactionID,Attrition,AttritionFlag,OverTime,OvertimeRisk,YearsAtCompany,TenureCategory,TotalWorkingYears,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,NumCompaniesWorked,TrainingTimesLastYear,PerformanceRating,BusinessTravel,JobLevel,JobInvolvement,AttritionRiskScore,RetentionSegment
+1,1,1,Yes,1,Yes,High Risk,6,Mid Tenure,8,4,0,5,8,0,3,Travel_Rarely,2,3,3,Safe
+2,2,2,No,0,No,Low Risk,10,Long Tenure,10,7,1,7,1,3,4,Travel_Frequently,2,2,0,Safe
+4,3,3,Yes,1,Yes,High Risk,0,New Employee,7,0,0,0,6,3,3,Travel_Rarely,1,2,5,At Risk
+5,2,4,No,0,Yes,High Risk,8,Long Tenure,8,7,3,0,1,3,3,Travel_Frequently,1,3,5,At Risk
+7,3,5,No,0,No,Low Risk,2,New Employee,6,2,2,2,9,3,3,Travel_Rarely,1,3,2,Safe
+8,3,6,No,0,No,Low Risk,7,Mid Tenure,8,7,3,6,0,2,3,Travel_Frequently,1,3,2,Safe
+10,3,7,No,0,Yes,High Risk,1,New Employee,12,0,0,0,4,3,4,Travel_Rarely,1,4,8,Flight Risk
+11,3,3,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,2,4,Travel_Rarely,1,3,2,Safe
+12,4,3,No,0,No,Low Risk,9,Long Tenure,10,7,1,8,0,2,4,Travel_Frequently,3,2,0,Safe
+13,5,8,No,0,No,Low Risk,7,Mid Tenure,17,7,7,7,6,3,3,Travel_Rarely,2,3,1,Safe
+14,3,9,No,0,No,Low Risk,5,Mid Tenure,6,4,0,3,0,5,3,Travel_Rarely,1,4,5,At Risk
+15,3,10,No,0,Yes,High Risk,9,Long Tenure,10,5,0,8,0,3,3,Travel_Rarely,2,2,3,Safe
+16,2,11,No,0,No,Low Risk,5,Mid Tenure,5,2,4,3,1,1,3,Travel_Rarely,1,3,3,Safe
+18,3,12,No,0,No,Low Risk,2,New Employee,3,2,1,2,0,2,3,Travel_Rarely,1,3,2,Safe
+19,3,13,Yes,1,Yes,High Risk,4,Mid Tenure,6,2,0,3,5,4,3,Travel_Rarely,1,2,5,At Risk
+20,4,14,No,0,No,Low Risk,10,Long Tenure,10,9,8,8,1,1,3,Travel_Rarely,3,4,4,At Risk
+21,2,15,No,0,Yes,High Risk,6,Mid Tenure,7,2,0,5,0,5,3,Travel_Rarely,1,4,5,At Risk
+22,3,16,No,0,Yes,High Risk,1,New Employee,1,0,0,0,1,2,3,Non-Travel,1,4,6,At Risk
+23,6,17,No,0,No,Low Risk,25,Long Tenure,31,8,3,7,2,3,3,Travel_Rarely,4,2,0,Safe
+24,2,18,No,0,Yes,High Risk,3,Mid Tenure,6,2,1,2,5,3,3,Travel_Rarely,1,3,3,Safe
+26,4,11,No,0,No,Low Risk,4,Mid Tenure,5,2,1,3,0,5,3,Non-Travel,2,4,1,Safe
+27,7,19,Yes,1,No,Low Risk,5,Mid Tenure,10,3,0,3,7,4,4,Travel_Rarely,1,2,5,At Risk
+28,8,9,No,0,No,Low Risk,12,Long Tenure,13,6,2,11,0,4,3,Travel_Rarely,3,3,3,Safe
+30,2,20,No,0,No,Low Risk,0,New Employee,0,0,0,0,1,6,3,Travel_Rarely,1,3,3,Safe
+31,2,14,Yes,1,No,Low Risk,4,Mid Tenure,8,2,1,3,2,2,3,Travel_Rarely,1,3,5,At Risk
+32,9,21,No,0,No,Low Risk,14,Long Tenure,26,13,4,8,4,3,3,Travel_Rarely,5,3,1,Safe
+33,2,22,Yes,1,Yes,High Risk,10,Long Tenure,10,2,6,7,1,5,4,Travel_Frequently,1,1,7,Flight Risk
+35,1,2,No,0,No,Low Risk,9,Long Tenure,10,7,4,2,0,2,3,Travel_Rarely,2,3,1,Safe
+36,5,23,No,0,No,Low Risk,22,Long Tenure,24,6,5,17,3,4,3,Travel_Rarely,3,2,1,Safe
+38,6,24,No,0,No,Low Risk,2,New Employee,22,2,2,1,3,2,3,Travel_Rarely,5,3,0,Safe
+39,3,20,No,0,No,Low Risk,1,New Employee,7,1,0,0,4,3,3,Travel_Rarely,1,3,2,Safe
+40,5,25,No,0,Yes,High Risk,4,Mid Tenure,9,2,1,3,2,5,3,Travel_Rarely,2,3,3,Safe
+41,3,26,No,0,No,Low Risk,10,Long Tenure,10,0,1,8,1,5,3,Travel_Rarely,1,2,2,Safe
+42,7,27,Yes,1,No,Low Risk,1,New Employee,19,0,0,0,3,6,3,Travel_Rarely,2,3,2,Safe
+45,2,28,Yes,1,Yes,High Risk,2,New Employee,6,0,2,0,2,2,3,Travel_Rarely,1,3,6,At Risk
+46,2,29,No,0,No,Low Risk,5,Mid Tenure,6,3,1,4,1,3,3,Travel_Rarely,1,4,2,Safe
+47,7,30,Yes,1,Yes,High Risk,3,Mid Tenure,3,2,0,2,1,2,3,Travel_Rarely,1,2,5,At Risk
+49,7,31,No,0,No,Low Risk,2,New Employee,2,2,2,2,1,3,3,Travel_Rarely,1,3,2,Safe
+51,2,32,No,0,Yes,High Risk,1,New Employee,6,1,0,0,9,3,3,Travel_Rarely,1,2,5,At Risk
+52,1,33,No,0,No,Low Risk,5,Mid Tenure,10,3,1,3,2,3,3,Travel_Frequently,2,4,3,Safe
+53,3,34,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,3,2,Safe
+54,3,35,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,6,3,Travel_Rarely,1,3,2,Safe
+55,3,36,Yes,1,No,Low Risk,1,New Employee,1,0,0,1,1,2,3,Travel_Rarely,1,1,2,Safe
+56,1,10,No,0,No,Low Risk,9,Long Tenure,9,8,1,7,1,0,3,Travel_Frequently,3,3,0,Safe
+57,3,20,No,0,No,Low Risk,12,Long Tenure,12,8,3,7,1,2,4,Travel_Frequently,2,3,0,Safe
+58,8,37,Yes,1,No,Low Risk,22,Long Tenure,23,15,15,8,1,0,3,Travel_Rarely,5,3,1,Safe
+60,1,38,No,0,No,Low Risk,9,Long Tenure,10,5,8,7,0,2,4,Non-Travel,2,3,1,Safe
+61,2,39,No,0,No,Low Risk,1,New Employee,8,0,0,0,4,1,4,Travel_Rarely,1,3,5,At Risk
+62,1,17,No,0,Yes,High Risk,9,Long Tenure,14,6,0,8,4,4,4,Travel_Frequently,2,3,3,Safe
+63,3,40,No,0,No,Low Risk,1,New Employee,1,0,0,1,1,2,3,Travel_Rarely,1,4,2,Safe
+64,3,41,Yes,1,Yes,High Risk,1,New Employee,23,0,0,0,9,2,3,Travel_Rarely,3,2,3,Safe
+65,3,42,Yes,1,Yes,High Risk,2,New Employee,2,2,2,2,1,3,3,Travel_Rarely,1,3,5,At Risk
+68,1,43,No,0,Yes,High Risk,4,Mid Tenure,9,3,1,3,5,2,4,Travel_Rarely,2,3,6,At Risk
+70,5,44,No,0,Yes,High Risk,4,Mid Tenure,10,0,2,3,2,3,3,Non-Travel,3,2,3,Safe
+72,1,45,No,0,Yes,High Risk,2,New Employee,5,2,0,0,7,2,3,Travel_Rarely,2,2,3,Safe
+73,8,17,No,0,Yes,High Risk,15,Long Tenure,15,14,8,12,1,1,3,Travel_Frequently,3,3,4,At Risk
+74,1,24,No,0,No,Low Risk,9,Long Tenure,9,8,1,8,1,3,4,Travel_Frequently,3,3,0,Safe
+75,3,44,No,0,Yes,High Risk,2,New Employee,4,2,2,2,3,3,3,Travel_Rarely,1,3,3,Safe
+76,3,46,No,0,No,Low Risk,7,Mid Tenure,10,7,1,7,3,3,4,Travel_Rarely,2,3,0,Safe
+77,4,47,No,0,No,Low Risk,7,Mid Tenure,7,5,0,7,1,2,3,Travel_Rarely,2,2,0,Safe
+78,4,48,No,0,Yes,High Risk,9,Long Tenure,9,8,7,8,1,3,4,Travel_Rarely,2,3,4,At Risk
+79,3,40,No,0,No,Low Risk,10,Long Tenure,10,3,9,9,1,2,3,Travel_Frequently,2,3,3,Safe
+80,8,49,No,0,Yes,High Risk,27,Long Tenure,29,3,13,8,5,2,3,Travel_Rarely,5,2,4,At Risk
+81,1,50,No,0,No,Low Risk,21,Long Tenure,28,16,7,9,7,3,3,Travel_Rarely,3,3,4,At Risk
+83,5,13,No,0,No,Low Risk,17,Long Tenure,17,14,12,8,1,2,3,Travel_Rarely,3,3,1,Safe
+84,9,4,No,0,Yes,High Risk,5,Mid Tenure,21,0,0,2,2,2,3,Travel_Rarely,4,3,3,Safe
+85,4,51,No,0,No,Low Risk,6,Mid Tenure,6,5,0,3,1,3,3,Travel_Frequently,2,2,0,Safe
+86,2,14,No,0,No,Low Risk,1,New Employee,25,0,0,0,2,2,3,Travel_Rarely,3,3,3,Safe
+88,2,24,No,0,No,Low Risk,3,Mid Tenure,5,2,1,2,4,2,3,Travel_Frequently,1,3,2,Safe
+90,2,52,Yes,1,Yes,High Risk,1,New Employee,2,0,0,0,0,0,3,Travel_Rarely,1,2,5,At Risk
+91,1,11,No,0,No,Low Risk,4,Mid Tenure,20,3,1,3,7,2,3,Travel_Frequently,2,2,0,Safe
+94,2,2,No,0,No,Low Risk,5,Mid Tenure,6,4,0,4,0,3,4,Travel_Rarely,1,3,2,Safe
+95,2,53,No,0,No,Low Risk,1,New Employee,1,1,1,0,1,4,3,Travel_Rarely,1,3,2,Safe
+96,2,54,No,0,No,Low Risk,10,Long Tenure,10,4,0,9,1,3,3,Travel_Rarely,2,3,3,Safe
+97,3,55,No,0,No,Low Risk,1,New Employee,5,0,0,0,3,3,3,Travel_Rarely,1,4,2,Safe
+98,4,20,No,0,No,Low Risk,11,Long Tenure,11,7,1,8,1,2,4,Travel_Rarely,2,3,0,Safe
+100,1,19,No,0,No,Low Risk,15,Long Tenure,16,13,2,8,0,2,3,Travel_Rarely,2,2,3,Safe
+101,8,56,No,0,Yes,High Risk,0,New Employee,17,0,0,0,4,3,3,Travel_Rarely,3,3,3,Safe
+102,8,57,No,0,No,Low Risk,5,Mid Tenure,16,2,0,2,4,3,3,Travel_Rarely,3,3,3,Safe
+103,10,58,No,0,Yes,High Risk,4,Mid Tenure,16,2,0,2,8,2,4,Travel_Rarely,2,3,3,Safe
+104,3,6,No,0,Yes,High Risk,10,Long Tenure,10,8,3,0,1,1,3,Travel_Rarely,2,2,3,Safe
+105,2,59,No,0,No,Low Risk,6,Mid Tenure,6,4,0,4,1,3,3,Travel_Rarely,1,2,5,At Risk
+106,1,23,No,0,No,Low Risk,1,New Employee,24,0,1,0,3,4,3,Travel_Rarely,3,3,0,Safe
+107,2,60,No,0,Yes,High Risk,13,Long Tenure,17,11,1,9,7,3,3,Non-Travel,2,1,3,Safe
+110,4,9,No,0,No,Low Risk,5,Mid Tenure,5,2,1,3,1,2,3,Travel_Rarely,2,3,3,Safe
+112,4,61,No,0,No,Low Risk,6,Mid Tenure,37,4,0,2,4,3,3,Travel_Rarely,3,1,0,Safe
+113,7,44,No,0,No,Low Risk,0,New Employee,3,0,0,0,3,3,3,Travel_Rarely,1,3,3,Safe
+116,3,62,No,0,No,Low Risk,4,Mid Tenure,10,2,0,3,3,4,4,Travel_Rarely,1,3,2,Safe
+117,5,63,No,0,No,Low Risk,11,Long Tenure,11,10,10,8,1,3,3,Travel_Rarely,2,2,1,Safe
+118,1,20,Yes,1,No,Low Risk,9,Long Tenure,9,8,4,7,1,3,3,Travel_Rarely,3,2,1,Safe
+119,5,64,No,0,No,Low Risk,22,Long Tenure,22,3,11,11,1,3,4,Travel_Frequently,4,2,1,Safe
+120,1,65,No,0,Yes,High Risk,10,Long Tenure,11,7,1,0,0,2,4,Travel_Rarely,2,3,3,Safe
+121,1,66,No,0,Yes,High Risk,11,Long Tenure,11,8,2,7,1,4,3,Travel_Rarely,2,2,3,Safe
+124,5,67,No,0,Yes,High Risk,10,Long Tenure,21,9,9,5,2,5,3,Travel_Frequently,3,2,4,At Risk
+125,1,59,No,0,No,Low Risk,11,Long Tenure,12,8,5,7,1,0,3,Travel_Rarely,2,3,4,At Risk
+126,8,68,No,0,No,Low Risk,4,Mid Tenure,16,3,0,3,9,5,3,Travel_Rarely,3,3,3,Safe
+128,1,69,No,0,No,Low Risk,3,Mid Tenure,4,2,0,2,0,2,4,Travel_Rarely,2,3,4,At Risk
+129,1,70,No,0,No,Low Risk,5,Mid Tenure,5,4,0,4,1,3,3,Non-Travel,2,3,0,Safe
+131,1,71,No,0,No,Low Risk,37,Long Tenure,38,10,1,8,0,1,3,Travel_Rarely,4,3,0,Safe
+132,3,72,No,0,No,Low Risk,3,Mid Tenure,17,2,1,2,4,3,3,Non-Travel,2,3,2,Safe
+133,10,73,Yes,1,Yes,High Risk,3,Mid Tenure,7,2,0,2,4,3,4,Travel_Rarely,1,3,5,At Risk
+134,2,35,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Rarely,1,3,2,Safe
+137,3,62,Yes,1,Yes,High Risk,1,New Employee,1,0,1,0,1,5,3,Travel_Frequently,1,2,6,At Risk
+138,2,30,No,0,No,Low Risk,16,Long Tenure,16,13,2,10,1,3,3,Travel_Rarely,2,3,0,Safe
+139,5,74,No,0,No,Low Risk,1,New Employee,17,0,0,0,5,2,3,Non-Travel,2,2,0,Safe
+140,11,20,No,0,No,Low Risk,3,Mid Tenure,30,2,2,2,9,3,4,Non-Travel,5,2,0,Safe
+141,8,75,No,0,Yes,High Risk,8,Long Tenure,28,3,0,7,3,1,3,Travel_Frequently,5,3,6,At Risk
+142,1,76,Yes,1,Yes,High Risk,6,Mid Tenure,6,4,0,3,1,1,3,Travel_Rarely,2,2,4,At Risk
+143,2,18,No,0,No,Low Risk,2,New Employee,2,2,2,1,1,2,3,Travel_Rarely,1,2,3,Safe
+144,3,12,No,0,No,Low Risk,0,New Employee,1,0,0,0,1,5,3,Travel_Rarely,1,3,3,Safe
+145,5,77,No,0,No,Low Risk,13,Long Tenure,23,12,12,8,3,1,4,Travel_Frequently,3,2,4,At Risk
+147,3,41,Yes,1,Yes,High Risk,9,Long Tenure,9,7,0,6,1,3,4,Travel_Frequently,2,1,3,Safe
+148,11,18,No,0,Yes,High Risk,5,Mid Tenure,23,3,4,4,2,3,3,Non-Travel,4,4,4,At Risk
+150,3,38,No,0,No,Low Risk,5,Mid Tenure,6,3,1,2,0,2,3,Travel_Rarely,1,3,3,Safe
+151,2,78,No,0,No,Low Risk,1,New Employee,12,0,0,0,6,3,3,Travel_Rarely,2,2,0,Safe
+152,1,63,No,0,No,Low Risk,5,Mid Tenure,12,3,1,3,2,3,3,Travel_Rarely,3,3,0,Safe
+153,9,73,No,0,No,Low Risk,11,Long Tenure,14,10,5,8,2,6,3,Travel_Rarely,3,2,1,Safe
+154,1,12,No,0,No,Low Risk,9,Long Tenure,10,7,2,8,0,6,3,Travel_Frequently,3,3,0,Safe
+155,3,79,No,0,No,Low Risk,1,New Employee,7,0,0,0,5,2,4,Travel_Rarely,1,3,5,At Risk
+158,6,74,No,0,Yes,High Risk,25,Long Tenure,25,12,4,12,1,3,3,Travel_Frequently,4,3,4,At Risk
+159,2,36,No,0,No,Low Risk,10,Long Tenure,10,7,0,9,1,2,4,Travel_Frequently,1,1,2,Safe
+160,1,80,No,0,No,Low Risk,7,Mid Tenure,8,7,0,7,0,2,3,Non-Travel,2,3,3,Safe
+161,2,39,Yes,1,Yes,High Risk,5,Mid Tenure,7,4,4,3,9,2,3,Travel_Rarely,1,3,7,Flight Risk
+162,8,30,No,0,No,Low Risk,20,Long Tenure,23,18,15,15,7,5,3,Travel_Rarely,5,3,1,Safe
+163,1,81,Yes,1,Yes,High Risk,7,Mid Tenure,12,7,7,7,4,3,3,Travel_Rarely,2,1,4,At Risk
+164,2,82,No,0,No,Low Risk,5,Mid Tenure,5,4,4,3,1,3,3,Travel_Rarely,1,2,3,Safe
+165,5,46,Yes,1,No,Low Risk,40,Long Tenure,40,10,15,6,1,3,3,Travel_Rarely,3,3,1,Safe
+167,7,29,Yes,1,Yes,High Risk,0,New Employee,0,0,0,0,1,2,3,Travel_Rarely,1,3,6,At Risk
+169,3,34,No,0,No,Low Risk,2,New Employee,3,1,2,1,0,2,3,Travel_Rarely,1,3,3,Safe
+170,4,67,No,0,No,Low Risk,15,Long Tenure,16,11,5,11,1,2,3,Travel_Rarely,2,3,1,Safe
+171,2,37,No,0,No,Low Risk,3,Mid Tenure,18,2,1,2,4,2,3,Travel_Frequently,1,4,0,Safe
+174,1,20,No,0,No,Low Risk,2,New Employee,16,2,2,1,4,3,3,Travel_Frequently,3,3,0,Safe
+175,1,38,Yes,1,Yes,High Risk,2,New Employee,4,2,2,2,3,2,3,Travel_Rarely,2,1,3,Safe
+176,1,83,No,0,Yes,High Risk,9,Long Tenure,12,7,0,7,3,2,3,Travel_Rarely,3,3,3,Safe
+177,10,76,No,0,No,Low Risk,8,Long Tenure,8,7,5,7,1,3,4,Travel_Rarely,1,3,3,Safe
+178,4,58,No,0,No,Low Risk,3,Mid Tenure,7,2,0,1,6,0,4,Travel_Rarely,2,3,0,Safe
+179,4,23,Yes,1,No,Low Risk,4,Mid Tenure,18,2,0,3,2,2,3,Travel_Frequently,3,1,0,Safe
+182,1,84,No,0,No,Low Risk,15,Long Tenure,17,11,5,9,4,1,3,Travel_Rarely,2,2,1,Safe
+183,1,41,No,0,No,Low Risk,2,New Employee,6,2,2,2,2,3,3,Travel_Rarely,2,2,1,Safe
+184,10,65,No,0,Yes,High Risk,11,Long Tenure,12,9,4,7,0,2,3,Travel_Rarely,2,3,4,At Risk
+190,3,85,Yes,1,No,Low Risk,5,Mid Tenure,10,4,0,4,7,2,4,Travel_Rarely,1,3,3,Safe
+192,2,86,No,0,No,Low Risk,6,Mid Tenure,9,5,0,3,5,2,3,Travel_Rarely,1,3,2,Safe
+193,2,3,No,0,Yes,High Risk,3,Mid Tenure,19,2,2,2,3,2,4,Travel_Rarely,2,3,3,Safe
+194,2,36,No,0,No,Low Risk,5,Mid Tenure,5,4,0,4,1,4,3,Travel_Rarely,1,3,2,Safe
+195,1,25,No,0,No,Low Risk,8,Long Tenure,9,7,0,7,0,2,3,Travel_Frequently,2,1,0,Safe
+197,2,35,No,0,No,Low Risk,3,Mid Tenure,8,2,2,2,5,3,3,Travel_Rarely,1,3,2,Safe
+198,3,60,No,0,No,Low Risk,5,Mid Tenure,6,3,1,2,0,3,3,Travel_Rarely,1,2,2,Safe
+199,9,87,No,0,No,Low Risk,7,Mid Tenure,21,6,7,7,4,2,3,Travel_Frequently,4,2,1,Safe
+200,3,73,No,0,No,Low Risk,5,Mid Tenure,7,0,1,4,2,2,4,Travel_Rarely,1,3,2,Safe
+201,3,58,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,3,3,Safe
+202,2,39,No,0,No,Low Risk,20,Long Tenure,20,7,2,13,1,2,3,Travel_Frequently,2,3,3,Safe
+204,1,88,No,0,No,Low Risk,10,Long Tenure,10,8,0,6,1,3,3,Travel_Rarely,3,3,3,Safe
+205,7,89,No,0,Yes,High Risk,7,Mid Tenure,13,7,4,5,2,3,4,Travel_Rarely,2,3,6,At Risk
+206,3,90,No,0,No,Low Risk,17,Long Tenure,20,9,0,15,8,2,3,Travel_Rarely,2,3,2,Safe
+207,1,60,No,0,No,Low Risk,9,Long Tenure,9,8,3,7,1,2,3,Travel_Frequently,3,3,0,Safe
+208,4,26,No,0,No,Low Risk,10,Long Tenure,10,7,0,9,1,1,3,Non-Travel,2,3,0,Safe
+211,4,38,No,0,No,Low Risk,1,New Employee,10,0,0,0,2,2,3,Travel_Rarely,2,2,0,Safe
+214,2,91,No,0,Yes,High Risk,1,New Employee,9,0,0,0,4,3,4,Travel_Rarely,1,2,8,Flight Risk
+215,1,92,No,0,No,Low Risk,12,Long Tenure,15,11,2,11,7,2,3,Travel_Rarely,3,2,0,Safe
+216,7,76,No,0,No,Low Risk,4,Mid Tenure,6,3,1,2,6,3,3,Travel_Frequently,1,3,2,Safe
+217,2,63,No,0,No,Low Risk,2,New Employee,2,2,2,2,1,6,4,Travel_Rarely,1,3,3,Safe
+218,2,93,No,0,No,Low Risk,2,New Employee,6,2,2,2,6,1,3,Non-Travel,1,3,2,Safe
+221,2,94,No,0,No,Low Risk,5,Mid Tenure,5,2,0,2,1,2,3,Travel_Rarely,1,3,2,Safe
+223,5,95,No,0,Yes,High Risk,5,Mid Tenure,12,3,1,4,3,2,3,Travel_Rarely,3,4,3,Safe
+224,2,21,No,0,Yes,High Risk,1,New Employee,1,1,0,1,1,2,3,Non-Travel,1,2,5,At Risk
+226,9,53,No,0,No,Low Risk,5,Mid Tenure,21,4,4,4,3,5,3,Travel_Rarely,5,3,1,Safe
+227,2,96,No,0,No,Low Risk,9,Long Tenure,13,8,1,8,4,2,3,Travel_Rarely,1,3,5,At Risk
+228,1,12,No,0,No,Low Risk,10,Long Tenure,12,9,7,4,2,2,3,Travel_Rarely,3,3,1,Safe
+230,1,97,No,0,No,Low Risk,8,Long Tenure,12,3,0,7,4,2,4,Travel_Rarely,2,2,0,Safe
+231,2,98,No,0,No,Low Risk,5,Mid Tenure,8,4,1,4,3,2,4,Travel_Rarely,1,3,2,Safe
+233,2,64,No,0,Yes,High Risk,5,Mid Tenure,6,2,1,1,0,3,3,Travel_Rarely,1,3,5,At Risk
+235,7,99,Yes,1,No,Low Risk,0,New Employee,1,0,0,0,0,5,4,Travel_Frequently,1,1,6,At Risk
+238,3,100,No,0,No,Low Risk,8,Long Tenure,13,7,7,2,4,3,3,Travel_Frequently,1,3,3,Safe
+239,3,44,No,0,No,Low Risk,12,Long Tenure,12,9,6,10,1,4,3,Non-Travel,2,3,3,Safe
+240,1,99,No,0,Yes,High Risk,5,Mid Tenure,9,4,0,3,4,3,3,Travel_Rarely,2,3,6,At Risk
+241,2,44,No,0,Yes,High Risk,2,New Employee,19,2,2,2,4,3,3,Travel_Rarely,1,3,3,Safe
+242,2,101,No,0,No,Low Risk,3,Mid Tenure,4,1,0,2,0,2,3,Travel_Rarely,1,3,2,Safe
+243,3,102,Yes,1,No,Low Risk,1,New Employee,1,0,1,0,1,3,4,Travel_Rarely,1,2,3,Safe
+244,1,14,No,0,No,Low Risk,24,Long Tenure,24,13,15,7,1,2,4,Travel_Rarely,3,3,4,At Risk
+245,3,34,No,0,No,Low Risk,2,New Employee,2,2,2,1,1,3,3,Travel_Rarely,1,3,2,Safe
+246,2,34,No,0,Yes,High Risk,4,Mid Tenure,7,2,0,2,8,0,4,Travel_Rarely,1,3,3,Safe
+247,2,103,No,0,No,Low Risk,3,Mid Tenure,9,2,1,2,2,3,3,Travel_Rarely,1,3,2,Safe
+248,7,104,Yes,1,Yes,High Risk,4,Mid Tenure,4,3,0,2,1,5,4,Travel_Rarely,1,3,5,At Risk
+249,3,21,No,0,No,Low Risk,3,Mid Tenure,5,2,0,2,2,2,3,Travel_Rarely,1,2,0,Safe
+250,4,105,No,0,No,Low Risk,4,Mid Tenure,5,2,1,3,1,3,3,Travel_Rarely,2,4,0,Safe
+252,2,103,No,0,No,Low Risk,8,Long Tenure,8,7,1,6,1,5,3,Travel_Rarely,1,3,2,Safe
+253,9,3,No,0,No,Low Risk,20,Long Tenure,21,8,9,9,1,2,3,Travel_Rarely,5,3,1,Safe
+254,8,2,No,0,No,Low Risk,24,Long Tenure,36,15,2,15,8,3,3,Travel_Rarely,5,4,0,Safe
+256,4,71,No,0,No,Low Risk,10,Long Tenure,10,9,1,9,1,2,3,Travel_Frequently,2,2,0,Safe
+258,5,106,No,0,No,Low Risk,7,Mid Tenure,21,7,1,0,3,6,3,Travel_Rarely,4,3,0,Safe
+259,9,98,No,0,No,Low Risk,33,Long Tenure,34,18,11,9,0,5,3,Travel_Rarely,5,2,1,Safe
+260,2,107,No,0,No,Low Risk,7,Mid Tenure,7,7,0,3,1,2,3,Travel_Rarely,1,3,2,Safe
+261,4,59,Yes,1,Yes,High Risk,1,New Employee,8,0,0,1,3,1,3,Travel_Rarely,2,2,6,At Risk
+262,2,25,No,0,No,Low Risk,5,Mid Tenure,7,4,2,2,4,3,3,Non-Travel,1,4,2,Safe
+264,9,23,No,0,No,Low Risk,20,Long Tenure,22,8,11,8,9,1,4,Non-Travel,4,2,1,Safe
+267,2,108,No,0,Yes,High Risk,8,Long Tenure,8,7,1,7,1,3,3,Travel_Rarely,1,4,8,Flight Risk
+269,3,58,No,0,No,Low Risk,6,Mid Tenure,10,2,1,2,5,5,3,Travel_Frequently,2,3,0,Safe
+270,4,13,No,0,No,Low Risk,5,Mid Tenure,11,3,0,2,2,5,3,Non-Travel,2,3,0,Safe
+271,4,3,No,0,No,Low Risk,1,New Employee,14,0,0,0,9,3,3,Travel_Rarely,2,3,0,Safe
+273,4,109,No,0,No,Low Risk,7,Mid Tenure,9,7,1,7,3,3,3,Travel_Rarely,2,3,0,Safe
+274,4,44,No,0,No,Low Risk,2,New Employee,6,2,2,0,5,1,3,Travel_Frequently,2,2,0,Safe
+275,4,31,No,0,Yes,High Risk,7,Mid Tenure,7,7,1,7,1,0,3,Non-Travel,2,3,3,Safe
+277,2,110,No,0,Yes,High Risk,5,Mid Tenure,5,3,2,0,1,4,3,Travel_Frequently,1,3,3,Safe
+281,3,111,No,0,Yes,High Risk,7,Mid Tenure,15,2,3,7,8,2,3,Travel_Rarely,2,3,5,At Risk
+282,5,22,Yes,1,Yes,High Risk,1,New Employee,17,0,0,0,7,2,3,Travel_Rarely,2,3,6,At Risk
+283,1,112,Yes,1,No,Low Risk,10,Long Tenure,10,4,1,9,1,3,4,Travel_Rarely,3,3,0,Safe
+284,2,113,No,0,Yes,High Risk,4,Mid Tenure,4,2,2,2,1,2,3,Travel_Rarely,1,4,6,At Risk
+286,3,114,No,0,No,Low Risk,8,Long Tenure,8,1,1,7,1,2,3,Travel_Frequently,1,3,2,Safe
+287,5,115,No,0,No,Low Risk,3,Mid Tenure,5,2,0,2,9,5,3,Non-Travel,2,2,0,Safe
+288,5,105,No,0,No,Low Risk,4,Mid Tenure,17,2,0,3,7,3,3,Travel_Rarely,3,3,0,Safe
+291,1,6,Yes,1,No,Low Risk,14,Long Tenure,14,8,9,8,1,2,3,Travel_Rarely,3,1,1,Safe
+292,4,83,No,0,No,Low Risk,11,Long Tenure,12,8,5,8,1,2,4,Non-Travel,3,2,1,Safe
+293,1,10,No,0,No,Low Risk,7,Mid Tenure,7,7,0,7,1,2,3,Travel_Frequently,2,3,0,Safe
+296,8,116,No,0,No,Low Risk,10,Long Tenure,16,9,4,7,5,5,3,Travel_Rarely,3,2,1,Safe
+297,2,105,Yes,1,Yes,High Risk,5,Mid Tenure,8,2,0,4,5,5,3,Travel_Rarely,1,3,5,At Risk
+298,6,18,No,0,Yes,High Risk,1,New Employee,16,0,0,0,3,3,3,Travel_Rarely,3,3,3,Safe
+299,1,67,Yes,1,No,Low Risk,6,Mid Tenure,9,3,0,1,5,5,3,Travel_Frequently,2,2,0,Safe
+300,2,21,Yes,1,No,Low Risk,6,Mid Tenure,7,2,1,5,0,1,3,Travel_Rarely,1,3,2,Safe
+302,1,40,No,0,No,Low Risk,19,Long Tenure,23,7,12,8,6,2,3,Non-Travel,3,2,1,Safe
+303,1,35,No,0,No,Low Risk,6,Mid Tenure,16,2,0,5,2,4,3,Travel_Rarely,2,3,0,Safe
+304,3,117,No,0,No,Low Risk,13,Long Tenure,16,11,3,7,8,3,3,Travel_Rarely,2,3,0,Safe
+305,2,2,No,0,No,Low Risk,3,Mid Tenure,7,2,1,1,6,3,4,Travel_Rarely,1,2,2,Safe
+306,8,12,No,0,Yes,High Risk,10,Long Tenure,10,8,0,7,1,1,3,Travel_Frequently,3,3,3,Safe
+307,1,36,No,0,No,Low Risk,16,Long Tenure,17,10,5,13,0,6,3,Travel_Rarely,3,3,1,Safe
+308,4,76,No,0,No,Low Risk,5,Mid Tenure,6,4,1,4,0,2,3,Non-Travel,2,1,0,Safe
+309,2,63,No,0,No,Low Risk,1,New Employee,7,0,0,0,3,6,3,Travel_Rarely,1,2,2,Safe
+311,7,17,No,0,No,Low Risk,9,Long Tenure,13,8,5,8,4,2,3,Travel_Frequently,1,3,3,Safe
+312,1,60,No,0,No,Low Risk,11,Long Tenure,11,10,4,1,1,5,3,Travel_Frequently,3,3,1,Safe
+314,1,118,No,0,No,Low Risk,10,Long Tenure,10,7,0,8,1,3,3,Travel_Frequently,3,3,0,Safe
+315,2,45,Yes,1,Yes,High Risk,4,Mid Tenure,4,3,0,1,1,3,3,Travel_Rarely,1,2,5,At Risk
+316,3,86,No,0,No,Low Risk,2,New Employee,6,2,2,2,7,3,3,Travel_Rarely,1,2,2,Safe
+319,9,20,No,0,No,Low Risk,22,Long Tenure,22,17,11,15,1,3,3,Travel_Rarely,5,3,1,Safe
+321,10,49,No,0,No,Low Risk,2,New Employee,7,2,2,2,8,2,3,Travel_Rarely,1,3,2,Safe
+323,6,6,No,0,No,Low Risk,7,Mid Tenure,32,0,0,6,3,3,3,Travel_Rarely,5,3,0,Safe
+325,3,94,Yes,1,Yes,High Risk,5,Mid Tenure,8,4,0,4,5,2,3,Travel_Rarely,1,3,5,At Risk
+327,6,18,No,0,Yes,High Risk,17,Long Tenure,22,13,1,9,5,3,4,Travel_Rarely,4,3,3,Safe
+328,3,85,Yes,1,No,Low Risk,9,Long Tenure,13,7,1,7,7,3,4,Travel_Rarely,1,3,5,At Risk
+329,6,119,No,0,Yes,High Risk,33,Long Tenure,33,7,15,12,1,2,3,Non-Travel,5,2,4,At Risk
+330,7,88,No,0,No,Low Risk,4,Mid Tenure,6,3,1,2,2,5,3,Travel_Rarely,1,3,3,Safe
+331,3,120,Yes,1,Yes,High Risk,3,Mid Tenure,4,2,1,2,0,2,3,Travel_Rarely,1,2,3,Safe
+332,3,83,No,0,No,Low Risk,3,Mid Tenure,7,2,1,2,7,1,3,Travel_Rarely,1,3,2,Safe
+333,1,63,No,0,No,Low Risk,3,Mid Tenure,4,2,2,2,0,2,3,Non-Travel,2,3,0,Safe
+334,2,7,No,0,No,Low Risk,1,New Employee,17,0,0,0,2,2,3,Travel_Rarely,2,3,5,At Risk
+335,2,79,No,0,No,Low Risk,9,Long Tenure,9,8,4,7,1,3,3,Travel_Rarely,2,3,6,At Risk
+336,9,34,No,0,No,Low Risk,24,Long Tenure,25,0,1,7,0,2,3,Travel_Rarely,5,4,0,Safe
+337,8,59,No,0,No,Low Risk,2,New Employee,9,2,2,2,9,3,3,Travel_Frequently,3,3,3,Safe
+338,2,45,No,0,No,Low Risk,2,New Employee,2,2,0,2,1,2,3,Travel_Rarely,1,2,2,Safe
+339,4,121,No,0,No,Low Risk,11,Long Tenure,13,9,5,9,6,3,3,Travel_Rarely,2,2,1,Safe
+340,2,7,No,0,No,Low Risk,3,Mid Tenure,17,1,0,2,2,2,3,Travel_Rarely,1,2,3,Safe
+341,4,41,No,0,No,Low Risk,3,Mid Tenure,9,2,0,2,4,1,3,Travel_Frequently,2,4,0,Safe
+342,4,122,Yes,1,No,Low Risk,1,New Employee,17,0,0,0,6,5,3,Travel_Frequently,3,3,3,Safe
+343,5,76,No,0,No,Low Risk,19,Long Tenure,20,6,11,8,0,1,4,Travel_Frequently,3,3,1,Safe
+346,2,63,No,0,No,Low Risk,6,Mid Tenure,6,5,1,5,1,1,3,Travel_Rarely,1,3,2,Safe
+347,2,105,No,0,Yes,High Risk,3,Mid Tenure,10,2,0,2,3,1,3,Travel_Rarely,2,4,3,Safe
+349,1,40,No,0,No,Low Risk,3,Mid Tenure,10,2,0,2,2,2,3,Travel_Rarely,2,3,0,Safe
+350,4,41,No,0,No,Low Risk,4,Mid Tenure,5,2,1,2,0,3,3,Travel_Rarely,2,3,1,Safe
+351,3,105,No,0,Yes,High Risk,9,Long Tenure,10,6,7,8,0,4,3,Travel_Rarely,1,2,6,At Risk
+352,8,41,No,0,No,Low Risk,21,Long Tenure,22,7,3,9,0,5,3,Travel_Rarely,5,3,0,Safe
+353,2,86,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,0,3,Travel_Rarely,1,3,2,Safe
+355,3,123,Yes,1,No,Low Risk,5,Mid Tenure,6,4,1,4,0,2,3,Travel_Frequently,1,2,2,Safe
+359,3,90,No,0,No,Low Risk,5,Mid Tenure,5,1,0,3,1,3,4,Travel_Frequently,1,4,2,Safe
+361,1,40,No,0,No,Low Risk,8,Long Tenure,13,7,7,5,3,0,3,Non-Travel,2,2,1,Safe
+362,3,35,No,0,No,Low Risk,6,Mid Tenure,9,2,0,4,4,5,3,Travel_Rarely,2,2,2,Safe
+363,6,66,No,0,Yes,High Risk,7,Mid Tenure,28,7,7,7,3,2,3,Travel_Rarely,4,1,4,At Risk
+364,3,124,Yes,1,No,Low Risk,0,New Employee,5,0,0,0,2,5,3,Travel_Rarely,1,3,2,Safe
+366,1,125,No,0,No,Low Risk,0,New Employee,10,0,0,0,2,2,3,Travel_Rarely,2,2,3,Safe
+367,5,55,No,0,No,Low Risk,9,Long Tenure,10,0,7,8,0,2,4,Travel_Rarely,2,2,1,Safe
+369,5,126,No,0,No,Low Risk,6,Mid Tenure,6,3,1,5,1,2,3,Non-Travel,2,4,1,Safe
+372,5,127,No,0,Yes,High Risk,20,Long Tenure,21,7,4,10,0,2,3,Travel_Rarely,4,3,4,At Risk
+373,3,18,No,0,No,Low Risk,15,Long Tenure,16,13,10,11,0,4,3,Travel_Rarely,1,3,3,Safe
+374,9,105,No,0,Yes,High Risk,36,Long Tenure,37,10,4,13,0,2,3,Travel_Rarely,5,3,4,At Risk
+376,9,15,Yes,1,Yes,High Risk,10,Long Tenure,10,7,9,9,1,2,3,Non-Travel,3,3,4,At Risk
+377,2,46,No,0,No,Low Risk,5,Mid Tenure,5,2,0,4,1,3,4,Travel_Rarely,1,3,2,Safe
+378,1,128,No,0,No,Low Risk,5,Mid Tenure,7,4,0,1,4,5,3,Travel_Rarely,2,3,0,Safe
+379,2,129,No,0,No,Low Risk,3,Mid Tenure,3,2,1,0,1,4,3,Travel_Rarely,1,2,3,Safe
+380,8,79,No,0,Yes,High Risk,5,Mid Tenure,15,2,0,2,2,2,3,Non-Travel,3,3,6,At Risk
+381,9,91,No,0,No,Low Risk,7,Mid Tenure,10,7,6,2,7,6,3,Travel_Rarely,3,4,4,At Risk
+382,1,130,No,0,Yes,High Risk,8,Long Tenure,8,0,7,7,1,3,4,Travel_Rarely,2,4,7,Flight Risk
+384,4,131,No,0,No,Low Risk,6,Mid Tenure,6,5,1,4,1,6,4,Travel_Frequently,2,3,3,Safe
+385,8,75,No,0,No,Low Risk,10,Long Tenure,28,4,1,6,3,4,3,Travel_Rarely,5,3,3,Safe
+386,8,21,No,0,Yes,High Risk,5,Mid Tenure,21,3,1,3,3,5,3,Travel_Rarely,4,3,3,Safe
+387,1,38,No,0,No,Low Risk,20,Long Tenure,20,16,11,6,1,3,4,Travel_Rarely,2,3,1,Safe
+388,1,28,No,0,No,Low Risk,10,Long Tenure,10,7,0,9,1,3,3,Travel_Frequently,2,3,0,Safe
+389,3,60,No,0,Yes,High Risk,10,Long Tenure,12,7,0,8,3,4,3,Travel_Rarely,2,3,3,Safe
+390,5,130,No,0,Yes,High Risk,5,Mid Tenure,5,3,3,3,1,3,3,Travel_Frequently,2,3,6,At Risk
+391,2,62,No,0,No,Low Risk,17,Long Tenure,17,12,5,7,1,3,3,Travel_Rarely,1,3,3,Safe
+392,3,120,Yes,1,Yes,High Risk,1,New Employee,19,0,0,0,3,0,4,Travel_Frequently,1,3,5,At Risk
+393,5,62,No,0,No,Low Risk,2,New Employee,10,2,1,2,9,2,3,Travel_Rarely,2,3,0,Safe
+394,3,5,Yes,1,Yes,High Risk,3,Mid Tenure,5,2,0,2,2,2,3,Travel_Rarely,1,3,5,At Risk
+395,2,40,No,0,No,Low Risk,5,Mid Tenure,5,3,0,2,1,3,4,Travel_Rarely,1,3,2,Safe
+396,8,73,No,0,Yes,High Risk,3,Mid Tenure,22,2,1,2,9,4,3,Travel_Frequently,5,3,3,Safe
+397,2,2,No,0,No,Low Risk,8,Long Tenure,10,0,7,7,4,2,3,Travel_Rarely,2,3,1,Safe
+399,7,100,No,0,No,Low Risk,2,New Employee,2,2,2,2,1,5,3,Travel_Frequently,1,3,2,Safe
+401,1,62,Yes,1,Yes,High Risk,8,Long Tenure,8,7,7,4,1,0,3,Travel_Rarely,2,2,4,At Risk
+403,2,102,No,0,Yes,High Risk,4,Mid Tenure,4,2,1,2,1,3,3,Travel_Frequently,1,3,5,At Risk
+404,1,132,No,0,No,Low Risk,20,Long Tenure,23,4,4,8,5,2,3,Travel_Frequently,4,3,1,Safe
+405,3,83,Yes,1,No,Low Risk,0,New Employee,0,0,0,0,1,2,3,Travel_Rarely,1,3,3,Safe
+406,1,82,No,0,No,Low Risk,11,Long Tenure,12,9,6,9,0,3,3,Travel_Rarely,3,3,1,Safe
+407,3,20,No,0,No,Low Risk,1,New Employee,4,0,0,0,4,2,3,Travel_Frequently,1,4,0,Safe
+408,4,103,No,0,No,Low Risk,4,Mid Tenure,13,1,1,2,5,3,3,Travel_Rarely,2,1,0,Safe
+410,6,133,No,0,No,Low Risk,22,Long Tenure,22,10,0,4,1,2,3,Travel_Rarely,4,3,0,Safe
+411,7,26,No,0,No,Low Risk,0,New Employee,0,0,0,0,1,2,3,Travel_Rarely,1,2,3,Safe
+412,5,14,No,0,No,Low Risk,8,Long Tenure,9,3,0,7,0,2,3,Travel_Rarely,2,4,3,Safe
+416,1,134,No,0,No,Low Risk,8,Long Tenure,10,7,7,7,4,3,3,Travel_Rarely,2,4,1,Safe
+417,5,92,No,0,No,Low Risk,18,Long Tenure,19,10,3,7,0,5,3,Travel_Rarely,3,4,0,Safe
+419,3,51,No,0,No,Low Risk,9,Long Tenure,11,8,0,8,7,3,3,Non-Travel,2,3,0,Safe
+420,1,71,No,0,No,Low Risk,13,Long Tenure,13,8,4,8,1,3,3,Travel_Rarely,2,2,1,Safe
+421,8,9,No,0,No,Low Risk,10,Long Tenure,19,8,0,1,3,2,3,Travel_Rarely,3,2,3,Safe
+422,5,10,No,0,Yes,High Risk,5,Mid Tenure,12,3,1,2,2,2,3,Non-Travel,2,1,3,Safe
+423,2,34,No,0,Yes,High Risk,5,Mid Tenure,6,2,0,3,0,4,3,Travel_Rarely,1,3,3,Safe
+424,10,135,No,0,No,Low Risk,2,New Employee,9,2,1,0,3,1,3,Travel_Rarely,2,2,3,Safe
+425,3,136,No,0,No,Low Risk,24,Long Tenure,24,9,9,11,1,2,3,Travel_Frequently,3,3,4,At Risk
+426,2,95,No,0,Yes,High Risk,2,New Employee,3,2,2,2,0,2,3,Travel_Rarely,1,3,5,At Risk
+428,9,133,No,0,No,Low Risk,10,Long Tenure,12,6,8,8,6,2,3,Travel_Frequently,3,3,1,Safe
+429,9,73,No,0,Yes,High Risk,21,Long Tenure,21,9,11,10,1,3,3,Travel_Rarely,4,3,4,At Risk
+430,3,63,No,0,No,Low Risk,8,Long Tenure,9,7,1,7,0,5,3,Travel_Frequently,1,3,2,Safe
+431,5,76,No,0,Yes,High Risk,7,Mid Tenure,25,1,0,7,7,2,3,Travel_Rarely,4,2,3,Safe
+433,2,137,Yes,1,No,Low Risk,8,Long Tenure,11,2,7,7,2,3,3,Travel_Rarely,2,2,4,At Risk
+434,2,66,No,0,Yes,High Risk,4,Mid Tenure,4,3,1,2,1,2,3,Travel_Rarely,1,3,5,At Risk
+436,1,2,No,0,Yes,High Risk,13,Long Tenure,13,12,11,9,1,2,3,Travel_Rarely,2,2,4,At Risk
+437,1,26,No,0,Yes,High Risk,5,Mid Tenure,5,4,0,4,1,3,3,Travel_Rarely,2,3,3,Safe
+438,1,40,No,0,No,Low Risk,7,Mid Tenure,13,7,1,7,4,3,3,Travel_Rarely,2,3,0,Safe
+439,2,138,No,0,No,Low Risk,7,Mid Tenure,10,7,0,7,7,0,3,Travel_Rarely,2,4,0,Safe
+440,2,139,Yes,1,Yes,High Risk,3,Mid Tenure,5,2,2,2,5,4,3,Travel_Rarely,1,1,5,At Risk
+441,2,40,No,0,No,Low Risk,10,Long Tenure,11,8,1,9,1,2,3,Travel_Rarely,2,3,0,Safe
+442,4,98,No,0,No,Low Risk,10,Long Tenure,10,9,8,9,1,2,4,Travel_Frequently,3,2,1,Safe
+444,9,63,No,0,No,Low Risk,21,Long Tenure,21,9,13,3,1,2,3,Travel_Frequently,5,2,1,Safe
+445,1,52,Yes,1,Yes,High Risk,1,New Employee,12,0,0,0,4,3,3,Travel_Rarely,2,3,3,Safe
+446,1,102,No,0,No,Low Risk,7,Mid Tenure,9,7,0,1,3,6,3,Travel_Frequently,2,2,0,Safe
+447,8,3,No,0,No,Low Risk,3,Mid Tenure,21,2,1,1,4,2,3,Travel_Rarely,5,3,0,Safe
+448,3,140,No,0,No,Low Risk,9,Long Tenure,9,7,0,0,1,3,3,Travel_Frequently,2,2,0,Safe
+449,1,2,No,0,Yes,High Risk,5,Mid Tenure,6,4,1,4,0,0,3,Non-Travel,2,3,3,Safe
+450,2,29,No,0,No,Low Risk,4,Mid Tenure,20,3,0,3,3,4,3,Travel_Frequently,2,3,0,Safe
+451,5,7,No,0,No,Low Risk,1,New Employee,10,0,0,0,8,1,3,Travel_Rarely,3,3,3,Safe
+452,2,31,No,0,No,Low Risk,10,Long Tenure,12,9,9,8,9,3,3,Travel_Rarely,2,3,1,Safe
+453,1,102,No,0,Yes,High Risk,4,Mid Tenure,6,3,0,2,2,2,4,Travel_Rarely,2,1,3,Safe
+454,3,24,Yes,1,Yes,High Risk,7,Mid Tenure,7,7,0,7,1,4,3,Travel_Rarely,1,1,5,At Risk
+455,3,12,No,0,No,Low Risk,3,Mid Tenure,4,2,2,2,0,2,3,Travel_Rarely,1,2,0,Safe
+456,1,4,No,0,No,Low Risk,10,Long Tenure,10,9,1,2,1,2,3,Travel_Rarely,2,2,0,Safe
+458,1,39,No,0,No,Low Risk,8,Long Tenure,8,7,0,7,1,3,3,Travel_Rarely,2,3,3,Safe
+460,4,6,No,0,No,Low Risk,6,Mid Tenure,8,2,0,4,7,2,3,Travel_Rarely,2,3,0,Safe
+461,8,127,No,0,Yes,High Risk,11,Long Tenure,12,10,2,9,0,3,3,Travel_Rarely,3,2,3,Safe
+462,4,45,No,0,Yes,High Risk,11,Long Tenure,11,9,4,10,1,2,3,Travel_Rarely,3,3,4,At Risk
+463,1,141,No,0,Yes,High Risk,7,Mid Tenure,7,7,1,7,1,2,3,Travel_Rarely,2,2,3,Safe
+464,4,2,No,0,No,Low Risk,16,Long Tenure,17,6,0,13,0,5,3,Travel_Rarely,3,3,0,Safe
+465,2,45,No,0,No,Low Risk,4,Mid Tenure,4,2,0,2,1,2,3,Travel_Rarely,1,3,3,Safe
+466,4,103,No,0,Yes,High Risk,5,Mid Tenure,8,4,1,2,6,3,3,Travel_Rarely,2,2,3,Safe
+467,7,59,No,0,No,Low Risk,0,New Employee,5,0,0,0,3,3,3,Travel_Frequently,2,3,5,At Risk
+468,8,48,No,0,No,Low Risk,1,New Employee,16,0,0,0,2,2,3,Travel_Rarely,4,3,0,Safe
+469,1,52,No,0,No,Low Risk,4,Mid Tenure,4,3,0,2,1,3,3,Non-Travel,2,3,0,Safe
+470,10,83,No,0,Yes,High Risk,3,Mid Tenure,4,2,1,0,0,5,3,Travel_Rarely,1,3,5,At Risk
+471,3,78,No,0,No,Low Risk,8,Long Tenure,8,0,0,7,1,4,3,Travel_Rarely,1,3,2,Safe
+473,6,142,No,0,No,Low Risk,0,New Employee,15,0,0,0,3,3,4,Travel_Rarely,3,3,3,Safe
+474,2,33,No,0,Yes,High Risk,7,Mid Tenure,13,7,6,7,4,2,3,Travel_Rarely,2,4,7,Flight Risk
+475,1,143,No,0,Yes,High Risk,2,New Employee,4,2,2,2,7,2,3,Non-Travel,2,3,3,Safe
+476,1,13,No,0,No,Low Risk,8,Long Tenure,8,7,7,7,1,3,3,Travel_Rarely,2,3,1,Safe
+477,5,48,No,0,No,Low Risk,1,New Employee,14,0,0,0,3,6,4,Travel_Rarely,2,2,0,Safe
+478,7,9,Yes,1,Yes,High Risk,3,Mid Tenure,3,2,1,2,1,3,3,Travel_Frequently,1,2,9,Flight Risk
+479,1,62,No,0,No,Low Risk,1,New Employee,7,0,0,0,4,6,3,Non-Travel,2,3,0,Safe
+481,1,79,No,0,No,Low Risk,13,Long Tenure,16,9,1,12,4,2,3,Travel_Frequently,3,2,3,Safe
+482,5,4,No,0,No,Low Risk,3,Mid Tenure,15,2,1,2,2,2,3,Travel_Rarely,2,3,0,Safe
+483,3,4,No,0,Yes,High Risk,7,Mid Tenure,10,7,1,7,3,3,3,Travel_Rarely,1,4,5,At Risk
+484,7,138,No,0,No,Low Risk,3,Mid Tenure,3,2,2,2,1,3,4,Non-Travel,1,3,3,Safe
+485,7,3,Yes,1,Yes,High Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Rarely,1,3,5,At Risk
+486,3,19,No,0,No,Low Risk,5,Mid Tenure,17,4,0,3,6,3,4,Travel_Rarely,1,3,5,At Risk
+487,4,144,No,0,No,Low Risk,1,New Employee,7,0,0,0,2,2,3,Non-Travel,2,3,0,Safe
+488,1,9,Yes,1,No,Low Risk,8,Long Tenure,8,7,7,7,1,5,3,Travel_Frequently,2,3,4,At Risk
+491,5,40,No,0,No,Low Risk,4,Mid Tenure,20,3,1,3,6,2,3,Travel_Rarely,3,2,0,Safe
+492,1,98,Yes,1,Yes,High Risk,6,Mid Tenure,8,4,1,0,2,6,3,Travel_Rarely,2,2,3,Safe
+493,2,2,No,0,Yes,High Risk,2,New Employee,3,2,2,2,0,5,3,Travel_Rarely,1,2,5,At Risk
+494,7,2,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,0,3,Travel_Rarely,1,4,3,Safe
+495,2,40,No,0,No,Low Risk,3,Mid Tenure,6,2,1,2,9,4,3,Travel_Rarely,1,3,2,Safe
+496,5,78,No,0,No,Low Risk,1,New Employee,10,1,0,0,9,5,3,Travel_Rarely,2,2,0,Safe
+497,3,133,No,0,No,Low Risk,5,Mid Tenure,5,2,0,4,1,2,3,Travel_Rarely,1,3,0,Safe
+498,1,60,No,0,No,Low Risk,7,Mid Tenure,7,5,0,7,1,1,3,Travel_Rarely,2,3,0,Safe
+499,5,38,No,0,No,Low Risk,5,Mid Tenure,26,2,0,0,8,2,4,Travel_Rarely,3,2,0,Safe
+500,1,45,No,0,No,Low Risk,7,Mid Tenure,18,7,0,7,4,2,3,Travel_Rarely,2,3,0,Safe
+501,2,3,No,0,No,Low Risk,2,New Employee,6,2,2,2,4,3,3,Travel_Rarely,1,3,2,Safe
+502,1,145,Yes,1,Yes,High Risk,5,Mid Tenure,9,2,0,4,8,3,3,Non-Travel,2,4,3,Safe
+505,9,34,No,0,Yes,High Risk,5,Mid Tenure,30,4,1,2,2,2,3,Travel_Rarely,4,3,3,Safe
+507,1,110,No,0,Yes,High Risk,5,Mid Tenure,5,2,0,3,1,2,3,Travel_Rarely,2,3,4,At Risk
+508,7,88,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,3,5,At Risk
+510,2,44,Yes,1,No,Low Risk,6,Mid Tenure,7,4,0,4,0,2,4,Travel_Frequently,1,3,2,Safe
+511,2,5,No,0,No,Low Risk,2,New Employee,2,1,1,2,1,1,3,Travel_Rarely,1,3,3,Safe
+513,1,146,No,0,No,Low Risk,10,Long Tenure,10,9,9,0,1,2,3,Travel_Rarely,3,2,1,Safe
+514,2,34,Yes,1,Yes,High Risk,1,New Employee,3,0,0,0,9,4,4,Travel_Frequently,1,3,5,At Risk
+515,3,147,No,0,No,Low Risk,18,Long Tenure,18,7,12,17,1,2,3,Travel_Rarely,1,3,3,Safe
+516,1,106,No,0,No,Low Risk,5,Mid Tenure,8,4,1,3,7,5,3,Travel_Rarely,2,3,0,Safe
+517,3,22,No,0,No,Low Risk,5,Mid Tenure,8,2,1,2,3,5,3,Travel_Rarely,1,3,5,At Risk
+518,4,64,No,0,Yes,High Risk,1,New Employee,18,0,0,1,2,2,3,Travel_Rarely,2,3,3,Safe
+520,8,9,No,0,No,Low Risk,25,Long Tenure,25,10,3,9,1,3,3,Travel_Rarely,4,2,3,Safe
+521,3,146,No,0,No,Low Risk,1,New Employee,20,0,0,0,6,3,4,Travel_Rarely,2,2,2,Safe
+522,8,77,No,0,No,Low Risk,4,Mid Tenure,24,2,1,2,4,4,3,Travel_Rarely,5,3,3,Safe
+523,1,98,No,0,No,Low Risk,3,Mid Tenure,6,2,1,2,9,3,3,Non-Travel,2,3,0,Safe
+524,4,148,No,0,No,Low Risk,13,Long Tenure,13,10,3,12,1,5,3,Travel_Rarely,2,3,3,Safe
+525,3,31,No,0,No,Low Risk,3,Mid Tenure,8,2,1,2,7,1,4,Travel_Frequently,1,3,2,Safe
+526,5,76,No,0,Yes,High Risk,5,Mid Tenure,8,2,0,2,4,3,3,Travel_Rarely,2,3,3,Safe
+527,1,55,No,0,Yes,High Risk,5,Mid Tenure,5,4,1,3,1,3,3,Travel_Rarely,2,2,4,At Risk
+529,2,59,No,0,Yes,High Risk,13,Long Tenure,15,11,10,7,3,2,3,Non-Travel,2,3,7,Flight Risk
+530,3,105,No,0,No,Low Risk,4,Mid Tenure,4,2,3,2,1,3,3,Travel_Rarely,1,2,2,Safe
+531,9,38,No,0,Yes,High Risk,21,Long Tenure,21,8,1,6,1,3,3,Travel_Frequently,5,3,3,Safe
+532,1,149,No,0,No,Low Risk,7,Mid Tenure,36,7,7,7,9,0,3,Travel_Frequently,4,4,1,Safe
+533,1,146,No,0,No,Low Risk,5,Mid Tenure,6,4,4,4,0,6,3,Travel_Rarely,2,3,1,Safe
+534,1,14,No,0,No,Low Risk,10,Long Tenure,10,7,0,7,1,2,3,Travel_Rarely,3,4,3,Safe
+536,3,73,No,0,No,Low Risk,10,Long Tenure,10,0,1,8,1,2,3,Travel_Rarely,2,3,0,Safe
+538,3,130,Yes,1,No,Low Risk,2,New Employee,6,2,0,2,5,5,3,Travel_Rarely,1,3,4,At Risk
+543,4,4,No,0,Yes,High Risk,5,Mid Tenure,28,4,0,4,2,4,3,Travel_Rarely,3,2,3,Safe
+544,2,139,No,0,No,Low Risk,2,New Employee,8,2,0,2,3,3,4,Travel_Rarely,1,3,2,Safe
+546,9,115,No,0,No,Low Risk,5,Mid Tenure,31,2,1,4,2,2,3,Travel_Rarely,4,3,0,Safe
+547,2,122,No,0,No,Low Risk,5,Mid Tenure,19,4,0,2,2,3,3,Travel_Frequently,2,3,3,Safe
+548,4,34,No,0,No,Low Risk,5,Mid Tenure,11,4,0,2,2,2,4,Travel_Rarely,2,1,0,Safe
+549,9,150,No,0,No,Low Risk,29,Long Tenure,33,8,11,10,5,5,3,Travel_Rarely,5,3,4,At Risk
+550,4,42,No,0,No,Low Risk,10,Long Tenure,19,7,0,8,2,5,3,Travel_Rarely,2,3,0,Safe
+551,5,25,No,0,No,Low Risk,6,Mid Tenure,7,5,0,4,0,4,3,Travel_Frequently,2,2,0,Safe
+554,7,125,Yes,1,Yes,High Risk,5,Mid Tenure,6,3,1,4,1,4,3,Travel_Rarely,1,3,9,Flight Risk
+555,7,29,Yes,1,No,Low Risk,2,New Employee,3,2,1,0,0,3,3,Travel_Frequently,1,1,2,Safe
+556,3,18,No,0,Yes,High Risk,1,New Employee,1,0,0,0,1,3,4,Travel_Frequently,1,3,5,At Risk
+558,6,76,No,0,No,Low Risk,20,Long Tenure,21,15,1,12,0,2,3,Travel_Rarely,5,3,0,Safe
+560,2,151,No,0,No,Low Risk,3,Mid Tenure,3,2,0,2,1,3,4,Travel_Rarely,1,3,2,Safe
+562,3,94,No,0,No,Low Risk,5,Mid Tenure,9,3,1,4,4,3,3,Non-Travel,1,3,2,Safe
+564,8,38,No,0,No,Low Risk,10,Long Tenure,10,2,0,7,1,2,3,Travel_Rarely,3,2,0,Safe
+565,2,123,Yes,1,No,Low Risk,2,New Employee,6,2,1,1,5,2,3,Travel_Rarely,1,2,2,Safe
+566,10,97,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,2,3,Safe
+567,1,44,No,0,No,Low Risk,9,Long Tenure,10,8,7,8,0,3,3,Non-Travel,3,3,1,Safe
+568,6,138,No,0,No,Low Risk,1,New Employee,32,0,0,0,3,3,3,Travel_Rarely,4,2,0,Safe
+569,9,146,No,0,No,Low Risk,27,Long Tenure,28,10,15,7,0,2,3,Travel_Rarely,4,2,1,Safe
+571,3,45,No,0,No,Low Risk,11,Long Tenure,12,7,6,7,0,2,3,Non-Travel,1,3,3,Safe
+573,1,152,No,0,No,Low Risk,18,Long Tenure,22,13,13,11,4,5,3,Travel_Frequently,3,2,1,Safe
+574,4,17,No,0,No,Low Risk,5,Mid Tenure,20,0,0,4,5,2,3,Travel_Rarely,2,3,0,Safe
+575,8,124,No,0,No,Low Risk,3,Mid Tenure,26,2,0,1,6,2,3,Travel_Rarely,4,3,0,Safe
+577,3,4,No,0,No,Low Risk,5,Mid Tenure,6,4,4,3,0,2,3,Travel_Rarely,1,1,1,Safe
+578,3,83,No,0,No,Low Risk,1,New Employee,19,0,0,0,7,3,3,Travel_Rarely,2,3,0,Safe
+579,2,4,No,0,No,Low Risk,7,Mid Tenure,14,3,5,7,3,3,3,Travel_Rarely,1,2,3,Safe
+580,1,34,No,0,Yes,High Risk,3,Mid Tenure,15,2,1,2,2,3,3,Travel_Rarely,3,2,3,Safe
+581,4,132,No,0,No,Low Risk,13,Long Tenure,13,8,0,8,1,6,4,Travel_Rarely,3,3,0,Safe
+582,9,153,Yes,1,Yes,High Risk,7,Mid Tenure,15,6,7,7,7,2,3,Travel_Rarely,3,3,4,At Risk
+584,3,79,Yes,1,No,Low Risk,4,Mid Tenure,8,3,1,3,7,2,3,Travel_Rarely,1,1,5,At Risk
+585,7,141,No,0,No,Low Risk,3,Mid Tenure,4,2,1,2,0,3,3,Travel_Rarely,1,3,2,Safe
+586,5,4,No,0,Yes,High Risk,8,Long Tenure,10,7,0,0,4,2,3,Travel_Rarely,3,3,3,Safe
+587,5,96,Yes,1,No,Low Risk,1,New Employee,12,0,0,0,3,2,3,Travel_Frequently,3,3,3,Safe
+590,10,14,Yes,1,Yes,High Risk,3,Mid Tenure,11,2,0,2,9,2,3,Travel_Frequently,3,3,6,At Risk
+591,3,37,No,0,No,Low Risk,2,New Employee,8,2,2,0,4,4,3,Travel_Frequently,1,3,2,Safe
+592,1,112,No,0,No,Low Risk,10,Long Tenure,10,3,9,7,1,3,3,Non-Travel,3,3,1,Safe
+593,3,83,Yes,1,No,Low Risk,2,New Employee,4,2,1,2,5,3,3,Travel_Frequently,1,2,1,Safe
+595,1,114,No,0,No,Low Risk,9,Long Tenure,14,7,6,7,2,2,3,Travel_Rarely,2,3,1,Safe
+597,6,5,No,0,No,Low Risk,10,Long Tenure,37,9,7,7,3,2,4,Travel_Rarely,4,3,1,Safe
+599,1,40,No,0,No,Low Risk,14,Long Tenure,16,3,1,10,7,3,3,Non-Travel,2,3,0,Safe
+600,1,38,No,0,No,Low Risk,11,Long Tenure,15,9,6,9,9,2,3,Travel_Rarely,2,3,1,Safe
+601,4,38,No,0,No,Low Risk,20,Long Tenure,22,6,5,13,7,3,3,Travel_Rarely,4,3,1,Safe
+602,3,98,No,0,No,Low Risk,8,Long Tenure,8,3,0,7,1,3,3,Travel_Frequently,1,3,0,Safe
+604,1,154,No,0,Yes,High Risk,6,Mid Tenure,10,5,0,5,4,2,3,Travel_Rarely,2,3,3,Safe
+605,4,155,No,0,Yes,High Risk,10,Long Tenure,10,9,5,8,1,5,4,Travel_Rarely,3,3,4,At Risk
+606,1,156,No,0,No,Low Risk,8,Long Tenure,9,7,3,7,0,3,3,Travel_Rarely,2,3,0,Safe
+608,10,81,Yes,1,Yes,High Risk,7,Mid Tenure,8,7,1,0,0,2,3,Travel_Frequently,1,3,5,At Risk
+611,4,157,No,0,No,Low Risk,3,Mid Tenure,8,2,1,2,4,2,3,Travel_Rarely,2,3,0,Safe
+612,8,30,No,0,No,Low Risk,6,Mid Tenure,10,1,0,5,4,2,3,Travel_Rarely,4,4,0,Safe
+613,6,45,No,0,No,Low Risk,5,Mid Tenure,10,4,0,1,9,3,4,Travel_Rarely,3,2,0,Safe
+614,7,58,Yes,1,Yes,High Risk,0,New Employee,0,0,0,0,1,3,3,Travel_Frequently,1,3,6,At Risk
+615,1,44,No,0,No,Low Risk,1,New Employee,20,0,0,1,3,2,3,Non-Travel,3,1,0,Safe
+616,5,96,No,0,Yes,High Risk,8,Long Tenure,10,7,0,7,2,3,3,Non-Travel,2,2,6,At Risk
+618,1,96,No,0,No,Low Risk,0,New Employee,8,0,0,0,5,5,3,Travel_Rarely,2,3,3,Safe
+620,1,41,No,0,No,Low Risk,5,Mid Tenure,5,4,0,3,1,3,3,Travel_Rarely,2,3,0,Safe
+621,1,40,No,0,No,Low Risk,10,Long Tenure,10,7,5,7,1,3,3,Travel_Rarely,2,4,1,Safe
+622,3,95,Yes,1,Yes,High Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,1,5,At Risk
+623,4,158,No,0,No,Low Risk,6,Mid Tenure,12,5,1,2,4,3,3,Travel_Rarely,3,3,0,Safe
+624,5,11,No,0,No,Low Risk,2,New Employee,28,2,1,2,5,3,3,Travel_Frequently,3,3,0,Safe
+625,6,22,No,0,No,Low Risk,18,Long Tenure,22,16,11,8,7,2,3,Travel_Rarely,4,3,4,At Risk
+626,1,5,No,0,No,Low Risk,9,Long Tenure,9,5,7,7,1,6,3,Non-Travel,3,3,1,Safe
+630,2,121,No,0,Yes,High Risk,10,Long Tenure,18,9,6,9,3,3,3,Travel_Rarely,2,3,4,At Risk
+631,1,10,Yes,1,No,Low Risk,4,Mid Tenure,6,2,1,2,8,2,3,Non-Travel,2,4,0,Safe
+632,7,18,No,0,No,Low Risk,2,New Employee,3,2,2,1,0,3,3,Travel_Frequently,1,3,3,Safe
+634,5,83,No,0,No,Low Risk,1,New Employee,18,0,0,0,3,4,3,Travel_Rarely,2,3,0,Safe
+635,4,91,No,0,No,Low Risk,6,Mid Tenure,8,5,4,3,6,2,3,Travel_Rarely,2,3,4,At Risk
+638,8,4,No,0,Yes,High Risk,31,Long Tenure,31,9,0,9,1,5,3,Travel_Rarely,5,2,3,Safe
+639,2,55,No,0,Yes,High Risk,6,Mid Tenure,6,5,1,4,1,3,3,Travel_Rarely,1,4,6,At Risk
+641,1,159,No,0,No,Low Risk,5,Mid Tenure,6,3,1,4,1,5,4,Travel_Rarely,2,3,0,Safe
+643,3,103,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,2,4,Travel_Rarely,1,2,3,Safe
+644,11,9,No,0,No,Low Risk,32,Long Tenure,32,5,10,7,1,2,3,Travel_Frequently,5,3,4,At Risk
+645,7,38,No,0,No,Low Risk,7,Mid Tenure,7,4,0,6,1,1,3,Travel_Rarely,1,3,3,Safe
+647,3,41,Yes,1,Yes,High Risk,6,Mid Tenure,6,3,1,2,1,4,3,Travel_Frequently,1,3,6,At Risk
+648,7,160,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Frequently,1,2,5,At Risk
+649,2,60,No,0,Yes,High Risk,6,Mid Tenure,6,5,1,3,1,3,3,Travel_Rarely,1,2,3,Safe
+650,1,161,Yes,1,No,Low Risk,3,Mid Tenure,9,1,1,2,2,2,3,Travel_Rarely,2,3,3,Safe
+652,3,23,No,0,No,Low Risk,3,Mid Tenure,9,2,0,2,4,3,3,Travel_Rarely,2,2,0,Safe
+653,1,162,No,0,No,Low Risk,7,Mid Tenure,13,7,5,7,4,4,4,Travel_Rarely,2,4,1,Safe
+655,2,36,No,0,No,Low Risk,5,Mid Tenure,6,3,0,3,0,5,3,Travel_Rarely,1,2,2,Safe
+656,1,71,No,0,Yes,High Risk,3,Mid Tenure,17,0,1,0,4,3,3,Travel_Rarely,2,3,3,Safe
+657,2,117,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,0,3,Travel_Rarely,1,2,3,Safe
+659,5,127,No,0,No,Low Risk,10,Long Tenure,10,2,2,2,1,4,3,Travel_Rarely,2,3,0,Safe
+661,8,102,No,0,Yes,High Risk,1,New Employee,21,0,0,0,4,3,3,Travel_Rarely,4,2,3,Safe
+662,2,149,No,0,No,Low Risk,0,New Employee,8,0,0,0,3,3,3,Travel_Rarely,1,3,2,Safe
+663,3,3,No,0,Yes,High Risk,8,Long Tenure,10,7,4,7,3,3,3,Travel_Frequently,2,3,4,At Risk
+664,9,163,No,0,No,Low Risk,3,Mid Tenure,21,2,0,2,7,3,3,Travel_Rarely,4,2,3,Safe
+665,10,164,No,0,No,Low Risk,2,New Employee,10,2,0,2,4,1,3,Travel_Rarely,2,2,3,Safe
+666,7,76,No,0,Yes,High Risk,8,Long Tenure,8,2,0,6,1,3,3,Travel_Rarely,1,3,5,At Risk
+667,7,19,Yes,1,No,Low Risk,4,Mid Tenure,5,3,0,2,0,3,3,Travel_Rarely,1,3,5,At Risk
+669,7,83,No,0,No,Low Risk,3,Mid Tenure,3,2,1,2,1,2,3,Travel_Rarely,1,3,3,Safe
+671,9,165,No,0,Yes,High Risk,2,New Employee,26,2,0,1,4,2,3,Travel_Rarely,5,3,3,Safe
+675,2,41,No,0,No,Low Risk,2,New Employee,3,2,2,2,0,3,4,Travel_Rarely,1,3,3,Safe
+677,1,76,No,0,No,Low Risk,5,Mid Tenure,6,0,1,2,0,3,3,Travel_Rarely,2,3,0,Safe
+679,2,139,No,0,Yes,High Risk,6,Mid Tenure,6,4,0,5,1,2,3,Travel_Rarely,2,3,3,Safe
+680,2,83,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,2,4,Travel_Frequently,1,3,2,Safe
+682,1,166,No,0,No,Low Risk,14,Long Tenure,18,7,8,10,7,2,4,Travel_Rarely,2,3,1,Safe
+683,2,112,No,0,No,Low Risk,10,Long Tenure,10,9,8,8,1,4,3,Travel_Rarely,1,3,3,Safe
+684,1,135,Yes,1,No,Low Risk,1,New Employee,5,1,0,0,2,4,3,Travel_Frequently,2,3,3,Safe
+686,3,34,No,0,Yes,High Risk,3,Mid Tenure,3,2,0,2,1,2,3,Travel_Rarely,1,3,5,At Risk
+689,4,83,No,0,No,Low Risk,10,Long Tenure,10,7,7,8,1,2,3,Travel_Rarely,3,3,1,Safe
+690,1,167,No,0,No,Low Risk,6,Mid Tenure,6,0,1,2,1,5,3,Travel_Rarely,2,3,3,Safe
+691,2,55,No,0,No,Low Risk,17,Long Tenure,17,11,11,8,1,3,3,Travel_Rarely,2,1,1,Safe
+692,5,94,No,0,No,Low Risk,13,Long Tenure,15,11,4,7,3,2,4,Travel_Frequently,2,3,1,Safe
+698,10,168,No,0,No,Low Risk,9,Long Tenure,16,7,7,1,2,1,3,Travel_Rarely,3,3,1,Safe
+699,4,51,No,0,Yes,High Risk,3,Mid Tenure,13,2,0,2,2,2,3,Travel_Rarely,2,2,3,Safe
+700,2,23,No,0,No,Low Risk,4,Mid Tenure,5,2,1,1,0,0,3,Travel_Rarely,1,2,2,Safe
+701,2,10,Yes,1,Yes,High Risk,1,New Employee,1,0,1,1,1,5,3,Travel_Rarely,1,3,6,At Risk
+702,2,136,Yes,1,Yes,High Risk,10,Long Tenure,10,8,9,7,1,3,3,Travel_Frequently,1,3,9,Flight Risk
+704,3,83,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Non-Travel,1,2,2,Safe
+705,2,85,No,0,No,Low Risk,3,Mid Tenure,5,2,0,2,2,3,3,Travel_Rarely,1,4,6,At Risk
+707,1,106,No,0,No,Low Risk,3,Mid Tenure,4,2,1,2,0,4,4,Travel_Rarely,2,4,1,Safe
+709,1,31,No,0,No,Low Risk,7,Mid Tenure,8,7,0,5,0,2,4,Travel_Rarely,2,2,0,Safe
+710,2,60,No,0,No,Low Risk,10,Long Tenure,10,7,2,8,1,5,3,Travel_Frequently,1,1,2,Safe
+712,1,58,No,0,No,Low Risk,2,New Employee,12,2,2,2,3,3,3,Travel_Rarely,2,4,0,Safe
+714,1,62,No,0,Yes,High Risk,6,Mid Tenure,6,5,0,4,1,3,4,Travel_Frequently,2,4,3,Safe
+715,2,31,No,0,No,Low Risk,1,New Employee,4,0,0,0,3,2,3,Travel_Rarely,1,4,0,Safe
+716,3,4,No,0,Yes,High Risk,20,Long Tenure,20,8,3,8,1,3,3,Travel_Rarely,1,4,5,At Risk
+717,5,156,No,0,No,Low Risk,8,Long Tenure,9,7,7,7,1,3,3,Travel_Rarely,3,2,1,Safe
+720,1,96,Yes,1,No,Low Risk,2,New Employee,4,2,2,0,9,3,3,Travel_Rarely,2,3,4,At Risk
+721,5,26,No,0,No,Low Risk,20,Long Tenure,20,7,11,10,1,4,3,Travel_Rarely,2,2,1,Safe
+722,1,46,No,0,No,Low Risk,10,Long Tenure,10,7,0,8,1,2,3,Travel_Rarely,2,3,0,Safe
+723,1,59,Yes,1,Yes,High Risk,4,Mid Tenure,18,3,1,3,3,4,3,Travel_Frequently,2,3,6,At Risk
+724,5,102,No,0,No,Low Risk,9,Long Tenure,10,7,1,8,0,4,3,Travel_Rarely,2,4,0,Safe
+725,4,73,No,0,No,Low Risk,9,Long Tenure,9,7,0,7,1,3,3,Travel_Rarely,3,3,0,Safe
+727,8,20,No,0,No,Low Risk,7,Mid Tenure,10,7,7,7,3,6,3,Travel_Rarely,3,3,1,Safe
+728,1,35,No,0,No,Low Risk,7,Mid Tenure,20,7,1,7,2,2,3,Travel_Rarely,2,3,0,Safe
+729,1,105,No,0,Yes,High Risk,18,Long Tenure,20,13,1,12,5,2,4,Travel_Frequently,3,2,3,Safe
+730,8,83,No,0,No,Low Risk,5,Mid Tenure,32,1,1,3,3,3,3,Travel_Rarely,4,4,0,Safe
+731,11,134,No,0,No,Low Risk,21,Long Tenure,23,6,12,6,3,2,3,Travel_Rarely,5,2,1,Safe
+732,1,135,No,0,No,Low Risk,2,New Employee,10,2,2,2,8,1,3,Travel_Rarely,2,3,3,Safe
+733,4,147,No,0,No,Low Risk,9,Long Tenure,9,7,1,7,1,4,4,Travel_Frequently,3,3,0,Safe
+734,11,3,No,0,No,Low Risk,22,Long Tenure,22,7,2,10,1,3,3,Travel_Rarely,5,2,0,Safe
+738,7,103,No,0,No,Low Risk,2,New Employee,4,2,2,2,7,2,3,Travel_Rarely,1,3,0,Safe
+741,2,5,Yes,1,Yes,High Risk,7,Mid Tenure,10,7,3,7,7,4,3,Travel_Rarely,1,1,5,At Risk
+742,8,136,No,0,No,Low Risk,8,Long Tenure,10,7,0,5,9,2,3,Non-Travel,3,4,3,Safe
+743,4,169,No,0,Yes,High Risk,1,New Employee,10,0,0,0,4,4,3,Travel_Rarely,3,3,3,Safe
+744,3,30,No,0,No,Low Risk,5,Mid Tenure,9,2,1,4,2,5,3,Non-Travel,1,1,0,Safe
+746,1,29,No,0,Yes,High Risk,22,Long Tenure,28,2,11,13,9,2,3,Travel_Frequently,4,3,4,At Risk
+747,1,170,No,0,No,Low Risk,8,Long Tenure,10,7,7,7,7,2,4,Travel_Rarely,2,3,1,Safe
+749,7,83,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,6,3,Travel_Rarely,1,3,2,Safe
+752,2,76,Yes,1,Yes,High Risk,2,New Employee,7,2,2,2,6,2,3,Travel_Frequently,1,4,5,At Risk
+754,1,18,No,0,No,Low Risk,2,New Employee,7,2,2,2,3,5,3,Travel_Frequently,2,2,0,Safe
+757,5,37,No,0,No,Low Risk,5,Mid Tenure,10,1,4,3,3,2,3,Travel_Rarely,2,3,1,Safe
+758,3,32,No,0,No,Low Risk,4,Mid Tenure,5,3,0,2,1,2,3,Travel_Rarely,1,3,3,Safe
+760,10,171,No,0,No,Low Risk,8,Long Tenure,12,3,3,6,9,3,3,Travel_Rarely,2,4,0,Safe
+762,5,45,No,0,No,Low Risk,10,Long Tenure,30,7,1,1,7,1,3,Travel_Rarely,4,3,0,Safe
+763,2,46,No,0,Yes,High Risk,4,Mid Tenure,5,2,2,3,0,2,4,Travel_Rarely,1,2,5,At Risk
+764,5,163,No,0,No,Low Risk,7,Mid Tenure,9,6,0,7,8,2,3,Travel_Rarely,2,2,3,Safe
+766,7,103,No,0,No,Low Risk,2,New Employee,2,2,2,2,1,2,3,Travel_Rarely,1,3,2,Safe
+769,3,40,No,0,No,Low Risk,2,New Employee,19,2,2,2,2,4,3,Travel_Rarely,2,3,2,Safe
+771,5,172,No,0,No,Low Risk,1,New Employee,16,0,0,0,2,2,3,Non-Travel,2,3,3,Safe
+772,3,23,No,0,No,Low Risk,10,Long Tenure,10,8,4,7,1,2,3,Travel_Frequently,2,3,1,Safe
+773,2,173,No,0,Yes,High Risk,1,New Employee,6,0,0,1,6,0,3,Travel_Rarely,1,3,5,At Risk
+775,4,14,No,0,No,Low Risk,0,New Employee,7,0,0,0,3,3,3,Travel_Rarely,2,3,3,Safe
+776,6,99,No,0,No,Low Risk,34,Long Tenure,34,6,1,16,1,3,3,Travel_Rarely,4,2,3,Safe
+780,2,6,Yes,1,Yes,High Risk,10,Long Tenure,10,9,7,8,1,2,3,Travel_Rarely,1,3,6,At Risk
+781,1,86,No,0,No,Low Risk,6,Mid Tenure,6,5,1,4,1,5,4,Travel_Rarely,2,3,1,Safe
+783,7,59,No,0,No,Low Risk,8,Long Tenure,9,7,3,1,0,3,3,Travel_Rarely,2,1,3,Safe
+784,2,41,No,0,No,Low Risk,2,New Employee,2,2,0,2,1,3,3,Travel_Rarely,1,4,3,Safe
+785,1,37,Yes,1,Yes,High Risk,5,Mid Tenure,8,4,1,3,4,2,3,Travel_Frequently,2,4,3,Safe
+786,1,18,No,0,No,Low Risk,6,Mid Tenure,6,5,1,4,1,5,4,Travel_Rarely,2,3,0,Safe
+787,9,35,Yes,1,Yes,High Risk,5,Mid Tenure,24,2,1,4,5,2,3,Travel_Rarely,5,3,3,Safe
+789,1,174,No,0,No,Low Risk,10,Long Tenure,10,7,0,9,1,1,3,Non-Travel,3,2,3,Safe
+791,2,31,No,0,No,Low Risk,4,Mid Tenure,5,3,1,2,0,3,3,Non-Travel,1,3,0,Safe
+792,3,79,No,0,No,Low Risk,2,New Employee,5,2,2,0,3,2,3,Travel_Frequently,1,1,3,Safe
+793,5,167,No,0,No,Low Risk,8,Long Tenure,11,7,1,1,4,3,3,Travel_Rarely,2,3,3,Safe
+796,1,147,Yes,1,No,Low Risk,4,Mid Tenure,6,3,1,2,6,2,3,Travel_Rarely,2,2,0,Safe
+797,2,12,No,0,No,Low Risk,4,Mid Tenure,10,2,1,3,2,2,3,Travel_Rarely,1,4,2,Safe
+799,4,121,No,0,Yes,High Risk,5,Mid Tenure,9,3,1,4,9,4,3,Travel_Rarely,2,3,3,Safe
+800,1,127,No,0,No,Low Risk,4,Mid Tenure,5,2,1,1,0,3,3,Travel_Frequently,2,3,0,Safe
+802,2,87,No,0,Yes,High Risk,5,Mid Tenure,6,3,4,3,0,3,3,Travel_Rarely,1,3,6,At Risk
+803,4,135,No,0,Yes,High Risk,15,Long Tenure,17,7,4,12,6,2,3,Travel_Frequently,2,4,7,Flight Risk
+804,2,44,No,0,No,Low Risk,6,Mid Tenure,6,5,1,3,1,3,3,Travel_Rarely,1,2,0,Safe
+805,7,145,No,0,No,Low Risk,3,Mid Tenure,3,2,0,2,1,1,3,Travel_Rarely,1,3,2,Safe
+806,3,4,No,0,No,Low Risk,2,New Employee,7,2,0,2,3,2,4,Travel_Rarely,1,1,0,Safe
+807,5,2,No,0,No,Low Risk,8,Long Tenure,8,7,3,7,1,2,4,Travel_Frequently,2,4,0,Safe
+808,1,19,No,0,No,Low Risk,3,Mid Tenure,6,2,1,2,5,1,3,Travel_Rarely,2,3,3,Safe
+809,9,134,No,0,No,Low Risk,24,Long Tenure,24,7,14,9,1,4,3,Travel_Frequently,5,3,1,Safe
+811,3,44,Yes,1,Yes,High Risk,0,New Employee,1,0,0,0,1,2,4,Travel_Rarely,1,4,6,At Risk
+812,3,78,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,4,3,Non-Travel,1,2,3,Safe
+813,3,3,No,0,No,Low Risk,5,Mid Tenure,9,2,1,4,8,3,4,Travel_Rarely,2,3,2,Safe
+815,8,76,No,0,No,Low Risk,4,Mid Tenure,30,3,0,3,5,3,3,Travel_Rarely,4,3,0,Safe
+816,3,126,Yes,1,Yes,High Risk,1,New Employee,1,0,0,0,1,1,3,Travel_Rarely,1,2,5,At Risk
+817,8,169,No,0,No,Low Risk,13,Long Tenure,14,9,3,7,0,3,3,Travel_Rarely,3,3,0,Safe
+819,1,130,Yes,1,No,Low Risk,3,Mid Tenure,6,2,0,2,5,3,3,Travel_Rarely,2,3,3,Safe
+820,9,45,No,0,Yes,High Risk,26,Long Tenure,26,14,3,0,1,3,3,Travel_Rarely,4,3,3,Safe
+823,4,88,No,0,No,Low Risk,9,Long Tenure,10,7,0,5,0,2,3,Travel_Rarely,2,3,3,Safe
+824,2,83,No,0,No,Low Risk,10,Long Tenure,10,7,0,7,1,3,4,Travel_Rarely,1,4,2,Safe
+825,8,103,Yes,1,Yes,High Risk,31,Long Tenure,40,15,13,8,7,2,3,Travel_Rarely,5,3,4,At Risk
+826,2,4,No,0,No,Low Risk,2,New Employee,7,2,2,2,3,0,3,Travel_Rarely,1,4,2,Safe
+827,4,40,No,0,Yes,High Risk,4,Mid Tenure,8,3,0,2,9,4,3,Travel_Rarely,2,2,3,Safe
+828,2,21,Yes,1,No,Low Risk,2,New Employee,5,2,2,1,6,3,3,Travel_Rarely,1,3,0,Safe
+829,10,53,No,0,No,Low Risk,5,Mid Tenure,8,2,0,4,4,2,3,Travel_Rarely,1,3,2,Safe
+830,4,83,No,0,No,Low Risk,14,Long Tenure,14,13,6,8,1,3,3,Travel_Rarely,2,2,1,Safe
+832,3,41,No,0,No,Low Risk,1,New Employee,10,0,0,0,6,6,3,Travel_Frequently,2,2,0,Safe
+833,4,86,No,0,Yes,High Risk,0,New Employee,12,0,0,0,5,4,4,Travel_Rarely,2,2,3,Safe
+834,2,37,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,2,2,Safe
+836,4,104,No,0,No,Low Risk,9,Long Tenure,10,8,7,8,1,3,3,Travel_Rarely,2,3,1,Safe
+837,5,77,No,0,No,Low Risk,4,Mid Tenure,13,3,1,2,2,3,3,Travel_Frequently,2,2,3,Safe
+838,2,34,No,0,No,Low Risk,5,Mid Tenure,6,2,1,3,1,3,3,Travel_Frequently,1,2,2,Safe
+840,1,101,Yes,1,No,Low Risk,9,Long Tenure,9,8,7,7,1,3,3,Travel_Rarely,3,3,1,Safe
+842,1,45,Yes,1,No,Low Risk,9,Long Tenure,12,7,7,3,4,3,3,Travel_Rarely,2,3,1,Safe
+843,8,14,No,0,No,Low Risk,4,Mid Tenure,22,1,1,0,6,3,4,Travel_Rarely,4,3,3,Safe
+844,8,127,No,0,Yes,High Risk,9,Long Tenure,9,8,0,8,1,3,3,Travel_Rarely,3,2,3,Safe
+845,4,140,No,0,No,Low Risk,8,Long Tenure,17,5,1,6,3,3,4,Travel_Rarely,3,3,0,Safe
+846,1,39,No,0,Yes,High Risk,8,Long Tenure,8,7,7,5,1,2,4,Travel_Rarely,2,3,7,Flight Risk
+847,10,94,No,0,No,Low Risk,3,Mid Tenure,4,2,0,2,0,1,3,Travel_Rarely,1,3,0,Safe
+848,2,98,Yes,1,Yes,High Risk,8,Long Tenure,8,7,1,7,1,2,3,Travel_Frequently,1,2,5,At Risk
+850,2,6,No,0,No,Low Risk,0,New Employee,0,0,0,0,1,6,3,Non-Travel,1,3,2,Safe
+851,6,36,No,0,No,Low Risk,20,Long Tenure,29,6,4,17,2,2,3,Travel_Rarely,4,3,1,Safe
+852,5,107,No,0,No,Low Risk,5,Mid Tenure,10,2,2,3,9,2,3,Travel_Rarely,2,3,0,Safe
+854,2,77,No,0,No,Low Risk,4,Mid Tenure,6,3,0,1,7,3,3,Travel_Rarely,1,4,6,At Risk
+855,1,136,No,0,No,Low Risk,9,Long Tenure,9,8,0,8,1,5,4,Travel_Rarely,2,4,3,Safe
+856,2,149,No,0,No,Low Risk,6,Mid Tenure,6,5,1,1,1,3,3,Travel_Rarely,1,2,2,Safe
+857,1,112,No,0,Yes,High Risk,18,Long Tenure,18,14,4,11,1,1,3,Travel_Rarely,2,3,4,At Risk
+859,1,102,No,0,No,Low Risk,5,Mid Tenure,8,2,0,3,2,3,3,Travel_Rarely,2,3,0,Safe
+861,2,134,No,0,No,Low Risk,5,Mid Tenure,10,4,0,3,9,3,3,Travel_Frequently,1,2,0,Safe
+862,1,23,No,0,Yes,High Risk,5,Mid Tenure,35,2,0,4,7,3,3,Travel_Rarely,3,2,3,Safe
+864,1,105,No,0,Yes,High Risk,5,Mid Tenure,18,4,0,2,4,2,3,Travel_Rarely,3,3,3,Safe
+865,2,42,No,0,No,Low Risk,5,Mid Tenure,9,3,1,3,5,3,3,Travel_Rarely,2,4,0,Safe
+867,4,34,No,0,No,Low Risk,9,Long Tenure,31,8,0,0,3,3,4,Travel_Frequently,4,2,0,Safe
+868,1,10,No,0,No,Low Risk,1,New Employee,9,0,0,0,4,2,3,Travel_Rarely,2,2,0,Safe
+869,10,60,No,0,No,Low Risk,5,Mid Tenure,6,1,0,4,1,6,3,Travel_Rarely,1,2,0,Safe
+872,4,109,No,0,No,Low Risk,2,New Employee,4,2,2,2,6,2,4,Travel_Rarely,2,2,1,Safe
+874,3,138,No,0,Yes,High Risk,3,Mid Tenure,10,2,0,2,2,2,4,Travel_Rarely,1,4,5,At Risk
+875,2,60,No,0,Yes,High Risk,2,New Employee,8,1,2,2,5,2,3,Travel_Frequently,1,3,5,At Risk
+878,10,130,No,0,No,Low Risk,5,Mid Tenure,6,4,0,3,0,3,4,Travel_Rarely,1,2,5,At Risk
+879,1,73,No,0,Yes,High Risk,5,Mid Tenure,5,3,0,3,1,3,3,Travel_Rarely,2,3,4,At Risk
+880,4,3,No,0,Yes,High Risk,17,Long Tenure,17,14,5,15,1,2,4,Travel_Rarely,3,2,4,At Risk
+881,2,113,Yes,1,Yes,High Risk,10,Long Tenure,10,2,7,8,1,3,3,Travel_Frequently,1,3,6,At Risk
+882,3,62,No,0,No,Low Risk,3,Mid Tenure,4,0,0,2,0,2,3,Non-Travel,1,3,2,Safe
+885,1,99,No,0,No,Low Risk,5,Mid Tenure,5,2,0,3,1,1,3,Travel_Rarely,2,2,4,At Risk
+887,2,19,No,0,No,Low Risk,4,Mid Tenure,7,2,0,2,2,2,3,Travel_Rarely,1,3,5,At Risk
+888,3,139,No,0,No,Low Risk,5,Mid Tenure,6,2,3,4,0,2,3,Non-Travel,1,2,3,Safe
+889,1,58,No,0,No,Low Risk,10,Long Tenure,10,8,5,3,1,3,3,Travel_Frequently,2,3,1,Safe
+893,7,58,No,0,No,Low Risk,2,New Employee,3,2,1,2,0,3,3,Travel_Rarely,1,2,2,Safe
+894,3,86,No,0,Yes,High Risk,5,Mid Tenure,17,3,1,3,2,1,3,Travel_Rarely,2,4,3,Safe
+895,2,62,No,0,Yes,High Risk,6,Mid Tenure,8,4,0,2,3,2,3,Travel_Rarely,1,3,5,At Risk
+896,7,38,Yes,1,Yes,High Risk,3,Mid Tenure,5,2,0,2,6,3,3,Travel_Rarely,1,2,5,At Risk
+897,1,17,No,0,No,Low Risk,2,New Employee,28,0,2,2,5,3,3,Travel_Rarely,4,3,0,Safe
+899,4,141,No,0,No,Low Risk,13,Long Tenure,16,10,4,8,3,2,3,Travel_Rarely,3,2,1,Safe
+900,7,127,No,0,No,Low Risk,5,Mid Tenure,10,4,0,0,5,3,3,Travel_Frequently,1,3,2,Safe
+901,8,18,No,0,No,Low Risk,12,Long Tenure,33,9,3,8,6,0,3,Travel_Rarely,4,3,0,Safe
+902,5,16,No,0,No,Low Risk,5,Mid Tenure,12,2,2,2,4,2,3,Travel_Frequently,2,3,0,Safe
+903,1,63,No,0,Yes,High Risk,7,Mid Tenure,8,6,7,7,0,2,4,Travel_Rarely,2,3,4,At Risk
+904,1,5,No,0,Yes,High Risk,10,Long Tenure,10,0,0,9,1,2,3,Non-Travel,3,3,3,Safe
+905,9,135,No,0,No,Low Risk,31,Long Tenure,31,6,14,7,1,3,3,Non-Travel,4,3,4,At Risk
+909,10,18,No,0,No,Low Risk,5,Mid Tenure,13,4,0,4,8,2,3,Travel_Rarely,2,2,0,Safe
+910,10,175,No,0,Yes,High Risk,4,Mid Tenure,7,3,0,3,3,4,3,Travel_Rarely,1,3,5,At Risk
+911,3,176,Yes,1,Yes,High Risk,1,New Employee,1,0,0,1,1,2,4,Travel_Rarely,1,3,5,At Risk
+912,3,17,No,0,No,Low Risk,4,Mid Tenure,8,3,0,3,6,5,3,Travel_Rarely,1,2,2,Safe
+913,2,126,No,0,Yes,High Risk,8,Long Tenure,8,7,7,1,1,0,3,Travel_Rarely,1,3,6,At Risk
+916,1,48,No,0,No,Low Risk,4,Mid Tenure,4,2,0,2,1,3,3,Travel_Rarely,2,3,0,Safe
+918,3,46,Yes,1,Yes,High Risk,1,New Employee,3,0,0,0,9,3,3,Travel_Frequently,1,2,5,At Risk
+920,4,177,No,0,No,Low Risk,1,New Employee,4,0,0,0,4,2,4,Travel_Rarely,2,3,3,Safe
+922,7,21,Yes,1,No,Low Risk,2,New Employee,2,2,0,2,1,3,3,Travel_Rarely,1,2,3,Safe
+923,2,61,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,3,3,Safe
+924,5,92,No,0,Yes,High Risk,16,Long Tenure,17,8,4,11,0,2,3,Travel_Rarely,2,3,4,At Risk
+925,7,61,No,0,Yes,High Risk,3,Mid Tenure,3,2,1,2,1,3,3,Travel_Rarely,1,2,5,At Risk
+926,4,178,Yes,1,Yes,High Risk,3,Mid Tenure,4,2,0,2,0,3,3,Travel_Rarely,2,3,7,Flight Risk
+927,3,102,Yes,1,Yes,High Risk,7,Mid Tenure,10,7,1,0,4,1,3,Travel_Rarely,1,1,5,At Risk
+930,2,13,No,0,No,Low Risk,2,New Employee,6,2,2,2,5,2,3,Travel_Rarely,1,3,2,Safe
+932,3,179,Yes,1,Yes,High Risk,2,New Employee,8,2,2,2,7,2,4,Travel_Rarely,1,3,5,At Risk
+933,2,38,No,0,No,Low Risk,1,New Employee,1,1,0,0,1,2,3,Travel_Rarely,1,3,2,Safe
+934,3,54,No,0,No,Low Risk,1,New Employee,1,0,1,0,1,3,3,Travel_Rarely,1,3,5,At Risk
+936,1,98,No,0,No,Low Risk,5,Mid Tenure,10,4,0,3,7,6,3,Travel_Rarely,2,2,0,Safe
+939,2,19,No,0,Yes,High Risk,3,Mid Tenure,6,2,0,2,3,1,3,Travel_Rarely,1,2,8,Flight Risk
+940,5,2,No,0,Yes,High Risk,6,Mid Tenure,24,0,0,4,2,3,3,Travel_Rarely,3,2,3,Safe
+941,7,70,No,0,No,Low Risk,7,Mid Tenure,13,7,5,2,3,2,3,Travel_Rarely,1,2,3,Safe
+942,5,115,No,0,Yes,High Risk,10,Long Tenure,10,6,0,7,1,2,4,Travel_Rarely,2,3,3,Safe
+944,3,180,No,0,No,Low Risk,26,Long Tenure,29,9,1,7,4,3,3,Travel_Rarely,3,3,3,Safe
+945,2,52,No,0,No,Low Risk,0,New Employee,13,0,0,0,4,2,3,Travel_Rarely,1,3,2,Safe
+947,1,29,No,0,No,Low Risk,9,Long Tenure,9,8,0,0,1,2,3,Non-Travel,2,3,0,Safe
+949,2,12,No,0,No,Low Risk,6,Mid Tenure,8,2,0,1,2,6,3,Travel_Rarely,1,3,0,Safe
+950,8,121,No,0,No,Low Risk,15,Long Tenure,15,12,5,11,1,3,3,Travel_Rarely,3,3,1,Safe
+951,3,78,No,0,No,Low Risk,3,Mid Tenure,5,0,0,2,6,3,4,Non-Travel,1,2,2,Safe
+952,7,78,Yes,1,Yes,High Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Rarely,1,2,6,At Risk
+954,1,181,No,0,No,Low Risk,1,New Employee,11,0,0,0,2,2,3,Travel_Rarely,3,2,3,Safe
+956,1,19,No,0,No,Low Risk,7,Mid Tenure,7,7,0,7,1,2,3,Travel_Frequently,2,2,3,Safe
+957,3,105,No,0,Yes,High Risk,18,Long Tenure,20,13,2,17,2,3,3,Travel_Rarely,1,3,3,Safe
+958,3,83,No,0,No,Low Risk,11,Long Tenure,16,8,3,9,4,6,4,Travel_Rarely,1,3,2,Safe
+959,7,156,Yes,1,Yes,High Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,2,6,At Risk
+960,3,174,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Rarely,1,3,6,At Risk
+961,5,182,No,0,Yes,High Risk,9,Long Tenure,10,7,8,5,0,2,3,Travel_Rarely,2,3,4,At Risk
+964,2,103,No,0,Yes,High Risk,1,New Employee,3,1,0,0,8,2,3,Travel_Frequently,1,3,3,Safe
+966,4,183,No,0,No,Low Risk,8,Long Tenure,8,7,6,3,1,2,3,Travel_Rarely,2,3,1,Safe
+967,1,63,Yes,1,Yes,High Risk,16,Long Tenure,16,7,3,7,1,6,3,Travel_Rarely,3,2,3,Safe
+969,5,114,No,0,No,Low Risk,5,Mid Tenure,6,0,1,4,0,3,3,Travel_Rarely,2,2,0,Safe
+970,1,124,Yes,1,No,Low Risk,14,Long Tenure,17,1,11,7,5,2,3,Travel_Rarely,3,2,1,Safe
+972,3,66,No,0,No,Low Risk,9,Long Tenure,9,7,0,8,1,5,3,Non-Travel,2,3,0,Safe
+974,7,127,No,0,No,Low Risk,3,Mid Tenure,3,1,0,2,1,5,3,Travel_Frequently,1,3,2,Safe
+975,1,13,No,0,No,Low Risk,5,Mid Tenure,5,2,1,0,1,3,3,Travel_Rarely,2,3,0,Safe
+976,9,16,No,0,No,Low Risk,9,Long Tenure,26,8,7,8,2,2,3,Travel_Rarely,4,3,1,Safe
+977,2,26,Yes,1,No,Low Risk,1,New Employee,7,0,0,0,4,4,4,Travel_Rarely,1,3,2,Safe
+981,6,144,No,0,No,Low Risk,17,Long Tenure,22,13,15,2,6,3,3,Travel_Rarely,4,3,1,Safe
+982,1,118,No,0,No,Low Risk,8,Long Tenure,10,4,7,7,5,2,3,Travel_Rarely,3,3,1,Safe
+983,1,127,No,0,Yes,High Risk,5,Mid Tenure,6,3,1,3,1,1,3,Non-Travel,2,3,3,Safe
+984,1,62,No,0,No,Low Risk,10,Long Tenure,12,9,0,8,6,2,3,Travel_Rarely,3,3,0,Safe
+985,1,41,No,0,No,Low Risk,8,Long Tenure,9,7,0,7,0,3,3,Travel_Rarely,3,4,0,Safe
+986,1,104,Yes,1,Yes,High Risk,1,New Employee,22,0,0,0,4,2,3,Non-Travel,4,4,3,Safe
+987,4,144,No,0,Yes,High Risk,19,Long Tenure,20,10,2,7,1,3,3,Travel_Frequently,2,4,3,Safe
+990,1,23,No,0,No,Low Risk,7,Mid Tenure,12,7,0,7,4,3,3,Non-Travel,2,3,0,Safe
+991,2,33,Yes,1,Yes,High Risk,3,Mid Tenure,4,2,1,2,0,0,4,Non-Travel,1,2,8,Flight Risk
+992,6,10,No,0,No,Low Risk,10,Long Tenure,10,8,6,0,1,2,3,Non-Travel,4,3,1,Safe
+994,2,105,Yes,1,Yes,High Risk,0,New Employee,3,0,0,0,6,5,4,Travel_Rarely,1,2,5,At Risk
+995,2,114,No,0,No,Low Risk,3,Mid Tenure,5,2,0,2,3,4,3,Travel_Rarely,1,3,2,Safe
+996,3,40,No,0,No,Low Risk,5,Mid Tenure,8,3,0,2,3,2,3,Travel_Rarely,1,3,2,Safe
+997,8,6,No,0,No,Low Risk,5,Mid Tenure,32,4,1,3,9,1,4,Travel_Rarely,4,3,0,Safe
+998,5,88,No,0,Yes,High Risk,6,Mid Tenure,6,5,1,2,1,2,3,Travel_Frequently,2,4,6,At Risk
+999,8,164,No,0,No,Low Risk,18,Long Tenure,21,16,0,11,2,2,3,Travel_Frequently,5,3,3,Safe
+1001,3,53,No,0,No,Low Risk,2,New Employee,4,2,2,2,9,2,3,Travel_Rarely,1,3,2,Safe
+1002,3,105,No,0,Yes,High Risk,9,Long Tenure,9,8,0,8,1,2,3,Non-Travel,2,3,3,Safe
+1003,1,18,No,0,Yes,High Risk,9,Long Tenure,9,0,0,7,1,0,3,Travel_Rarely,2,3,3,Safe
+1004,2,122,Yes,1,Yes,High Risk,5,Mid Tenure,7,2,0,1,4,2,3,Travel_Rarely,1,3,8,Flight Risk
+1005,4,10,No,0,Yes,High Risk,12,Long Tenure,22,11,1,5,3,2,3,Travel_Rarely,4,3,3,Safe
+1006,2,8,No,0,No,Low Risk,2,New Employee,3,1,0,2,0,0,3,Travel_Frequently,1,3,2,Safe
+1007,4,3,No,0,No,Low Risk,8,Long Tenure,13,7,0,7,6,3,3,Travel_Rarely,3,3,0,Safe
+1009,4,3,No,0,No,Low Risk,4,Mid Tenure,5,2,3,2,1,6,3,Travel_Rarely,2,2,1,Safe
+1010,3,184,Yes,1,Yes,High Risk,4,Mid Tenure,5,2,0,2,1,2,4,Travel_Rarely,1,2,3,Safe
+1011,4,44,No,0,No,Low Risk,4,Mid Tenure,4,3,0,3,1,1,3,Travel_Frequently,2,3,0,Safe
+1012,2,60,No,0,No,Low Risk,0,New Employee,0,0,0,0,1,2,3,Non-Travel,1,3,3,Safe
+1013,4,83,No,0,No,Low Risk,10,Long Tenure,22,7,0,8,8,2,3,Travel_Rarely,3,3,0,Safe
+1014,5,42,No,0,Yes,High Risk,16,Long Tenure,16,10,10,1,1,3,3,Travel_Rarely,3,3,4,At Risk
+1015,8,43,No,0,Yes,High Risk,8,Long Tenure,9,7,1,7,0,4,3,Travel_Rarely,3,4,6,At Risk
+1016,2,185,Yes,1,Yes,High Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Rarely,1,2,9,Flight Risk
+1017,3,39,Yes,1,No,Low Risk,3,Mid Tenure,4,2,1,2,0,3,3,Travel_Frequently,1,3,5,At Risk
+1018,4,62,No,0,No,Low Risk,8,Long Tenure,8,7,1,3,1,2,3,Travel_Rarely,2,4,0,Safe
+1019,3,108,No,0,No,Low Risk,4,Mid Tenure,4,3,1,1,1,3,3,Travel_Rarely,1,1,6,At Risk
+1022,5,41,No,0,No,Low Risk,2,New Employee,19,2,2,2,2,0,3,Travel_Rarely,2,2,0,Safe
+1024,5,13,No,0,No,Low Risk,15,Long Tenure,27,11,4,8,7,3,3,Travel_Rarely,3,2,1,Safe
+1025,4,3,No,0,No,Low Risk,2,New Employee,8,2,2,1,6,6,3,Travel_Rarely,2,3,0,Safe
+1026,4,18,No,0,No,Low Risk,21,Long Tenure,21,6,11,8,1,3,3,Travel_Rarely,4,2,1,Safe
+1027,4,48,No,0,No,Low Risk,3,Mid Tenure,4,2,2,2,0,2,3,Travel_Rarely,2,3,0,Safe
+1028,3,28,No,0,No,Low Risk,3,Mid Tenure,3,2,1,2,1,4,4,Travel_Rarely,1,3,0,Safe
+1029,6,143,No,0,No,Low Risk,1,New Employee,21,0,0,0,6,3,3,Travel_Rarely,5,3,0,Safe
+1030,3,48,No,0,No,Low Risk,1,New Employee,8,0,0,0,4,5,3,Travel_Rarely,1,3,2,Safe
+1032,4,63,No,0,Yes,High Risk,5,Mid Tenure,30,3,4,3,3,4,3,Travel_Rarely,4,2,4,At Risk
+1033,5,186,Yes,1,No,Low Risk,1,New Employee,15,0,0,0,5,2,3,Travel_Rarely,2,1,3,Safe
+1034,5,2,No,0,Yes,High Risk,8,Long Tenure,17,7,6,7,3,3,3,Travel_Frequently,2,3,4,At Risk
+1035,8,146,No,0,No,Low Risk,21,Long Tenure,21,16,5,10,1,3,4,Non-Travel,5,1,1,Safe
+1036,1,12,No,0,Yes,High Risk,1,New Employee,19,0,0,0,8,1,3,Travel_Rarely,2,3,3,Safe
+1037,1,126,Yes,1,No,Low Risk,2,New Employee,7,2,2,2,8,6,3,Non-Travel,2,1,0,Safe
+1038,6,23,Yes,1,No,Low Risk,32,Long Tenure,33,14,6,9,1,3,3,Travel_Rarely,5,1,1,Safe
+1039,1,18,No,0,Yes,High Risk,12,Long Tenure,23,11,11,11,3,2,3,Travel_Rarely,4,4,4,At Risk
+1040,1,26,No,0,No,Low Risk,18,Long Tenure,19,7,0,13,0,3,3,Non-Travel,2,3,0,Safe
+1042,3,44,Yes,1,No,Low Risk,17,Long Tenure,18,13,15,14,1,1,3,Travel_Rarely,1,4,3,Safe
+1043,4,105,No,0,Yes,High Risk,21,Long Tenure,21,6,2,8,1,2,3,Travel_Frequently,3,3,3,Safe
+1044,7,112,No,0,No,Low Risk,2,New Employee,3,2,2,2,0,2,3,Non-Travel,1,2,2,Safe
+1045,6,157,No,0,No,Low Risk,9,Long Tenure,26,3,1,1,3,4,3,Travel_Rarely,4,3,0,Safe
+1046,3,3,No,0,No,Low Risk,8,Long Tenure,10,7,7,7,9,2,3,Non-Travel,1,3,1,Safe
+1047,1,112,No,0,No,Low Risk,15,Long Tenure,16,1,0,9,0,2,3,Travel_Rarely,2,4,0,Safe
+1048,6,187,No,0,Yes,High Risk,6,Mid Tenure,14,4,0,4,3,1,3,Travel_Rarely,3,3,3,Safe
+1049,10,39,No,0,No,Low Risk,6,Mid Tenure,6,3,0,4,1,3,3,Travel_Rarely,1,3,5,At Risk
+1050,1,88,No,0,No,Low Risk,15,Long Tenure,30,7,6,12,2,2,3,Travel_Frequently,3,2,4,At Risk
+1052,3,188,Yes,1,No,Low Risk,1,New Employee,9,0,0,0,7,3,3,Travel_Rarely,2,3,3,Safe
+1053,2,174,Yes,1,Yes,High Risk,3,Mid Tenure,6,2,1,2,6,2,3,Travel_Frequently,1,3,8,Flight Risk
+1055,7,76,No,0,Yes,High Risk,1,New Employee,1,1,0,0,1,2,3,Travel_Rarely,1,3,5,At Risk
+1056,7,133,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,5,4,Travel_Rarely,1,3,2,Safe
+1060,2,98,No,0,No,Low Risk,2,New Employee,8,2,2,2,3,2,3,Travel_Frequently,1,3,2,Safe
+1061,8,49,No,0,Yes,High Risk,8,Long Tenure,29,1,7,7,2,2,3,Travel_Rarely,5,3,4,At Risk
+1062,5,113,No,0,No,Low Risk,4,Mid Tenure,8,3,0,1,3,3,3,Travel_Rarely,2,3,0,Safe
+1066,1,189,No,0,No,Low Risk,7,Mid Tenure,8,7,7,5,1,3,3,Travel_Rarely,2,3,4,At Risk
+1068,2,30,No,0,No,Low Risk,5,Mid Tenure,5,3,1,3,1,5,3,Travel_Frequently,1,2,2,Safe
+1069,8,40,No,0,No,Low Risk,2,New Employee,23,2,2,2,9,0,3,Travel_Rarely,5,3,0,Safe
+1070,1,13,No,0,No,Low Risk,9,Long Tenure,13,4,7,0,6,4,3,Travel_Rarely,3,2,1,Safe
+1071,2,122,No,0,No,Low Risk,5,Mid Tenure,18,4,0,3,2,4,3,Travel_Frequently,1,3,5,At Risk
+1073,4,16,No,0,No,Low Risk,14,Long Tenure,15,8,7,8,0,2,3,Travel_Rarely,3,2,1,Safe
+1074,9,190,No,0,No,Low Risk,9,Long Tenure,31,7,6,2,7,3,3,Non-Travel,4,2,4,At Risk
+1076,1,34,No,0,No,Low Risk,1,New Employee,18,0,0,0,5,5,3,Travel_Rarely,3,2,0,Safe
+1077,7,62,Yes,1,Yes,High Risk,2,New Employee,2,2,0,2,1,3,3,Travel_Frequently,1,3,6,At Risk
+1079,3,7,Yes,1,No,Low Risk,1,New Employee,1,0,1,0,1,6,3,Travel_Rarely,1,2,6,At Risk
+1080,2,185,No,0,Yes,High Risk,16,Long Tenure,19,13,1,7,8,2,4,Travel_Rarely,2,2,6,At Risk
+1081,2,47,Yes,1,Yes,High Risk,10,Long Tenure,18,0,2,7,9,2,3,Travel_Rarely,1,3,5,At Risk
+1082,5,108,Yes,1,No,Low Risk,10,Long Tenure,10,7,1,9,1,2,3,Non-Travel,3,2,3,Safe
+1083,3,136,No,0,No,Low Risk,5,Mid Tenure,6,3,1,3,1,2,3,Travel_Rarely,1,2,3,Safe
+1084,4,67,No,0,No,Low Risk,6,Mid Tenure,7,2,0,2,0,1,3,Travel_Rarely,2,3,0,Safe
+1085,2,38,No,0,No,Low Risk,10,Long Tenure,10,6,0,8,1,3,3,Travel_Rarely,1,4,2,Safe
+1088,5,191,No,0,No,Low Risk,19,Long Tenure,20,9,1,9,0,4,3,Travel_Rarely,3,2,0,Safe
+1092,5,23,No,0,No,Low Risk,11,Long Tenure,14,10,11,1,4,6,4,Travel_Rarely,3,3,1,Safe
+1094,3,41,No,0,No,Low Risk,3,Mid Tenure,3,2,1,2,1,4,3,Non-Travel,1,1,0,Safe
+1096,4,133,No,0,No,Low Risk,3,Mid Tenure,23,2,1,2,3,4,3,Travel_Frequently,3,3,0,Safe
+1097,2,169,No,0,No,Low Risk,8,Long Tenure,10,7,1,7,3,4,3,Travel_Rarely,2,3,0,Safe
+1098,10,126,Yes,1,No,Low Risk,20,Long Tenure,24,6,3,6,9,1,3,Travel_Rarely,3,2,0,Safe
+1099,5,18,No,0,No,Low Risk,3,Mid Tenure,9,2,1,2,4,2,3,Travel_Rarely,3,2,0,Safe
+1100,1,185,Yes,1,Yes,High Risk,8,Long Tenure,9,7,4,7,0,2,4,Travel_Rarely,3,3,7,Flight Risk
+1101,2,122,Yes,1,No,Low Risk,13,Long Tenure,14,7,3,8,1,4,4,Travel_Frequently,2,2,3,Safe
+1102,3,11,No,0,No,Low Risk,4,Mid Tenure,4,2,2,2,1,5,3,Travel_Rarely,1,3,2,Safe
+1103,5,138,No,0,No,Low Risk,6,Mid Tenure,7,2,0,4,0,1,3,Travel_Frequently,2,3,0,Safe
+1105,1,18,No,0,Yes,High Risk,1,New Employee,8,0,0,0,2,5,3,Travel_Rarely,2,2,3,Safe
+1106,3,157,Yes,1,Yes,High Risk,7,Mid Tenure,7,7,5,6,1,3,3,Travel_Rarely,1,3,5,At Risk
+1107,3,36,Yes,1,No,Low Risk,1,New Employee,1,1,0,0,1,0,4,Travel_Rarely,1,3,2,Safe
+1108,2,125,Yes,1,Yes,High Risk,2,New Employee,5,2,2,2,4,0,4,Travel_Rarely,1,2,8,Flight Risk
+1109,9,35,No,0,No,Low Risk,22,Long Tenure,23,6,13,7,0,3,3,Travel_Rarely,4,3,1,Safe
+1111,3,192,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Frequently,1,2,5,At Risk
+1113,1,10,Yes,1,Yes,High Risk,0,New Employee,5,0,0,0,3,4,3,Travel_Frequently,2,3,3,Safe
+1114,1,106,No,0,No,Low Risk,3,Mid Tenure,4,2,0,2,0,3,3,Travel_Frequently,2,3,0,Safe
+1115,2,20,No,0,No,Low Risk,0,New Employee,6,0,0,0,3,2,3,Non-Travel,1,2,2,Safe
+1116,9,138,No,0,No,Low Risk,5,Mid Tenure,27,4,2,1,2,3,4,Non-Travel,4,4,0,Safe
+1117,1,37,No,0,No,Low Risk,15,Long Tenure,15,10,4,12,1,2,3,Non-Travel,2,2,1,Safe
+1118,5,58,No,0,No,Low Risk,8,Long Tenure,18,6,4,0,7,4,3,Travel_Rarely,3,3,1,Safe
+1119,1,13,No,0,Yes,High Risk,8,Long Tenure,9,7,2,7,0,2,3,Travel_Rarely,3,2,3,Safe
+1120,2,63,No,0,No,Low Risk,7,Mid Tenure,11,5,1,7,4,1,4,Travel_Rarely,1,3,2,Safe
+1121,4,193,No,0,No,Low Risk,9,Long Tenure,10,7,1,7,0,3,3,Travel_Rarely,3,3,0,Safe
+1124,6,41,No,0,No,Low Risk,12,Long Tenure,23,9,4,9,3,3,3,Travel_Rarely,4,3,1,Safe
+1125,1,106,No,0,No,Low Risk,1,New Employee,10,0,0,0,7,2,3,Travel_Rarely,3,3,0,Safe
+1126,4,44,No,0,No,Low Risk,8,Long Tenure,18,7,0,1,8,1,3,Travel_Frequently,3,3,0,Safe
+1127,5,23,Yes,1,No,Low Risk,18,Long Tenure,21,7,11,5,7,4,3,Travel_Frequently,4,3,1,Safe
+1128,8,118,No,0,No,Low Risk,20,Long Tenure,21,7,4,9,1,2,3,Travel_Rarely,5,2,1,Safe
+1131,2,175,No,0,Yes,High Risk,2,New Employee,2,2,2,2,1,6,3,Travel_Rarely,1,2,6,At Risk
+1132,3,82,No,0,No,Low Risk,5,Mid Tenure,9,4,0,3,9,2,3,Non-Travel,2,3,0,Safe
+1133,4,79,No,0,No,Low Risk,11,Long Tenure,18,9,0,9,2,0,4,Non-Travel,2,3,3,Safe
+1135,7,63,No,0,No,Low Risk,2,New Employee,3,2,2,2,0,4,3,Travel_Frequently,1,4,2,Safe
+1136,2,186,No,0,No,Low Risk,5,Mid Tenure,6,3,0,4,0,2,3,Travel_Rarely,1,2,5,At Risk
+1137,1,40,No,0,No,Low Risk,5,Mid Tenure,5,2,0,2,1,3,3,Travel_Frequently,2,3,0,Safe
+1138,1,133,No,0,No,Low Risk,9,Long Tenure,22,8,2,3,6,3,3,Travel_Rarely,4,2,0,Safe
+1140,4,29,No,0,No,Low Risk,3,Mid Tenure,5,2,0,2,2,3,3,Travel_Frequently,2,3,0,Safe
+1143,2,107,No,0,No,Low Risk,7,Mid Tenure,8,5,1,1,0,2,3,Travel_Frequently,1,3,2,Safe
+1148,3,114,No,0,No,Low Risk,1,New Employee,16,0,0,0,4,3,3,Travel_Rarely,2,1,0,Safe
+1150,4,102,No,0,Yes,High Risk,10,Long Tenure,10,7,1,2,1,2,3,Travel_Rarely,2,2,3,Safe
+1152,10,169,No,0,No,Low Risk,7,Mid Tenure,7,6,5,0,1,2,3,Travel_Rarely,1,4,3,Safe
+1154,2,76,No,0,Yes,High Risk,3,Mid Tenure,3,1,0,2,1,2,3,Travel_Frequently,1,2,5,At Risk
+1156,3,76,Yes,1,No,Low Risk,0,New Employee,0,0,0,0,1,0,3,Non-Travel,1,3,3,Safe
+1157,1,136,Yes,1,Yes,High Risk,5,Mid Tenure,6,2,0,3,0,3,3,Travel_Rarely,2,3,6,At Risk
+1158,3,114,No,0,Yes,High Risk,1,New Employee,6,0,0,0,3,4,3,Travel_Rarely,1,3,3,Safe
+1160,3,42,Yes,1,No,Low Risk,2,New Employee,2,2,2,2,1,5,3,Travel_Frequently,1,3,2,Safe
+1161,5,34,No,0,No,Low Risk,6,Mid Tenure,9,2,1,3,7,2,3,Travel_Rarely,2,2,0,Safe
+1162,2,4,No,0,No,Low Risk,4,Mid Tenure,4,2,2,2,1,0,3,Travel_Rarely,1,2,2,Safe
+1163,1,167,No,0,No,Low Risk,6,Mid Tenure,6,5,1,3,1,3,4,Travel_Rarely,2,3,3,Safe
+1164,10,194,No,0,No,Low Risk,5,Mid Tenure,6,4,1,4,1,2,3,Travel_Rarely,1,3,0,Safe
+1165,1,163,Yes,1,No,Low Risk,11,Long Tenure,11,8,3,10,1,3,3,Travel_Rarely,3,2,3,Safe
+1166,8,195,No,0,No,Low Risk,18,Long Tenure,20,7,2,13,9,3,3,Travel_Frequently,3,3,0,Safe
+1167,1,189,Yes,1,Yes,High Risk,21,Long Tenure,22,9,13,14,0,2,3,Travel_Frequently,4,3,7,Flight Risk
+1171,1,32,No,0,No,Low Risk,6,Mid Tenure,9,4,1,5,7,3,3,Travel_Rarely,2,3,0,Safe
+1172,3,3,No,0,No,Low Risk,8,Long Tenure,10,0,1,7,6,2,3,Travel_Rarely,1,2,2,Safe
+1173,3,103,No,0,No,Low Risk,4,Mid Tenure,6,3,1,2,8,2,4,Travel_Rarely,1,3,1,Safe
+1175,3,170,Yes,1,Yes,High Risk,1,New Employee,1,1,0,0,1,4,3,Travel_Rarely,1,3,5,At Risk
+1177,3,48,No,0,No,Low Risk,8,Long Tenure,8,7,0,7,1,2,4,Travel_Rarely,1,4,0,Safe
+1179,1,98,No,0,No,Low Risk,10,Long Tenure,10,3,1,4,1,3,3,Travel_Rarely,2,2,0,Safe
+1180,2,65,No,0,Yes,High Risk,1,New Employee,16,1,0,0,3,3,3,Travel_Frequently,2,2,3,Safe
+1182,4,123,No,0,No,Low Risk,7,Mid Tenure,15,7,6,4,2,2,3,Travel_Rarely,3,2,1,Safe
+1184,5,105,No,0,No,Low Risk,13,Long Tenure,14,9,4,9,0,3,4,Travel_Frequently,2,2,1,Safe
+1185,3,157,No,0,No,Low Risk,2,New Employee,2,2,2,2,1,2,3,Travel_Frequently,1,2,2,Safe
+1188,1,188,Yes,1,No,Low Risk,4,Mid Tenure,7,3,1,3,8,2,3,Travel_Rarely,2,1,3,Safe
+1190,7,44,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Non-Travel,1,3,2,Safe
+1191,9,35,No,0,No,Low Risk,5,Mid Tenure,28,2,4,2,4,2,3,Travel_Rarely,5,3,1,Safe
+1192,3,114,No,0,No,Low Risk,10,Long Tenure,10,8,0,8,1,5,3,Travel_Rarely,1,3,2,Safe
+1193,2,44,No,0,No,Low Risk,1,New Employee,1,1,0,0,1,4,4,Travel_Rarely,1,3,3,Safe
+1195,2,36,No,0,Yes,High Risk,3,Mid Tenure,7,2,0,2,4,2,3,Travel_Rarely,1,3,3,Safe
+1196,4,16,No,0,No,Low Risk,14,Long Tenure,14,8,3,11,1,2,3,Travel_Rarely,2,2,0,Safe
+1198,3,69,No,0,No,Low Risk,2,New Employee,2,2,1,2,1,2,3,Travel_Rarely,1,2,6,At Risk
+1200,2,83,Yes,1,Yes,High Risk,6,Mid Tenure,6,4,0,2,1,4,3,Travel_Rarely,1,3,5,At Risk
+1201,9,3,No,0,No,Low Risk,7,Mid Tenure,26,7,4,7,3,6,3,Travel_Rarely,5,3,1,Safe
+1202,2,28,No,0,Yes,High Risk,5,Mid Tenure,6,4,1,3,0,2,3,Travel_Rarely,1,1,5,At Risk
+1203,2,127,Yes,1,Yes,High Risk,0,New Employee,1,0,0,0,0,5,3,Travel_Frequently,1,2,6,At Risk
+1204,6,33,No,0,No,Low Risk,26,Long Tenure,28,15,15,9,8,2,4,Travel_Rarely,4,3,4,At Risk
+1206,2,10,No,0,No,Low Risk,0,New Employee,6,0,0,0,2,3,3,Non-Travel,1,1,2,Safe
+1207,10,37,No,0,No,Low Risk,5,Mid Tenure,5,4,1,4,1,2,3,Travel_Rarely,1,3,0,Safe
+1210,2,196,Yes,1,No,Low Risk,1,New Employee,5,0,0,0,6,2,3,Non-Travel,1,2,5,At Risk
+1211,1,44,No,0,No,Low Risk,4,Mid Tenure,8,3,0,3,8,3,3,Travel_Rarely,2,3,0,Safe
+1212,1,58,No,0,No,Low Risk,0,New Employee,5,0,0,0,5,2,3,Travel_Frequently,2,3,0,Safe
+1215,9,105,No,0,No,Low Risk,2,New Employee,32,2,2,2,2,3,4,Travel_Frequently,4,3,0,Safe
+1216,3,105,No,0,No,Low Risk,6,Mid Tenure,6,5,3,3,1,2,3,Travel_Rarely,1,2,2,Safe
+1217,8,141,No,0,No,Low Risk,4,Mid Tenure,25,2,0,3,5,2,3,Travel_Rarely,5,3,0,Safe
+1218,1,73,No,0,Yes,High Risk,7,Mid Tenure,15,7,1,7,3,2,3,Travel_Rarely,2,3,3,Safe
+1219,3,197,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,3,3,Safe
+1220,1,167,No,0,No,Low Risk,10,Long Tenure,10,7,0,1,1,3,3,Travel_Frequently,2,3,3,Safe
+1221,3,83,No,0,No,Low Risk,7,Mid Tenure,7,7,1,7,1,4,3,Travel_Rarely,1,1,2,Safe
+1224,3,191,No,0,No,Low Risk,10,Long Tenure,10,7,8,9,1,4,3,Travel_Rarely,2,3,3,Safe
+1225,2,62,No,0,No,Low Risk,20,Long Tenure,20,11,13,17,1,3,4,Travel_Rarely,2,3,1,Safe
+1226,7,20,No,0,No,Low Risk,2,New Employee,2,1,2,2,1,2,3,Travel_Rarely,1,4,3,Safe
+1228,4,6,No,0,No,Low Risk,6,Mid Tenure,12,3,1,4,2,3,3,Travel_Rarely,2,3,0,Safe
+1231,10,172,No,0,No,Low Risk,4,Mid Tenure,10,3,0,3,7,3,3,Non-Travel,2,4,3,Safe
+1233,1,55,No,0,Yes,High Risk,11,Long Tenure,12,7,1,9,0,3,3,Travel_Rarely,2,4,3,Safe
+1234,3,78,No,0,No,Low Risk,2,New Employee,2,2,2,2,1,2,4,Travel_Frequently,1,2,2,Safe
+1235,2,10,No,0,Yes,High Risk,8,Long Tenure,10,7,0,7,4,2,3,Travel_Frequently,2,3,3,Safe
+1237,4,44,No,0,Yes,High Risk,7,Mid Tenure,17,7,7,7,2,2,4,Travel_Rarely,3,1,4,At Risk
+1238,2,48,No,0,No,Low Risk,14,Long Tenure,15,10,4,10,0,5,3,Travel_Rarely,1,3,3,Safe
+1239,1,198,No,0,No,Low Risk,5,Mid Tenure,7,1,1,3,7,2,3,Travel_Rarely,2,2,3,Safe
+1240,1,127,No,0,No,Low Risk,4,Mid Tenure,5,3,1,1,0,4,3,Travel_Rarely,2,3,1,Safe
+1241,2,141,No,0,Yes,High Risk,11,Long Tenure,12,9,5,7,0,2,4,Travel_Rarely,1,3,6,At Risk
+1242,8,130,No,0,Yes,High Risk,1,New Employee,20,0,0,0,3,6,3,Travel_Frequently,3,3,6,At Risk
+1243,1,86,No,0,Yes,High Risk,13,Long Tenure,16,2,4,12,4,6,3,Non-Travel,3,2,4,At Risk
+1244,2,50,No,0,Yes,High Risk,9,Long Tenure,9,7,6,8,1,3,3,Travel_Rarely,1,3,9,Flight Risk
+1245,4,199,No,0,No,Low Risk,5,Mid Tenure,33,4,1,4,7,2,3,Travel_Frequently,3,3,0,Safe
+1246,2,23,No,0,No,Low Risk,10,Long Tenure,10,5,7,7,1,5,3,Travel_Rarely,1,4,3,Safe
+1248,2,200,Yes,1,Yes,High Risk,1,New Employee,1,1,0,0,1,2,4,Non-Travel,1,2,9,Flight Risk
+1249,2,79,No,0,No,Low Risk,3,Mid Tenure,3,2,1,2,1,5,3,Travel_Rarely,1,3,3,Safe
+1250,8,31,No,0,No,Low Risk,10,Long Tenure,36,9,0,9,3,2,3,Travel_Rarely,4,3,0,Safe
+1251,5,149,No,0,Yes,High Risk,6,Mid Tenure,6,5,0,1,1,2,3,Travel_Rarely,2,3,3,Safe
+1252,5,19,No,0,No,Low Risk,10,Long Tenure,10,9,1,8,1,2,3,Travel_Rarely,2,2,3,Safe
+1254,1,20,No,0,No,Low Risk,6,Mid Tenure,13,1,0,5,5,2,3,Travel_Rarely,2,2,0,Safe
+1255,8,127,No,0,No,Low Risk,8,Long Tenure,25,7,0,7,3,2,3,Travel_Rarely,5,1,0,Safe
+1256,9,47,No,0,No,Low Risk,1,New Employee,23,0,0,0,2,2,3,Travel_Rarely,5,2,0,Safe
+1257,2,82,No,0,No,Low Risk,11,Long Tenure,12,10,0,7,1,2,3,Travel_Frequently,1,3,0,Safe
+1258,3,100,No,0,No,Low Risk,1,New Employee,7,0,0,0,5,4,3,Travel_Rarely,1,4,2,Safe
+1259,2,122,No,0,No,Low Risk,5,Mid Tenure,5,3,0,3,1,2,3,Travel_Rarely,1,3,5,At Risk
+1260,5,127,No,0,Yes,High Risk,6,Mid Tenure,6,0,1,0,1,2,3,Travel_Rarely,2,3,3,Safe
+1263,8,27,No,0,No,Low Risk,1,New Employee,25,0,0,0,6,3,3,Travel_Rarely,5,2,0,Safe
+1264,8,16,No,0,No,Low Risk,7,Mid Tenure,9,7,1,7,3,2,3,Travel_Rarely,4,2,0,Safe
+1265,2,21,No,0,No,Low Risk,1,New Employee,2,0,0,0,0,5,3,Travel_Rarely,1,4,2,Safe
+1267,6,51,No,0,No,Low Risk,22,Long Tenure,26,9,3,10,7,5,3,Travel_Rarely,5,3,0,Safe
+1268,1,10,No,0,Yes,High Risk,9,Long Tenure,10,8,0,8,0,3,3,Travel_Rarely,3,4,3,Safe
+1269,2,60,No,0,Yes,High Risk,1,New Employee,1,0,0,1,1,2,3,Travel_Rarely,1,4,6,At Risk
+1270,2,10,No,0,No,Low Risk,1,New Employee,1,0,0,1,1,2,4,Travel_Rarely,1,3,3,Safe
+1273,7,20,Yes,1,Yes,High Risk,1,New Employee,1,0,1,0,1,4,3,Travel_Frequently,1,1,6,At Risk
+1275,2,86,No,0,Yes,High Risk,8,Long Tenure,8,5,2,2,1,2,4,Travel_Rarely,1,3,5,At Risk
+1277,6,192,Yes,1,Yes,High Risk,24,Long Tenure,26,10,1,11,2,2,3,Travel_Rarely,5,1,6,At Risk
+1278,5,103,No,0,Yes,High Risk,33,Long Tenure,34,9,15,0,1,3,3,Non-Travel,4,2,4,At Risk
+1279,3,124,Yes,1,No,Low Risk,2,New Employee,2,2,2,2,1,2,4,Travel_Frequently,1,2,3,Safe
+1280,6,106,No,0,No,Low Risk,11,Long Tenure,26,4,0,8,2,2,3,Travel_Rarely,5,2,0,Safe
+1281,1,73,No,0,Yes,High Risk,3,Mid Tenure,4,2,0,2,0,3,3,Travel_Rarely,2,3,3,Safe
+1282,6,113,No,0,Yes,High Risk,29,Long Tenure,31,10,11,10,4,5,4,Travel_Frequently,5,3,4,At Risk
+1283,4,46,No,0,No,Low Risk,9,Long Tenure,25,7,5,4,6,6,3,Travel_Rarely,3,3,1,Safe
+1285,3,168,No,0,No,Low Risk,11,Long Tenure,15,8,5,10,4,2,3,Travel_Frequently,2,3,1,Safe
+1286,3,71,No,0,Yes,High Risk,4,Mid Tenure,5,2,0,2,0,2,3,Travel_Frequently,1,3,5,At Risk
+1288,9,149,No,0,No,Low Risk,25,Long Tenure,26,9,14,13,1,4,3,Travel_Rarely,5,4,1,Safe
+1289,10,132,No,0,No,Low Risk,10,Long Tenure,14,9,1,8,4,5,3,Travel_Frequently,2,2,0,Safe
+1291,2,76,No,0,Yes,High Risk,3,Mid Tenure,4,2,2,2,0,3,3,Travel_Rarely,1,3,5,At Risk
+1292,2,58,No,0,Yes,High Risk,1,New Employee,18,0,0,0,6,2,3,Travel_Rarely,2,4,5,At Risk
+1293,1,25,No,0,No,Low Risk,21,Long Tenure,23,7,15,17,3,3,3,Travel_Rarely,3,2,1,Safe
+1294,4,2,No,0,Yes,High Risk,16,Long Tenure,18,14,5,12,9,2,3,Travel_Rarely,2,3,4,At Risk
+1295,5,23,Yes,1,No,Low Risk,10,Long Tenure,10,7,0,5,1,2,3,Travel_Rarely,3,3,0,Safe
+1296,3,62,No,0,Yes,High Risk,2,New Employee,2,2,2,2,1,2,3,Travel_Frequently,1,2,3,Safe
+1297,3,81,No,0,No,Low Risk,7,Mid Tenure,8,0,7,7,0,6,3,Travel_Frequently,1,2,3,Safe
+1298,4,83,No,0,Yes,High Risk,8,Long Tenure,10,4,1,7,7,3,3,Non-Travel,2,3,3,Safe
+1299,3,59,Yes,1,Yes,High Risk,7,Mid Tenure,10,7,7,7,3,2,3,Travel_Rarely,1,3,9,Flight Risk
+1301,2,87,No,0,No,Low Risk,3,Mid Tenure,5,2,1,2,2,2,3,Travel_Rarely,1,3,2,Safe
+1303,2,107,No,0,No,Low Risk,2,New Employee,2,2,2,1,1,3,3,Travel_Rarely,1,3,3,Safe
+1304,1,111,No,0,No,Low Risk,10,Long Tenure,10,7,0,8,1,4,3,Travel_Rarely,2,4,0,Safe
+1306,9,51,No,0,No,Low Risk,0,New Employee,22,0,0,0,3,4,4,Travel_Frequently,5,3,0,Safe
+1307,9,2,No,0,Yes,High Risk,19,Long Tenure,21,9,15,2,6,4,3,Travel_Rarely,4,2,4,At Risk
+1308,2,41,No,0,No,Low Risk,2,New Employee,2,2,2,2,1,3,3,Travel_Rarely,1,3,2,Safe
+1309,3,26,Yes,1,No,Low Risk,10,Long Tenure,10,4,1,1,1,3,3,Travel_Rarely,2,3,0,Safe
+1310,2,33,Yes,1,No,Low Risk,5,Mid Tenure,6,2,0,3,0,2,3,Travel_Rarely,1,3,3,Safe
+1311,3,79,No,0,No,Low Risk,9,Long Tenure,10,2,6,7,0,6,3,Travel_Rarely,2,2,4,At Risk
+1312,5,26,No,0,No,Low Risk,7,Mid Tenure,10,7,1,7,3,0,3,Travel_Rarely,3,3,0,Safe
+1314,10,201,No,0,No,Low Risk,7,Mid Tenure,10,6,5,7,6,3,3,Travel_Rarely,1,3,3,Safe
+1315,3,63,No,0,No,Low Risk,9,Long Tenure,10,8,7,5,0,6,3,Non-Travel,2,1,1,Safe
+1317,8,121,No,0,Yes,High Risk,3,Mid Tenure,25,2,1,2,4,2,3,Travel_Rarely,4,3,3,Safe
+1318,1,106,Yes,1,Yes,High Risk,5,Mid Tenure,9,4,1,0,2,2,3,Travel_Rarely,3,2,3,Safe
+1319,1,202,Yes,1,Yes,High Risk,8,Long Tenure,10,7,7,7,9,2,3,Travel_Rarely,3,3,4,At Risk
+1321,9,126,No,0,Yes,High Risk,9,Long Tenure,9,1,0,8,1,2,4,Travel_Rarely,3,3,3,Safe
+1322,4,96,No,0,No,Low Risk,8,Long Tenure,9,7,1,7,0,6,3,Travel_Rarely,2,3,3,Safe
+1324,1,52,No,0,Yes,High Risk,10,Long Tenure,10,8,9,6,1,5,3,Non-Travel,3,3,4,At Risk
+1329,1,88,No,0,No,Low Risk,19,Long Tenure,19,2,11,9,1,4,3,Non-Travel,2,1,4,At Risk
+1331,7,203,Yes,1,Yes,High Risk,3,Mid Tenure,3,2,2,2,1,2,3,Travel_Frequently,1,3,5,At Risk
+1333,3,204,Yes,1,No,Low Risk,3,Mid Tenure,10,2,1,2,4,4,3,Travel_Rarely,1,3,5,At Risk
+1334,9,21,No,0,Yes,High Risk,20,Long Tenure,21,8,2,10,0,3,3,Non-Travel,4,3,3,Safe
+1336,9,10,No,0,No,Low Risk,19,Long Tenure,23,9,9,11,4,5,3,Travel_Rarely,5,1,1,Safe
+1338,11,141,No,0,No,Low Risk,7,Mid Tenure,36,3,7,7,6,4,3,Travel_Rarely,5,3,1,Safe
+1340,2,13,No,0,No,Low Risk,4,Mid Tenure,6,2,0,0,9,0,3,Non-Travel,1,3,2,Safe
+1344,5,46,No,0,No,Low Risk,9,Long Tenure,10,7,1,6,0,0,3,Travel_Rarely,3,3,0,Safe
+1346,2,34,No,0,No,Low Risk,9,Long Tenure,9,8,8,8,1,4,3,Travel_Rarely,2,3,1,Safe
+1349,1,73,No,0,No,Low Risk,9,Long Tenure,10,3,1,7,0,2,3,Travel_Frequently,2,3,0,Safe
+1350,2,13,No,0,Yes,High Risk,9,Long Tenure,9,6,1,1,1,3,3,Travel_Frequently,2,3,3,Safe
+1352,11,53,No,0,Yes,High Risk,33,Long Tenure,33,9,0,10,1,2,3,Travel_Rarely,4,3,3,Safe
+1355,1,126,No,0,No,Low Risk,7,Mid Tenure,11,7,1,7,3,3,3,Travel_Rarely,2,3,0,Safe
+1356,1,152,No,0,No,Low Risk,10,Long Tenure,10,8,9,6,1,6,3,Travel_Rarely,2,3,1,Safe
+1358,3,6,No,0,No,Low Risk,3,Mid Tenure,7,2,1,2,3,6,3,Travel_Rarely,1,3,1,Safe
+1360,4,149,Yes,1,Yes,High Risk,10,Long Tenure,31,9,5,9,7,0,3,Travel_Rarely,3,2,4,At Risk
+1361,3,51,No,0,No,Low Risk,4,Mid Tenure,7,2,0,3,3,3,4,Travel_Rarely,1,3,2,Safe
+1362,1,50,No,0,No,Low Risk,15,Long Tenure,17,7,6,13,2,2,3,Travel_Frequently,2,4,4,At Risk
+1363,4,18,No,0,No,Low Risk,10,Long Tenure,11,9,0,8,1,2,3,Travel_Rarely,3,3,0,Safe
+1364,7,127,No,0,No,Low Risk,1,New Employee,5,0,0,0,8,4,3,Travel_Rarely,1,4,2,Safe
+1367,4,193,No,0,No,Low Risk,5,Mid Tenure,29,2,0,3,3,1,3,Travel_Rarely,4,2,0,Safe
+1368,3,27,No,0,No,Low Risk,0,New Employee,0,0,0,0,1,5,3,Non-Travel,1,3,3,Safe
+1369,3,62,No,0,No,Low Risk,9,Long Tenure,10,7,0,0,0,0,3,Travel_Rarely,2,2,0,Safe
+1371,1,62,No,0,No,Low Risk,6,Mid Tenure,8,2,0,0,3,3,4,Travel_Frequently,2,1,0,Safe
+1372,1,36,Yes,1,Yes,High Risk,19,Long Tenure,24,7,3,8,6,2,3,Travel_Rarely,4,4,3,Safe
+1373,4,141,No,0,Yes,High Risk,19,Long Tenure,33,16,15,9,4,0,3,Travel_Rarely,4,3,4,At Risk
+1374,2,30,No,0,No,Low Risk,5,Mid Tenure,5,4,0,0,1,2,4,Non-Travel,1,2,2,Safe
+1375,5,146,No,0,No,Low Risk,12,Long Tenure,15,11,11,8,5,0,4,Travel_Rarely,2,4,1,Safe
+1377,3,59,No,0,No,Low Risk,8,Long Tenure,10,7,7,7,4,1,3,Travel_Rarely,2,3,4,At Risk
+1379,7,111,Yes,1,No,Low Risk,1,New Employee,3,0,0,0,7,3,3,Travel_Frequently,1,2,2,Safe
+1380,1,71,Yes,1,Yes,High Risk,4,Mid Tenure,5,2,3,2,0,0,3,Travel_Frequently,2,3,3,Safe
+1382,2,10,No,0,No,Low Risk,4,Mid Tenure,4,2,0,3,1,2,3,Travel_Frequently,1,4,2,Safe
+1383,5,74,No,0,No,Low Risk,14,Long Tenure,14,11,4,11,1,2,3,Travel_Rarely,2,3,1,Safe
+1387,1,44,No,0,No,Low Risk,5,Mid Tenure,5,3,0,4,1,0,3,Travel_Rarely,2,2,0,Safe
+1389,4,29,Yes,1,Yes,High Risk,10,Long Tenure,10,2,6,7,1,3,3,Travel_Rarely,2,3,4,At Risk
+1390,1,162,No,0,Yes,High Risk,5,Mid Tenure,8,4,1,4,3,2,3,Travel_Rarely,2,2,3,Safe
+1391,1,54,No,0,No,Low Risk,4,Mid Tenure,14,2,3,2,2,5,3,Travel_Frequently,3,3,3,Safe
+1392,2,61,No,0,Yes,High Risk,6,Mid Tenure,12,2,3,3,3,4,3,Travel_Frequently,2,3,3,Safe
+1394,2,76,No,0,Yes,High Risk,6,Mid Tenure,8,4,1,3,7,2,3,Travel_Rarely,1,3,5,At Risk
+1395,1,205,No,0,No,Low Risk,5,Mid Tenure,8,4,1,2,6,2,3,Travel_Frequently,2,3,0,Safe
+1396,1,137,No,0,Yes,High Risk,3,Mid Tenure,4,2,1,2,0,3,3,Travel_Rarely,2,3,6,At Risk
+1397,5,13,No,0,No,Low Risk,6,Mid Tenure,13,4,0,5,3,2,4,Non-Travel,3,3,0,Safe
+1399,1,188,No,0,No,Low Risk,3,Mid Tenure,6,2,1,2,2,3,3,Travel_Rarely,2,4,4,At Risk
+1401,4,206,No,0,Yes,High Risk,5,Mid Tenure,24,3,0,2,2,3,3,Travel_Frequently,4,4,3,Safe
+1402,2,68,No,0,Yes,High Risk,20,Long Tenure,20,7,1,8,1,3,3,Travel_Rarely,2,2,6,At Risk
+1403,1,40,No,0,Yes,High Risk,6,Mid Tenure,6,2,4,4,1,3,3,Travel_Rarely,2,2,4,At Risk
+1405,2,10,Yes,1,Yes,High Risk,8,Long Tenure,8,2,7,7,1,2,3,Travel_Rarely,1,3,6,At Risk
+1407,2,23,No,0,No,Low Risk,4,Mid Tenure,5,3,1,1,0,2,3,Travel_Rarely,1,2,0,Safe
+1408,11,44,No,0,No,Low Risk,20,Long Tenure,21,7,0,9,0,5,3,Travel_Rarely,4,3,0,Safe
+1409,3,207,No,0,No,Low Risk,5,Mid Tenure,12,4,0,4,9,2,3,Travel_Rarely,1,3,2,Safe
+1411,3,96,No,0,No,Low Risk,3,Mid Tenure,8,2,0,2,4,6,3,Travel_Rarely,1,3,3,Safe
+1412,4,34,No,0,No,Low Risk,2,New Employee,10,2,2,2,2,2,3,Travel_Frequently,3,3,0,Safe
+1415,3,145,No,0,No,Low Risk,3,Mid Tenure,7,2,0,2,4,2,3,Travel_Rarely,1,3,3,Safe
+1417,3,73,No,0,No,Low Risk,7,Mid Tenure,8,7,0,7,0,2,3,Travel_Rarely,1,4,2,Safe
+1419,10,108,No,0,No,Low Risk,10,Long Tenure,10,9,0,9,1,3,3,Travel_Rarely,3,2,3,Safe
+1420,3,136,Yes,1,No,Low Risk,4,Mid Tenure,20,3,1,3,3,2,4,Travel_Frequently,2,2,3,Safe
+1421,5,63,Yes,1,Yes,High Risk,8,Long Tenure,9,7,7,7,0,1,3,Travel_Frequently,3,3,4,At Risk
+1422,8,46,No,0,No,Low Risk,20,Long Tenure,29,7,12,7,6,3,3,Travel_Rarely,4,3,1,Safe
+1423,8,105,No,0,Yes,High Risk,9,Long Tenure,32,8,1,5,3,3,4,Travel_Rarely,5,3,3,Safe
+1424,8,158,No,0,No,Low Risk,7,Mid Tenure,31,7,0,0,2,4,3,Travel_Rarely,4,4,0,Safe
+1425,1,5,No,0,Yes,High Risk,5,Mid Tenure,15,4,0,1,3,3,3,Travel_Rarely,2,3,3,Safe
+1427,7,146,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Frequently,1,1,2,Safe
+1428,1,121,No,0,No,Low Risk,3,Mid Tenure,8,2,0,2,7,3,3,Travel_Rarely,2,3,0,Safe
+1430,8,177,No,0,No,Low Risk,3,Mid Tenure,9,2,1,0,3,3,3,Travel_Rarely,4,3,3,Safe
+1431,2,105,No,0,No,Low Risk,4,Mid Tenure,10,3,1,3,5,2,3,Travel_Frequently,1,3,2,Safe
+1433,2,177,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,2,5,At Risk
+1434,3,208,No,0,No,Low Risk,5,Mid Tenure,6,0,1,4,0,3,3,Travel_Rarely,1,3,5,At Risk
+1435,3,138,No,0,No,Low Risk,10,Long Tenure,10,4,1,8,1,2,3,Travel_Rarely,2,2,0,Safe
+1436,1,7,No,0,No,Low Risk,3,Mid Tenure,11,2,0,2,4,3,3,Travel_Rarely,2,2,3,Safe
+1438,2,138,No,0,No,Low Risk,6,Mid Tenure,17,5,1,2,7,2,3,Travel_Rarely,1,3,2,Safe
+1439,7,136,Yes,1,No,Low Risk,3,Mid Tenure,6,2,2,2,3,2,3,Travel_Rarely,1,2,4,At Risk
+1440,3,209,No,0,No,Low Risk,6,Mid Tenure,7,5,1,3,0,2,3,Non-Travel,1,4,2,Safe
+1441,2,210,No,0,No,Low Risk,3,Mid Tenure,5,2,1,0,2,3,4,Travel_Rarely,1,3,5,At Risk
+1443,8,164,No,0,No,Low Risk,20,Long Tenure,26,17,5,6,3,2,3,Travel_Rarely,4,3,4,At Risk
+1445,1,4,No,0,Yes,High Risk,5,Mid Tenure,5,4,0,3,1,3,3,Travel_Rarely,2,3,4,At Risk
+1446,1,6,No,0,No,Low Risk,4,Mid Tenure,7,3,0,3,4,3,3,Travel_Rarely,2,3,0,Safe
+1447,3,113,No,0,No,Low Risk,5,Mid Tenure,7,4,0,2,5,2,3,Travel_Rarely,1,2,2,Safe
+1448,2,167,No,0,Yes,High Risk,4,Mid Tenure,7,2,0,3,2,5,3,Travel_Rarely,1,4,8,Flight Risk
+1449,3,144,No,0,No,Low Risk,8,Long Tenure,11,7,0,7,3,2,3,Non-Travel,2,3,0,Safe
+1453,1,79,No,0,No,Low Risk,13,Long Tenure,13,7,9,9,1,5,3,Travel_Rarely,3,3,4,At Risk
+1457,1,211,Yes,1,No,Low Risk,7,Mid Tenure,28,7,4,3,4,1,3,Travel_Rarely,3,3,4,At Risk
+1458,3,212,Yes,1,Yes,High Risk,1,New Employee,11,0,0,0,2,2,4,Non-Travel,1,2,6,At Risk
+1459,4,88,Yes,1,No,Low Risk,10,Long Tenure,10,8,4,7,1,2,3,Travel_Frequently,3,4,4,At Risk
+1460,5,22,No,0,Yes,High Risk,7,Mid Tenure,24,7,0,7,2,2,3,Travel_Rarely,3,1,6,At Risk
+1461,10,103,No,0,No,Low Risk,3,Mid Tenure,8,2,0,2,9,3,3,Travel_Rarely,1,4,2,Safe
+1464,3,187,Yes,1,Yes,High Risk,2,New Employee,7,2,2,2,6,2,3,Travel_Frequently,1,3,3,Safe
+1465,4,158,No,0,Yes,High Risk,3,Mid Tenure,10,1,1,2,4,4,3,Travel_Rarely,3,3,3,Safe
+1466,1,33,No,0,No,Low Risk,2,New Employee,15,2,2,2,4,3,3,Travel_Rarely,2,3,3,Safe
+1467,10,41,Yes,1,No,Low Risk,2,New Employee,2,2,2,2,1,0,3,Travel_Rarely,1,3,2,Safe
+1468,8,106,No,0,No,Low Risk,9,Long Tenure,16,8,4,8,2,5,3,Non-Travel,3,2,1,Safe
+1469,1,35,No,0,No,Low Risk,5,Mid Tenure,6,4,1,3,0,4,3,Travel_Rarely,2,3,0,Safe
+1471,3,76,No,0,No,Low Risk,5,Mid Tenure,7,2,0,3,3,5,3,Non-Travel,1,2,2,Safe
+1472,8,193,No,0,No,Low Risk,9,Long Tenure,35,8,8,8,4,2,3,Travel_Rarely,4,4,1,Safe
+1473,5,188,No,0,No,Low Risk,3,Mid Tenure,20,2,1,2,2,0,3,Travel_Rarely,2,3,3,Safe
+1474,2,144,No,0,No,Low Risk,3,Mid Tenure,8,1,1,2,2,3,3,Travel_Rarely,1,3,2,Safe
+1475,2,100,No,0,No,Low Risk,5,Mid Tenure,6,2,1,3,1,3,3,Travel_Rarely,1,3,2,Safe
+1477,1,185,No,0,No,Low Risk,4,Mid Tenure,5,3,0,3,0,2,3,Travel_Frequently,2,3,3,Safe
+1478,1,35,No,0,No,Low Risk,13,Long Tenure,15,9,3,12,3,2,3,Travel_Rarely,2,1,0,Safe
+1479,1,71,No,0,No,Low Risk,2,New Employee,4,1,2,2,8,2,3,Travel_Rarely,2,3,0,Safe
+1480,3,17,No,0,No,Low Risk,12,Long Tenure,12,9,5,8,1,3,3,Travel_Frequently,1,3,1,Safe
+1481,1,36,No,0,No,Low Risk,1,New Employee,11,0,0,0,7,4,3,Travel_Frequently,2,3,0,Safe
+1482,2,8,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,2,3,Non-Travel,1,3,2,Safe
+1483,2,167,No,0,No,Low Risk,12,Long Tenure,13,9,2,8,0,2,4,Travel_Rarely,2,4,3,Safe
+1484,5,53,No,0,No,Low Risk,8,Long Tenure,29,7,0,7,3,3,3,Travel_Rarely,3,3,0,Safe
+1485,8,24,No,0,No,Low Risk,14,Long Tenure,16,8,6,9,7,3,3,Travel_Frequently,4,3,1,Safe
+1486,7,119,Yes,1,No,Low Risk,3,Mid Tenure,5,2,1,2,3,3,3,Travel_Frequently,1,3,2,Safe
+1487,1,186,Yes,1,No,Low Risk,5,Mid Tenure,7,3,0,0,5,4,3,Travel_Frequently,2,3,3,Safe
+1489,1,177,Yes,1,Yes,High Risk,15,Long Tenure,16,9,10,10,0,2,4,Travel_Rarely,2,2,7,Flight Risk
+1492,7,26,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,3,2,Safe
+1494,3,43,Yes,1,Yes,High Risk,0,New Employee,4,0,0,0,2,2,3,Travel_Frequently,1,3,9,Flight Risk
+1495,7,106,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,2,3,Non-Travel,1,3,3,Safe
+1496,4,81,No,0,Yes,High Risk,2,New Employee,16,2,2,2,5,2,3,Travel_Frequently,3,3,3,Safe
+1497,1,83,No,0,No,Low Risk,10,Long Tenure,10,7,0,4,1,3,3,Travel_Rarely,2,2,0,Safe
+1499,10,118,No,0,No,Low Risk,5,Mid Tenure,6,3,1,3,0,3,4,Travel_Rarely,1,3,2,Safe
+1501,5,3,No,0,Yes,High Risk,3,Mid Tenure,4,2,1,2,0,2,3,Travel_Rarely,2,3,3,Safe
+1502,3,5,No,0,No,Low Risk,5,Mid Tenure,8,4,0,2,8,5,3,Travel_Rarely,1,2,0,Safe
+1503,1,42,No,0,Yes,High Risk,5,Mid Tenure,11,4,1,2,3,4,3,Travel_Rarely,2,3,3,Safe
+1504,3,67,Yes,1,No,Low Risk,0,New Employee,8,0,0,0,7,2,3,Travel_Frequently,1,2,2,Safe
+1506,2,213,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Rarely,1,2,2,Safe
+1507,1,73,No,0,No,Low Risk,4,Mid Tenure,5,2,1,3,0,5,3,Travel_Frequently,2,3,0,Safe
+1509,3,33,No,0,No,Low Risk,3,Mid Tenure,10,2,1,2,4,3,4,Travel_Rarely,2,2,3,Safe
+1513,3,106,No,0,No,Low Risk,3,Mid Tenure,4,2,0,2,0,3,3,Travel_Frequently,1,3,2,Safe
+1514,4,66,No,0,No,Low Risk,8,Long Tenure,8,6,1,7,1,2,3,Travel_Rarely,2,1,0,Safe
+1515,5,26,No,0,Yes,High Risk,0,New Employee,14,0,0,0,2,6,3,Travel_Rarely,2,3,3,Safe
+1516,9,128,No,0,No,Low Risk,5,Mid Tenure,10,2,0,0,2,5,4,Travel_Rarely,3,3,0,Safe
+1520,9,114,No,0,No,Low Risk,14,Long Tenure,26,9,1,12,3,2,4,Travel_Frequently,4,3,0,Safe
+1522,2,214,Yes,1,No,Low Risk,9,Long Tenure,11,7,0,7,6,2,3,Travel_Rarely,1,2,5,At Risk
+1523,8,201,No,0,No,Low Risk,20,Long Tenure,24,6,14,17,3,1,3,Travel_Rarely,4,3,1,Safe
+1525,4,58,No,0,No,Low Risk,2,New Employee,9,0,2,2,4,3,3,Travel_Rarely,3,3,0,Safe
+1527,6,132,No,0,No,Low Risk,13,Long Tenure,23,12,5,1,8,2,3,Travel_Rarely,4,3,1,Safe
+1529,5,93,No,0,No,Low Risk,11,Long Tenure,11,8,3,3,1,3,3,Travel_Rarely,3,2,0,Safe
+1533,3,122,No,0,No,Low Risk,4,Mid Tenure,5,3,1,2,0,2,3,Travel_Rarely,2,3,6,At Risk
+1534,3,215,Yes,1,No,Low Risk,5,Mid Tenure,15,4,1,0,3,3,3,Travel_Rarely,1,3,2,Safe
+1535,1,10,No,0,Yes,High Risk,10,Long Tenure,10,9,8,6,1,3,3,Travel_Rarely,3,2,4,At Risk
+1537,2,199,Yes,1,No,Low Risk,7,Mid Tenure,7,2,7,7,1,2,3,Travel_Frequently,1,3,1,Safe
+1539,8,20,No,0,Yes,High Risk,32,Long Tenure,32,6,13,9,1,2,3,Travel_Frequently,4,1,4,At Risk
+1541,7,146,No,0,Yes,High Risk,11,Long Tenure,12,10,5,7,0,4,4,Travel_Rarely,1,3,6,At Risk
+1542,3,53,No,0,No,Low Risk,1,New Employee,4,0,0,0,4,3,3,Travel_Rarely,1,2,0,Safe
+1543,2,79,No,0,No,Low Risk,10,Long Tenure,10,8,3,7,1,2,3,Travel_Rarely,2,3,3,Safe
+1544,5,44,No,0,No,Low Risk,7,Mid Tenure,9,7,0,7,3,3,3,Travel_Rarely,2,1,0,Safe
+1545,4,103,No,0,No,Low Risk,5,Mid Tenure,5,3,0,2,1,2,3,Travel_Rarely,2,2,0,Safe
+1546,2,40,No,0,No,Low Risk,5,Mid Tenure,8,4,0,3,4,3,4,Travel_Rarely,1,3,2,Safe
+1547,5,182,No,0,Yes,High Risk,20,Long Tenure,24,8,13,9,2,3,3,Travel_Frequently,3,3,4,At Risk
+1548,1,210,No,0,No,Low Risk,8,Long Tenure,9,4,7,1,0,5,3,Travel_Rarely,2,3,4,At Risk
+1549,3,146,No,0,Yes,High Risk,15,Long Tenure,15,14,5,7,1,3,3,Travel_Rarely,2,3,4,At Risk
+1550,11,20,No,0,Yes,High Risk,21,Long Tenure,21,7,7,7,1,2,4,Travel_Rarely,4,3,4,At Risk
+1551,3,19,No,0,No,Low Risk,1,New Employee,2,1,0,0,0,3,3,Travel_Rarely,1,2,6,At Risk
+1552,5,18,No,0,Yes,High Risk,2,New Employee,8,2,2,2,3,2,3,Non-Travel,2,3,3,Safe
+1553,5,192,No,0,No,Low Risk,10,Long Tenure,10,8,7,7,1,4,3,Travel_Rarely,3,3,4,At Risk
+1554,7,59,No,0,No,Low Risk,5,Mid Tenure,6,3,4,2,0,5,4,Travel_Rarely,1,2,6,At Risk
+1555,2,141,No,0,No,Low Risk,7,Mid Tenure,12,1,2,5,3,2,3,Travel_Rarely,2,2,0,Safe
+1556,7,170,No,0,Yes,High Risk,3,Mid Tenure,7,2,1,2,3,3,4,Travel_Rarely,1,3,5,At Risk
+1557,1,83,No,0,No,Low Risk,8,Long Tenure,18,7,7,7,8,2,3,Travel_Rarely,2,3,1,Safe
+1558,2,191,No,0,No,Low Risk,1,New Employee,5,0,0,0,6,2,3,Travel_Rarely,1,4,2,Safe
+1560,1,150,No,0,No,Low Risk,2,New Employee,8,2,2,2,2,6,3,Travel_Rarely,2,3,3,Safe
+1562,1,126,Yes,1,No,Low Risk,10,Long Tenure,10,8,6,7,1,4,3,Travel_Rarely,2,2,1,Safe
+1563,10,83,No,0,No,Low Risk,6,Mid Tenure,10,3,1,2,3,2,3,Travel_Frequently,2,3,0,Safe
+1564,3,121,No,0,No,Low Risk,3,Mid Tenure,3,0,1,2,1,3,3,Travel_Rarely,1,2,2,Safe
+1568,1,53,No,0,No,Low Risk,4,Mid Tenure,9,2,1,3,3,3,3,Travel_Rarely,3,3,0,Safe
+1569,3,135,Yes,1,Yes,High Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Rarely,1,3,8,Flight Risk
+1572,4,127,Yes,1,No,Low Risk,33,Long Tenure,34,7,1,9,0,4,3,Travel_Rarely,3,2,0,Safe
+1573,4,88,Yes,1,No,Low Risk,5,Mid Tenure,7,2,1,4,4,2,3,Travel_Rarely,2,3,3,Safe
+1574,2,87,No,0,No,Low Risk,6,Mid Tenure,9,5,1,2,4,3,3,Non-Travel,2,3,0,Safe
+1576,2,149,No,0,No,Low Risk,8,Long Tenure,10,2,7,6,8,3,3,Travel_Rarely,1,3,3,Safe
+1577,2,176,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,4,3,Travel_Rarely,1,3,2,Safe
+1578,6,34,No,0,No,Low Risk,36,Long Tenure,36,6,2,13,1,3,4,Travel_Rarely,5,2,0,Safe
+1580,2,134,No,0,No,Low Risk,2,New Employee,9,2,2,1,9,3,3,Travel_Rarely,2,3,0,Safe
+1581,2,79,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,5,4,Travel_Rarely,1,3,5,At Risk
+1582,1,2,No,0,No,Low Risk,9,Long Tenure,10,8,7,7,0,3,3,Travel_Rarely,2,3,1,Safe
+1583,1,198,No,0,No,Low Risk,3,Mid Tenure,8,2,1,2,2,5,3,Travel_Rarely,2,3,3,Safe
+1585,1,59,No,0,No,Low Risk,1,New Employee,15,0,0,0,6,5,3,Travel_Rarely,2,3,3,Safe
+1586,3,126,No,0,Yes,High Risk,10,Long Tenure,10,9,1,5,1,3,3,Travel_Rarely,1,3,3,Safe
+1587,5,30,No,0,Yes,High Risk,5,Mid Tenure,10,2,0,4,3,4,3,Travel_Rarely,2,3,3,Safe
+1588,1,26,No,0,No,Low Risk,7,Mid Tenure,11,6,7,6,2,3,3,Travel_Rarely,3,4,1,Safe
+1590,5,162,No,0,No,Low Risk,6,Mid Tenure,6,4,1,3,1,0,3,Travel_Frequently,2,3,0,Safe
+1591,6,83,No,0,Yes,High Risk,1,New Employee,27,0,0,0,4,2,3,Travel_Rarely,5,3,3,Safe
+1592,2,10,No,0,No,Low Risk,2,New Employee,4,2,2,2,2,2,3,Travel_Rarely,1,4,3,Safe
+1594,3,135,No,0,Yes,High Risk,3,Mid Tenure,9,2,0,2,3,3,3,Travel_Frequently,2,4,6,At Risk
+1595,9,40,No,0,No,Low Risk,1,New Employee,24,0,0,1,8,2,4,Travel_Rarely,5,2,0,Safe
+1596,3,49,No,0,No,Low Risk,10,Long Tenure,10,9,6,8,1,3,3,Travel_Rarely,2,4,3,Safe
+1597,5,206,No,0,No,Low Risk,8,Long Tenure,8,2,7,7,1,3,3,Travel_Frequently,2,2,1,Safe
+1598,1,105,No,0,No,Low Risk,5,Mid Tenure,5,4,1,2,1,2,3,Travel_Rarely,2,3,0,Safe
+1599,3,106,No,0,No,Low Risk,6,Mid Tenure,8,4,0,2,5,0,3,Travel_Rarely,1,4,0,Safe
+1601,3,170,No,0,No,Low Risk,1,New Employee,1,0,0,1,1,5,3,Travel_Rarely,1,2,2,Safe
+1602,6,215,No,0,No,Low Risk,26,Long Tenure,27,0,0,12,1,5,3,Travel_Rarely,4,4,0,Safe
+1604,3,78,Yes,1,Yes,High Risk,1,New Employee,1,1,0,0,1,3,3,Travel_Rarely,1,3,5,At Risk
+1605,2,81,No,0,Yes,High Risk,4,Mid Tenure,4,2,1,3,1,2,3,Non-Travel,1,2,6,At Risk
+1606,5,38,No,0,Yes,High Risk,30,Long Tenure,32,8,12,13,2,3,3,Travel_Frequently,4,3,4,At Risk
+1607,2,60,No,0,No,Low Risk,3,Mid Tenure,6,2,0,2,3,3,3,Travel_Rarely,1,4,2,Safe
+1608,8,112,No,0,Yes,High Risk,22,Long Tenure,23,7,1,10,0,4,3,Travel_Rarely,5,3,3,Safe
+1609,2,91,No,0,No,Low Risk,6,Mid Tenure,6,4,1,1,1,3,3,Travel_Rarely,1,2,5,At Risk
+1611,3,33,No,0,Yes,High Risk,10,Long Tenure,10,7,1,4,1,3,3,Travel_Rarely,2,1,6,At Risk
+1612,1,136,No,0,No,Low Risk,10,Long Tenure,10,7,4,5,1,2,3,Non-Travel,2,2,4,At Risk
+1613,1,35,No,0,No,Low Risk,5,Mid Tenure,10,2,0,3,7,3,3,Travel_Frequently,2,3,0,Safe
+1614,4,13,No,0,Yes,High Risk,3,Mid Tenure,7,2,1,1,9,2,3,Travel_Rarely,2,3,3,Safe
+1615,4,63,No,0,No,Low Risk,9,Long Tenure,9,7,7,2,1,3,3,Travel_Frequently,2,4,1,Safe
+1617,3,149,No,0,No,Low Risk,9,Long Tenure,10,6,1,4,1,3,3,Travel_Rarely,1,3,2,Safe
+1618,4,126,No,0,No,Low Risk,7,Mid Tenure,10,7,7,7,2,3,3,Travel_Rarely,2,3,1,Safe
+1619,3,185,No,0,No,Low Risk,7,Mid Tenure,7,7,0,7,1,3,3,Travel_Rarely,1,2,3,Safe
+1621,2,126,No,0,No,Low Risk,16,Long Tenure,16,15,1,10,1,2,3,Travel_Rarely,2,4,0,Safe
+1622,4,216,No,0,No,Low Risk,5,Mid Tenure,6,3,0,0,0,5,4,Travel_Rarely,2,1,3,Safe
+1623,2,34,No,0,No,Low Risk,2,New Employee,3,2,2,2,1,2,3,Travel_Rarely,1,3,3,Safe
+1624,7,154,Yes,1,Yes,High Risk,0,New Employee,0,0,0,0,1,2,3,Travel_Frequently,1,3,6,At Risk
+1625,11,4,No,0,No,Low Risk,5,Mid Tenure,27,2,1,0,3,2,3,Travel_Rarely,5,3,0,Safe
+1627,3,76,No,0,No,Low Risk,10,Long Tenure,11,8,0,7,0,3,3,Travel_Rarely,2,2,2,Safe
+1628,4,41,No,0,No,Low Risk,18,Long Tenure,18,15,14,12,1,2,3,Travel_Rarely,3,2,1,Safe
+1630,5,76,No,0,No,Low Risk,14,Long Tenure,15,11,2,9,1,5,3,Non-Travel,2,3,0,Safe
+1631,4,191,No,0,No,Low Risk,4,Mid Tenure,9,3,0,2,3,2,3,Travel_Rarely,2,3,0,Safe
+1633,4,213,No,0,No,Low Risk,9,Long Tenure,10,2,3,8,0,2,3,Travel_Frequently,2,3,0,Safe
+1635,4,31,No,0,No,Low Risk,10,Long Tenure,10,7,3,9,1,3,3,Travel_Rarely,2,2,0,Safe
+1638,4,110,No,0,Yes,High Risk,5,Mid Tenure,10,4,0,2,3,6,3,Travel_Rarely,3,2,3,Safe
+1639,1,105,Yes,1,No,Low Risk,13,Long Tenure,15,12,6,0,9,3,3,Travel_Rarely,3,2,1,Safe
+1640,2,217,No,0,No,Low Risk,8,Long Tenure,8,4,7,7,1,2,3,Travel_Rarely,1,3,4,At Risk
+1641,4,170,No,0,Yes,High Risk,4,Mid Tenure,18,2,3,3,6,2,3,Travel_Rarely,3,3,3,Safe
+1642,10,17,No,0,Yes,High Risk,10,Long Tenure,14,7,0,2,4,3,3,Travel_Frequently,2,3,3,Safe
+1644,9,127,No,0,No,Low Risk,2,New Employee,23,2,2,2,2,3,4,Travel_Frequently,4,2,0,Safe
+1645,1,139,Yes,1,Yes,High Risk,2,New Employee,7,2,2,2,6,2,3,Travel_Rarely,2,1,3,Safe
+1646,2,17,No,0,Yes,High Risk,6,Mid Tenure,6,3,1,3,1,2,3,Travel_Frequently,1,3,4,At Risk
+1647,2,59,No,0,No,Low Risk,3,Mid Tenure,5,2,0,2,7,0,3,Travel_Rarely,1,4,5,At Risk
+1648,2,6,No,0,No,Low Risk,4,Mid Tenure,6,2,1,2,2,0,3,Travel_Frequently,1,3,2,Safe
+1649,3,218,Yes,1,Yes,High Risk,4,Mid Tenure,10,2,0,3,3,3,3,Travel_Rarely,1,3,8,Flight Risk
+1650,1,83,No,0,No,Low Risk,5,Mid Tenure,8,2,1,4,9,2,3,Travel_Rarely,2,2,0,Safe
+1651,5,14,No,0,No,Low Risk,3,Mid Tenure,9,2,0,2,4,6,3,Travel_Rarely,3,3,3,Safe
+1653,4,4,No,0,No,Low Risk,7,Mid Tenure,7,7,0,7,1,6,3,Travel_Frequently,2,4,1,Safe
+1654,4,106,No,0,No,Low Risk,5,Mid Tenure,7,4,1,0,4,3,4,Travel_Rarely,2,3,0,Safe
+1655,8,125,No,0,No,Low Risk,4,Mid Tenure,27,2,1,2,3,2,3,Travel_Rarely,4,3,3,Safe
+1656,8,105,No,0,No,Low Risk,14,Long Tenure,19,11,1,11,5,3,3,Travel_Rarely,3,2,0,Safe
+1657,7,98,No,0,No,Low Risk,2,New Employee,2,2,2,2,1,3,3,Travel_Rarely,1,3,3,Safe
+1658,2,106,No,0,No,Low Risk,11,Long Tenure,11,8,7,9,1,2,3,Travel_Rarely,2,3,1,Safe
+1659,3,9,No,0,No,Low Risk,4,Mid Tenure,15,3,1,3,2,4,3,Travel_Rarely,1,3,5,At Risk
+1661,5,13,No,0,Yes,High Risk,15,Long Tenure,30,11,2,12,2,3,3,Travel_Rarely,4,2,3,Safe
+1662,4,4,No,0,No,Low Risk,3,Mid Tenure,4,2,1,2,0,6,3,Non-Travel,2,2,0,Safe
+1664,5,185,No,0,No,Low Risk,5,Mid Tenure,13,4,0,4,6,3,4,Travel_Rarely,2,4,3,Safe
+1665,9,38,No,0,No,Low Risk,10,Long Tenure,36,8,4,7,3,6,4,Travel_Rarely,4,3,1,Safe
+1666,8,98,No,0,No,Low Risk,14,Long Tenure,14,10,6,11,1,3,4,Travel_Rarely,4,2,1,Safe
+1667,1,165,Yes,1,Yes,High Risk,11,Long Tenure,13,9,6,7,3,2,4,Travel_Frequently,2,3,4,At Risk
+1668,2,25,No,0,No,Low Risk,13,Long Tenure,19,11,2,9,7,4,3,Travel_Frequently,2,3,0,Safe
+1669,1,181,No,0,Yes,High Risk,10,Long Tenure,10,0,0,9,1,3,3,Travel_Rarely,2,2,6,At Risk
+1670,1,18,No,0,No,Low Risk,6,Mid Tenure,6,2,0,4,1,5,3,Travel_Rarely,2,3,0,Safe
+1671,2,100,No,0,No,Low Risk,9,Long Tenure,10,5,1,6,0,4,3,Travel_Rarely,2,3,0,Safe
+1673,1,79,No,0,No,Low Risk,10,Long Tenure,10,0,0,2,1,2,3,Travel_Rarely,2,3,3,Safe
+1674,3,87,No,0,Yes,High Risk,2,New Employee,17,2,2,2,4,2,3,Travel_Rarely,1,3,5,At Risk
+1675,3,133,No,0,No,Low Risk,4,Mid Tenure,4,3,3,3,1,3,4,Travel_Frequently,1,2,2,Safe
+1676,6,51,No,0,No,Low Risk,3,Mid Tenure,29,2,1,2,6,2,3,Travel_Rarely,4,4,0,Safe
+1677,9,98,No,0,No,Low Risk,8,Long Tenure,23,7,0,0,4,2,3,Travel_Rarely,4,3,0,Safe
+1678,1,10,No,0,Yes,High Risk,2,New Employee,21,0,0,2,3,2,3,Travel_Rarely,3,3,3,Safe
+1680,7,185,No,0,No,Low Risk,2,New Employee,2,2,0,2,1,3,3,Travel_Rarely,1,3,6,At Risk
+1681,1,34,No,0,Yes,High Risk,6,Mid Tenure,7,5,1,2,1,2,4,Non-Travel,2,3,3,Safe
+1682,5,188,No,0,No,Low Risk,3,Mid Tenure,10,2,0,2,6,2,3,Travel_Rarely,2,3,3,Safe
+1683,10,63,No,0,Yes,High Risk,2,New Employee,8,2,2,2,4,2,3,Travel_Rarely,1,3,5,At Risk
+1684,3,26,Yes,1,Yes,High Risk,5,Mid Tenure,5,4,1,2,1,2,3,Travel_Rarely,1,2,4,At Risk
+1687,3,29,No,0,No,Low Risk,0,New Employee,7,0,0,0,7,5,3,Travel_Rarely,1,3,2,Safe
+1689,5,12,No,0,No,Low Risk,4,Mid Tenure,11,3,1,2,3,2,3,Travel_Rarely,3,4,0,Safe
+1691,7,4,Yes,1,Yes,High Risk,9,Long Tenure,19,7,7,7,2,3,3,Travel_Frequently,1,3,6,At Risk
+1692,3,141,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Rarely,1,3,2,Safe
+1693,3,18,No,0,No,Low Risk,7,Mid Tenure,7,7,5,7,1,5,4,Non-Travel,1,3,3,Safe
+1694,2,5,No,0,No,Low Risk,4,Mid Tenure,8,2,1,2,5,1,3,Travel_Rarely,1,2,2,Safe
+1696,3,154,No,0,No,Low Risk,15,Long Tenure,15,10,4,13,1,3,3,Travel_Rarely,2,2,1,Safe
+1697,5,111,No,0,No,Low Risk,1,New Employee,19,0,0,0,3,2,4,Travel_Rarely,3,1,0,Safe
+1698,3,58,No,0,No,Low Risk,14,Long Tenure,14,11,2,13,1,6,3,Travel_Rarely,1,4,2,Safe
+1700,1,45,No,0,No,Low Risk,6,Mid Tenure,6,3,1,3,1,2,3,Travel_Frequently,2,1,0,Safe
+1701,2,55,No,0,No,Low Risk,10,Long Tenure,10,9,8,7,1,3,3,Travel_Rarely,1,2,3,Safe
+1702,7,127,Yes,1,Yes,High Risk,3,Mid Tenure,3,2,0,2,1,2,4,Travel_Rarely,1,3,6,At Risk
+1703,5,127,No,0,Yes,High Risk,8,Long Tenure,9,7,6,7,1,2,3,Travel_Rarely,3,4,4,At Risk
+1704,2,97,No,0,Yes,High Risk,5,Mid Tenure,6,4,1,4,0,2,3,Travel_Frequently,1,2,3,Safe
+1706,1,31,No,0,Yes,High Risk,10,Long Tenure,10,9,8,8,1,3,3,Travel_Rarely,2,3,4,At Risk
+1707,2,76,No,0,No,Low Risk,5,Mid Tenure,5,3,0,4,1,1,3,Travel_Rarely,1,4,1,Safe
+1708,1,3,No,0,No,Low Risk,10,Long Tenure,10,8,8,7,1,3,3,Travel_Rarely,3,3,1,Safe
+1709,3,4,No,0,No,Low Risk,5,Mid Tenure,9,3,1,2,9,2,3,Travel_Rarely,1,3,2,Safe
+1710,7,45,No,0,No,Low Risk,13,Long Tenure,17,7,6,7,3,2,3,Travel_Rarely,2,3,1,Safe
+1712,5,21,No,0,No,Low Risk,23,Long Tenure,25,15,14,4,3,3,4,Non-Travel,3,2,1,Safe
+1714,10,4,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Rarely,1,1,3,Safe
+1716,1,219,Yes,1,No,Low Risk,23,Long Tenure,25,5,14,10,7,3,3,Travel_Frequently,4,1,1,Safe
+1718,3,84,No,0,No,Low Risk,3,Mid Tenure,3,2,0,2,1,3,3,Travel_Rarely,1,1,2,Safe
+1719,8,106,No,0,No,Low Risk,21,Long Tenure,21,6,8,6,1,2,3,Travel_Rarely,4,2,1,Safe
+1720,2,69,No,0,No,Low Risk,5,Mid Tenure,10,2,1,3,6,3,3,Travel_Frequently,1,3,5,At Risk
+1721,3,153,No,0,No,Low Risk,5,Mid Tenure,6,2,0,3,1,2,3,Travel_Rarely,1,3,2,Safe
+1722,10,53,No,0,No,Low Risk,3,Mid Tenure,10,2,1,2,6,4,3,Non-Travel,2,1,0,Safe
+1724,4,22,No,0,Yes,High Risk,1,New Employee,18,0,0,0,2,3,3,Travel_Rarely,2,3,6,At Risk
+1725,3,208,No,0,No,Low Risk,6,Mid Tenure,6,2,1,2,1,2,3,Travel_Rarely,1,3,4,At Risk
+1727,5,2,No,0,No,Low Risk,10,Long Tenure,19,7,0,9,6,3,3,Travel_Rarely,2,3,0,Safe
+1728,4,3,No,0,No,Low Risk,7,Mid Tenure,17,7,0,7,2,3,3,Travel_Rarely,2,3,0,Safe
+1729,2,134,No,0,No,Low Risk,10,Long Tenure,10,0,0,8,1,2,3,Travel_Rarely,1,3,2,Safe
+1731,1,184,No,0,No,Low Risk,1,New Employee,4,0,0,0,7,3,3,Non-Travel,2,3,0,Safe
+1732,1,86,No,0,Yes,High Risk,10,Long Tenure,13,6,0,3,4,5,3,Travel_Rarely,3,3,3,Safe
+1733,1,22,Yes,1,Yes,High Risk,2,New Employee,16,2,2,2,5,3,3,Travel_Rarely,2,2,6,At Risk
+1734,1,125,Yes,1,No,Low Risk,0,New Employee,10,0,0,0,6,2,3,Travel_Rarely,2,1,3,Safe
+1735,3,171,No,0,No,Low Risk,3,Mid Tenure,3,2,1,2,1,3,3,Travel_Rarely,1,3,3,Safe
+1736,4,46,No,0,No,Low Risk,5,Mid Tenure,9,4,1,4,2,3,4,Travel_Frequently,2,3,0,Safe
+1737,3,40,No,0,Yes,High Risk,9,Long Tenure,9,8,5,8,1,2,3,Non-Travel,2,3,4,At Risk
+1739,1,220,No,0,No,Low Risk,4,Mid Tenure,10,3,0,2,3,2,3,Travel_Rarely,3,1,0,Safe
+1740,6,91,No,0,No,Low Risk,21,Long Tenure,21,8,12,8,1,3,3,Travel_Rarely,5,3,4,At Risk
+1744,10,144,No,0,No,Low Risk,5,Mid Tenure,9,0,0,3,4,2,4,Travel_Rarely,3,1,0,Safe
+1745,2,35,No,0,No,Low Risk,9,Long Tenure,10,7,0,7,0,2,3,Travel_Frequently,1,2,0,Safe
+1746,10,23,No,0,No,Low Risk,2,New Employee,3,2,2,1,0,2,3,Travel_Frequently,1,3,3,Safe
+1747,10,45,Yes,1,No,Low Risk,4,Mid Tenure,6,2,1,2,6,0,3,Travel_Frequently,1,2,2,Safe
+1749,1,30,No,0,No,Low Risk,5,Mid Tenure,6,2,0,2,1,3,3,Travel_Rarely,2,3,0,Safe
+1751,2,45,No,0,No,Low Risk,6,Mid Tenure,6,2,1,4,1,5,3,Travel_Rarely,1,3,2,Safe
+1752,7,51,Yes,1,No,Low Risk,2,New Employee,2,2,2,2,1,3,3,Travel_Rarely,1,1,2,Safe
+1753,5,110,No,0,Yes,High Risk,3,Mid Tenure,10,2,0,2,8,5,3,Travel_Frequently,2,4,3,Safe
+1754,1,33,No,0,No,Low Risk,7,Mid Tenure,12,7,1,7,2,2,3,Travel_Rarely,3,2,3,Safe
+1755,2,31,No,0,Yes,High Risk,5,Mid Tenure,6,0,1,2,0,3,3,Travel_Rarely,1,4,5,At Risk
+1756,1,107,No,0,No,Low Risk,11,Long Tenure,13,7,1,7,8,2,3,Non-Travel,2,3,0,Safe
+1757,1,27,No,0,No,Low Risk,5,Mid Tenure,8,1,0,4,3,1,3,Travel_Rarely,2,3,0,Safe
+1758,1,77,Yes,1,Yes,High Risk,0,New Employee,11,0,0,0,2,2,4,Travel_Rarely,3,3,6,At Risk
+1760,3,66,No,0,No,Low Risk,6,Mid Tenure,9,1,0,5,4,4,3,Travel_Frequently,1,2,2,Safe
+1761,1,96,Yes,1,No,Low Risk,1,New Employee,10,0,0,0,2,2,3,Travel_Rarely,3,3,3,Safe
+1762,2,105,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Rarely,1,2,2,Safe
+1763,5,83,No,0,No,Low Risk,7,Mid Tenure,10,0,1,7,3,3,3,Travel_Rarely,2,4,0,Safe
+1764,2,54,No,0,No,Low Risk,7,Mid Tenure,12,7,0,7,2,3,3,Non-Travel,1,3,5,At Risk
+1766,5,12,No,0,Yes,High Risk,1,New Employee,15,0,1,0,3,2,3,Travel_Rarely,2,1,3,Safe
+1767,2,76,Yes,1,Yes,High Risk,1,New Employee,6,0,0,0,9,4,3,Travel_Frequently,1,2,5,At Risk
+1768,3,91,No,0,No,Low Risk,5,Mid Tenure,7,3,0,4,8,6,4,Travel_Rarely,1,3,5,At Risk
+1770,8,19,No,0,No,Low Risk,1,New Employee,34,0,0,0,8,2,3,Travel_Rarely,5,2,3,Safe
+1771,2,107,No,0,No,Low Risk,9,Long Tenure,11,8,1,7,5,2,3,Non-Travel,2,3,2,Safe
+1772,3,19,No,0,No,Low Risk,5,Mid Tenure,5,3,0,4,1,2,4,Travel_Rarely,1,3,5,At Risk
+1774,1,4,No,0,Yes,High Risk,15,Long Tenure,15,14,0,7,1,3,3,Non-Travel,2,3,3,Safe
+1775,4,11,No,0,Yes,High Risk,3,Mid Tenure,27,2,0,2,4,2,4,Non-Travel,4,2,3,Safe
+1778,10,55,No,0,No,Low Risk,9,Long Tenure,10,7,1,8,0,5,3,Travel_Rarely,1,3,2,Safe
+1779,1,31,No,0,No,Low Risk,2,New Employee,6,2,2,2,5,3,3,Travel_Rarely,2,1,0,Safe
+1780,7,54,Yes,1,No,Low Risk,1,New Employee,1,0,1,0,1,3,3,Travel_Rarely,1,3,6,At Risk
+1782,3,3,No,0,No,Low Risk,5,Mid Tenure,5,4,0,4,1,3,3,Travel_Rarely,1,2,0,Safe
+1783,3,44,Yes,1,Yes,High Risk,1,New Employee,1,0,0,0,1,6,3,Travel_Rarely,1,3,6,At Risk
+1784,1,79,No,0,No,Low Risk,12,Long Tenure,13,7,5,7,1,3,3,Travel_Rarely,2,2,4,At Risk
+1786,9,41,No,0,No,Low Risk,2,New Employee,15,2,2,2,2,2,3,Travel_Rarely,3,3,0,Safe
+1787,1,39,No,0,No,Low Risk,5,Mid Tenure,5,2,0,3,1,2,3,Travel_Rarely,2,2,3,Safe
+1789,8,34,No,0,Yes,High Risk,2,New Employee,24,1,2,2,7,3,3,Travel_Rarely,5,3,3,Safe
+1790,5,35,No,0,Yes,High Risk,12,Long Tenure,15,8,5,7,7,1,3,Travel_Rarely,3,3,4,At Risk
+1792,2,82,Yes,1,Yes,High Risk,5,Mid Tenure,6,3,2,3,1,2,3,Travel_Frequently,1,3,5,At Risk
+1794,10,82,No,0,No,Low Risk,10,Long Tenure,19,0,4,7,2,4,3,Travel_Rarely,2,3,1,Safe
+1797,1,20,Yes,1,Yes,High Risk,10,Long Tenure,10,7,7,7,1,2,3,Travel_Rarely,2,3,4,At Risk
+1798,2,121,No,0,No,Low Risk,10,Long Tenure,14,8,7,6,6,1,3,Travel_Rarely,1,4,3,Safe
+1799,2,111,No,0,No,Low Risk,5,Mid Tenure,5,3,0,3,1,6,3,Travel_Rarely,1,3,2,Safe
+1800,8,83,No,0,No,Low Risk,4,Mid Tenure,9,3,2,2,7,3,4,Travel_Rarely,3,3,0,Safe
+1801,1,51,No,0,No,Low Risk,2,New Employee,6,2,2,2,8,3,3,Non-Travel,2,2,0,Safe
+1802,3,149,No,0,No,Low Risk,4,Mid Tenure,7,3,0,2,4,5,3,Travel_Rarely,1,3,2,Safe
+1803,5,43,No,0,No,Low Risk,0,New Employee,10,0,0,0,5,2,3,Travel_Rarely,2,4,3,Safe
+1804,4,12,No,0,No,Low Risk,7,Mid Tenure,15,7,1,7,2,6,3,Non-Travel,2,3,0,Safe
+1805,10,5,No,0,No,Low Risk,11,Long Tenure,13,10,3,8,5,3,3,Non-Travel,1,3,2,Safe
+1807,3,147,Yes,1,No,Low Risk,7,Mid Tenure,11,1,0,7,4,3,3,Travel_Frequently,2,3,0,Safe
+1809,4,215,Yes,1,No,Low Risk,10,Long Tenure,10,3,0,8,1,4,3,Travel_Rarely,2,3,0,Safe
+1812,1,20,No,0,No,Low Risk,2,New Employee,7,1,2,2,2,6,3,Travel_Frequently,2,3,0,Safe
+1813,2,36,No,0,No,Low Risk,3,Mid Tenure,7,2,1,2,4,2,3,Non-Travel,1,3,2,Safe
+1814,5,217,No,0,No,Low Risk,3,Mid Tenure,11,2,1,2,3,3,3,Travel_Rarely,2,4,3,Safe
+1815,1,169,No,0,Yes,High Risk,22,Long Tenure,23,14,13,5,0,3,3,Travel_Rarely,3,3,4,At Risk
+1816,4,122,No,0,No,Low Risk,7,Mid Tenure,9,7,0,2,9,3,3,Travel_Rarely,3,3,3,Safe
+1818,10,106,Yes,1,Yes,High Risk,5,Mid Tenure,6,1,1,4,0,3,3,Travel_Rarely,1,3,5,At Risk
+1821,5,117,Yes,1,No,Low Risk,9,Long Tenure,13,7,3,7,4,2,4,Travel_Rarely,2,3,0,Safe
+1822,5,20,No,0,No,Low Risk,5,Mid Tenure,12,3,0,3,4,3,3,Travel_Rarely,2,3,0,Safe
+1823,1,38,No,0,No,Low Risk,10,Long Tenure,10,8,4,8,1,5,4,Travel_Rarely,2,4,1,Safe
+1824,6,104,No,0,No,Low Risk,16,Long Tenure,37,9,14,14,4,0,4,Non-Travel,4,3,1,Safe
+1826,3,70,No,0,No,Low Risk,5,Mid Tenure,6,4,0,3,0,2,3,Travel_Rarely,1,1,2,Safe
+1827,4,78,No,0,Yes,High Risk,22,Long Tenure,28,11,14,10,8,4,3,Travel_Rarely,3,2,4,At Risk
+1829,5,22,No,0,No,Low Risk,7,Mid Tenure,15,4,7,7,2,3,3,Travel_Rarely,2,3,4,At Risk
+1830,2,16,No,0,No,Low Risk,7,Mid Tenure,14,1,1,7,4,2,3,Travel_Rarely,2,3,0,Safe
+1833,1,135,No,0,No,Low Risk,3,Mid Tenure,9,2,2,2,2,3,3,Travel_Frequently,3,3,3,Safe
+1834,2,44,No,0,No,Low Risk,3,Mid Tenure,3,2,1,2,1,3,4,Travel_Rarely,1,3,2,Safe
+1835,7,28,No,0,Yes,High Risk,4,Mid Tenure,20,2,0,3,2,4,4,Travel_Rarely,2,1,3,Safe
+1836,1,63,No,0,No,Low Risk,5,Mid Tenure,5,3,1,2,1,4,3,Travel_Rarely,2,3,0,Safe
+1837,8,122,No,0,Yes,High Risk,2,New Employee,23,2,2,2,2,3,3,Travel_Frequently,4,3,6,At Risk
+1839,2,221,No,0,No,Low Risk,0,New Employee,0,0,0,0,1,4,3,Non-Travel,1,3,3,Safe
+1842,10,105,Yes,1,No,Low Risk,1,New Employee,2,0,0,0,0,4,3,Travel_Rarely,1,4,2,Safe
+1844,10,135,Yes,1,Yes,High Risk,2,New Employee,4,2,2,0,4,3,3,Travel_Rarely,1,2,8,Flight Risk
+1845,1,140,No,0,No,Low Risk,8,Long Tenure,10,7,5,7,4,3,4,Non-Travel,2,3,1,Safe
+1847,2,103,No,0,Yes,High Risk,1,New Employee,15,0,0,0,4,2,4,Travel_Rarely,2,3,3,Safe
+1849,1,17,No,0,No,Low Risk,7,Mid Tenure,7,7,7,7,1,5,4,Travel_Frequently,2,3,1,Safe
+1850,3,6,No,0,Yes,High Risk,5,Mid Tenure,6,4,0,2,0,3,3,Travel_Frequently,1,3,5,At Risk
+1852,3,157,No,0,No,Low Risk,11,Long Tenure,11,8,3,10,1,3,3,Travel_Frequently,1,3,0,Safe
+1853,1,27,No,0,No,Low Risk,0,New Employee,4,0,0,0,8,2,3,Travel_Frequently,2,3,0,Safe
+1854,2,8,No,0,No,Low Risk,6,Mid Tenure,10,3,3,3,3,1,4,Non-Travel,1,3,2,Safe
+1856,3,38,No,0,No,Low Risk,2,New Employee,7,2,2,0,4,2,3,Travel_Rarely,1,3,2,Safe
+1857,4,6,No,0,No,Low Risk,9,Long Tenure,12,8,4,7,3,4,3,Travel_Rarely,3,3,1,Safe
+1858,10,127,No,0,No,Low Risk,3,Mid Tenure,3,2,2,2,1,2,3,Non-Travel,1,3,2,Safe
+1859,5,10,No,0,No,Low Risk,7,Mid Tenure,11,0,1,6,8,3,3,Travel_Rarely,2,1,0,Safe
+1860,3,10,No,0,No,Low Risk,0,New Employee,8,0,0,0,4,3,3,Travel_Rarely,1,3,0,Safe
+1862,1,82,Yes,1,Yes,High Risk,2,New Employee,7,2,2,2,7,3,3,Travel_Rarely,2,2,3,Safe
+1863,1,135,No,0,No,Low Risk,19,Long Tenure,25,17,2,8,2,5,3,Travel_Rarely,4,4,3,Safe
+1864,7,37,No,0,No,Low Risk,9,Long Tenure,9,8,5,8,1,5,4,Travel_Rarely,2,2,3,Safe
+1865,10,103,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,2,2,Safe
+1866,9,41,No,0,No,Low Risk,16,Long Tenure,21,12,6,14,7,2,3,Travel_Rarely,5,2,1,Safe
+1867,8,103,No,0,No,Low Risk,22,Long Tenure,29,10,12,9,4,3,3,Travel_Rarely,5,2,1,Safe
+1868,2,16,Yes,1,Yes,High Risk,1,New Employee,1,0,1,0,1,3,4,Travel_Frequently,1,2,5,At Risk
+1869,1,78,Yes,1,No,Low Risk,8,Long Tenure,14,7,0,7,5,2,4,Travel_Rarely,3,3,0,Safe
+1870,2,155,No,0,No,Low Risk,7,Mid Tenure,8,6,7,3,0,2,3,Travel_Frequently,1,2,1,Safe
+1871,2,62,No,0,No,Low Risk,2,New Employee,7,2,2,2,8,2,3,Travel_Rarely,2,3,0,Safe
+1873,2,222,No,0,No,Low Risk,5,Mid Tenure,19,2,0,4,8,2,4,Travel_Rarely,1,2,2,Safe
+1875,7,58,No,0,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,3,2,Safe
+1876,7,102,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Rarely,1,3,2,Safe
+1878,2,141,Yes,1,Yes,High Risk,1,New Employee,1,0,0,0,1,2,4,Travel_Rarely,1,3,6,At Risk
+1880,1,59,No,0,Yes,High Risk,10,Long Tenure,10,9,1,7,1,4,3,Travel_Rarely,2,2,6,At Risk
+1881,3,59,No,0,No,Low Risk,10,Long Tenure,10,8,0,2,1,2,3,Travel_Rarely,2,3,3,Safe
+1882,1,20,No,0,Yes,High Risk,5,Mid Tenure,9,3,1,0,2,3,3,Travel_Rarely,3,3,3,Safe
+1883,3,121,No,0,No,Low Risk,3,Mid Tenure,11,2,1,2,3,2,3,Travel_Rarely,1,3,2,Safe
+1885,2,105,No,0,Yes,High Risk,5,Mid Tenure,16,3,0,4,5,2,4,Travel_Rarely,2,3,3,Safe
+1886,4,103,No,0,Yes,High Risk,3,Mid Tenure,4,2,0,2,0,2,3,Travel_Rarely,2,2,3,Safe
+1888,4,112,No,0,No,Low Risk,9,Long Tenure,10,8,3,8,0,2,3,Travel_Rarely,2,2,0,Safe
+1890,10,112,No,0,No,Low Risk,10,Long Tenure,10,1,0,8,1,2,4,Travel_Frequently,2,2,0,Safe
+1892,9,136,No,0,No,Low Risk,19,Long Tenure,22,7,11,16,2,3,3,Travel_Rarely,4,3,4,At Risk
+1893,2,195,No,0,Yes,High Risk,1,New Employee,1,0,1,0,1,3,3,Travel_Rarely,1,2,5,At Risk
+1898,1,188,No,0,No,Low Risk,8,Long Tenure,9,7,0,7,0,5,3,Travel_Rarely,2,4,3,Safe
+1900,9,62,No,0,No,Low Risk,22,Long Tenure,24,17,4,7,3,3,3,Travel_Frequently,4,3,1,Safe
+1903,5,126,No,0,No,Low Risk,2,New Employee,10,0,2,2,2,5,3,Travel_Rarely,2,4,0,Safe
+1905,2,121,Yes,1,Yes,High Risk,5,Mid Tenure,5,2,3,0,1,2,4,Non-Travel,1,1,5,At Risk
+1907,3,23,Yes,1,No,Low Risk,4,Mid Tenure,5,2,1,0,1,3,3,Travel_Rarely,1,3,2,Safe
+1908,1,171,No,0,No,Low Risk,4,Mid Tenure,12,2,1,3,2,1,3,Travel_Rarely,2,2,0,Safe
+1909,1,78,No,0,No,Low Risk,5,Mid Tenure,14,4,1,4,5,3,4,Travel_Rarely,2,3,0,Safe
+1911,8,190,No,0,No,Low Risk,13,Long Tenure,18,7,5,7,9,3,3,Travel_Rarely,3,3,4,At Risk
+1912,1,20,No,0,Yes,High Risk,5,Mid Tenure,8,2,1,4,2,2,3,Travel_Rarely,2,3,3,Safe
+1915,1,6,No,0,Yes,High Risk,4,Mid Tenure,9,2,0,1,3,3,3,Travel_Rarely,2,2,3,Safe
+1916,3,188,No,0,No,Low Risk,2,New Employee,4,2,2,2,8,0,3,Travel_Rarely,1,4,3,Safe
+1918,3,63,No,0,No,Low Risk,7,Mid Tenure,8,7,7,7,0,3,3,Travel_Frequently,1,4,3,Safe
+1922,5,38,No,0,No,Low Risk,4,Mid Tenure,12,2,0,3,4,3,3,Travel_Frequently,2,3,0,Safe
+1924,1,81,No,0,No,Low Risk,10,Long Tenure,10,4,0,9,1,2,3,Travel_Rarely,2,3,0,Safe
+1927,1,34,No,0,Yes,High Risk,7,Mid Tenure,7,7,0,7,1,2,3,Travel_Frequently,2,2,3,Safe
+1928,7,73,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,3,3,Travel_Frequently,1,4,2,Safe
+1929,1,30,No,0,No,Low Risk,3,Mid Tenure,10,2,1,2,6,1,3,Non-Travel,2,1,0,Safe
+1931,2,202,No,0,No,Low Risk,5,Mid Tenure,6,3,1,2,1,3,3,Travel_Rarely,1,3,2,Safe
+1932,2,127,No,0,Yes,High Risk,15,Long Tenure,16,10,6,11,1,3,3,Travel_Frequently,2,2,4,At Risk
+1933,1,10,Yes,1,Yes,High Risk,2,New Employee,6,0,2,2,3,0,3,Travel_Rarely,2,3,3,Safe
+1934,2,168,No,0,No,Low Risk,8,Long Tenure,16,7,1,7,8,4,3,Non-Travel,2,3,0,Safe
+1935,1,105,No,0,No,Low Risk,0,New Employee,6,0,0,0,4,3,3,Travel_Rarely,2,2,0,Safe
+1936,4,135,No,0,No,Low Risk,10,Long Tenure,10,0,7,9,1,3,4,Travel_Rarely,2,3,4,At Risk
+1937,2,106,No,0,Yes,High Risk,20,Long Tenure,20,11,0,7,1,3,3,Travel_Frequently,2,2,5,At Risk
+1938,6,6,No,0,Yes,High Risk,1,New Employee,29,0,0,0,4,2,3,Travel_Rarely,4,3,3,Safe
+1939,2,96,Yes,1,Yes,High Risk,4,Mid Tenure,8,1,0,3,3,2,3,Travel_Frequently,1,4,8,Flight Risk
+1940,2,158,No,0,No,Low Risk,5,Mid Tenure,10,2,0,3,2,0,3,Travel_Rarely,1,3,0,Safe
+1941,8,60,No,0,No,Low Risk,5,Mid Tenure,28,4,4,3,3,3,3,Travel_Frequently,5,3,1,Safe
+1943,1,12,No,0,Yes,High Risk,0,New Employee,14,0,0,0,3,4,3,Travel_Rarely,2,3,3,Safe
+1944,10,192,Yes,1,No,Low Risk,1,New Employee,1,0,0,0,1,2,3,Travel_Frequently,1,2,5,At Risk
+1945,1,223,No,0,No,Low Risk,5,Mid Tenure,6,3,0,4,0,2,3,Travel_Rarely,2,3,0,Safe
+1947,2,42,No,0,No,Low Risk,5,Mid Tenure,5,3,1,4,1,3,3,Non-Travel,1,3,2,Safe
+1948,2,152,No,0,Yes,High Risk,4,Mid Tenure,4,2,2,3,1,3,3,Non-Travel,1,3,5,At Risk
+1949,3,125,No,0,No,Low Risk,5,Mid Tenure,5,4,0,2,1,3,4,Non-Travel,1,4,5,At Risk
+1950,1,224,No,0,No,Low Risk,14,Long Tenure,14,8,2,1,1,3,4,Travel_Rarely,3,3,3,Safe
+1951,1,71,No,0,No,Low Risk,8,Long Tenure,9,7,1,1,1,2,3,Travel_Rarely,3,3,0,Safe
+1952,3,149,No,0,No,Low Risk,7,Mid Tenure,8,7,7,6,0,6,3,Travel_Rarely,1,3,3,Safe
+1954,5,225,No,0,No,Low Risk,5,Mid Tenure,6,3,0,2,0,5,3,Travel_Rarely,2,3,3,Safe
+1955,5,127,No,0,No,Low Risk,5,Mid Tenure,9,1,1,2,5,6,3,Non-Travel,2,3,0,Safe
+1956,2,121,No,0,No,Low Risk,10,Long Tenure,10,8,8,7,1,6,4,Travel_Frequently,2,1,1,Safe
+1960,3,92,Yes,1,No,Low Risk,4,Mid Tenure,6,1,0,3,5,2,3,Travel_Rarely,1,2,2,Safe
+1961,7,225,No,0,No,Low Risk,1,New Employee,20,0,0,0,4,3,3,Travel_Rarely,1,2,5,At Risk
+1962,1,20,No,0,Yes,High Risk,10,Long Tenure,10,8,0,9,1,2,3,Travel_Rarely,2,3,3,Safe
+1965,1,31,No,0,No,Low Risk,7,Mid Tenure,7,7,0,7,1,5,3,Travel_Rarely,2,3,0,Safe
+1966,4,62,No,0,No,Low Risk,1,New Employee,8,0,0,0,8,1,4,Travel_Rarely,2,2,0,Safe
+1967,1,17,Yes,1,Yes,High Risk,10,Long Tenure,10,7,0,8,1,4,3,Travel_Frequently,2,3,3,Safe
+1968,1,226,Yes,1,Yes,High Risk,2,New Employee,15,2,2,2,6,2,3,Travel_Rarely,3,3,6,At Risk
+1969,2,36,No,0,No,Low Risk,4,Mid Tenure,9,3,2,3,3,6,3,Travel_Rarely,2,3,2,Safe
+1970,5,4,No,0,No,Low Risk,9,Long Tenure,9,7,2,8,1,2,4,Travel_Frequently,2,3,0,Safe
+1971,5,122,No,0,No,Low Risk,10,Long Tenure,10,9,0,9,1,1,3,Travel_Rarely,3,3,3,Safe
+1972,10,133,No,0,Yes,High Risk,6,Mid Tenure,7,2,1,2,0,2,3,Travel_Frequently,1,3,5,At Risk
+1973,11,88,No,0,Yes,High Risk,10,Long Tenure,35,9,1,4,4,0,3,Travel_Rarely,5,4,6,At Risk
+1974,3,18,No,0,Yes,High Risk,1,New Employee,1,0,0,0,1,4,3,Travel_Rarely,1,1,5,At Risk
+1975,1,227,No,0,No,Low Risk,20,Long Tenure,21,8,11,10,0,3,3,Travel_Rarely,4,3,4,At Risk
+1976,2,10,No,0,No,Low Risk,20,Long Tenure,20,9,3,7,1,2,3,Non-Travel,2,2,0,Safe
+1979,8,144,No,0,No,Low Risk,11,Long Tenure,13,7,4,8,4,2,4,Non-Travel,3,3,1,Safe
+1980,4,73,No,0,Yes,High Risk,5,Mid Tenure,9,2,1,4,6,3,3,Travel_Rarely,2,3,3,Safe
+1981,5,81,No,0,No,Low Risk,4,Mid Tenure,4,3,1,2,1,2,3,Travel_Rarely,2,2,1,Safe
+1982,3,27,No,0,No,Low Risk,5,Mid Tenure,5,2,1,4,1,6,3,Travel_Rarely,1,3,3,Safe
+1985,3,129,No,0,No,Low Risk,10,Long Tenure,10,9,9,4,1,2,3,Travel_Frequently,2,3,1,Safe
+1986,1,51,No,0,No,Low Risk,11,Long Tenure,15,8,5,10,3,4,3,Travel_Rarely,2,3,1,Safe
+1987,10,78,No,0,No,Low Risk,2,New Employee,6,0,1,2,4,3,3,Travel_Rarely,1,3,3,Safe
+1989,3,100,No,0,No,Low Risk,12,Long Tenure,12,8,1,7,1,6,3,Travel_Rarely,1,3,0,Safe
+1992,3,71,No,0,Yes,High Risk,2,New Employee,7,2,0,2,6,2,3,Travel_Rarely,1,3,4,At Risk
+1993,5,122,No,0,No,Low Risk,17,Long Tenure,25,14,12,11,2,3,4,Travel_Rarely,3,3,4,At Risk
+1994,3,195,No,0,No,Low Risk,1,New Employee,1,1,0,0,1,2,3,Non-Travel,1,2,2,Safe
+1995,1,141,No,0,No,Low Risk,15,Long Tenure,16,13,5,8,0,3,3,Travel_Rarely,2,3,1,Safe
+1996,7,30,No,0,No,Low Risk,2,New Employee,3,2,1,2,0,1,3,Travel_Rarely,1,3,2,Safe
+1997,4,41,No,0,No,Low Risk,8,Long Tenure,10,3,7,7,2,1,3,Travel_Frequently,2,2,1,Safe
+1998,2,147,No,0,Yes,High Risk,4,Mid Tenure,9,3,1,2,6,3,3,Travel_Rarely,2,3,3,Safe
+1999,2,31,No,0,No,Low Risk,5,Mid Tenure,12,3,1,0,3,3,4,Travel_Rarely,1,3,2,Safe
+2000,8,131,No,0,No,Low Risk,13,Long Tenure,14,8,5,12,0,3,3,Non-Travel,3,3,4,At Risk
+2003,3,4,No,0,Yes,High Risk,2,New Employee,5,2,2,2,7,3,3,Travel_Rarely,1,3,5,At Risk
+2007,2,110,No,0,No,Low Risk,3,Mid Tenure,4,2,1,2,0,2,3,Travel_Rarely,1,3,3,Safe
+2008,2,146,No,0,No,Low Risk,10,Long Tenure,10,7,0,8,1,5,3,Travel_Rarely,2,3,0,Safe
+2009,5,114,No,0,Yes,High Risk,9,Long Tenure,10,7,8,1,0,6,3,Travel_Rarely,2,3,4,At Risk
+2010,3,78,No,0,No,Low Risk,6,Mid Tenure,6,2,4,1,1,3,3,Travel_Rarely,1,2,3,Safe
+2012,3,138,No,0,No,Low Risk,1,New Employee,8,0,0,0,8,3,3,Travel_Rarely,1,3,2,Safe
+2013,7,54,No,0,No,Low Risk,2,New Employee,3,2,2,2,0,2,3,Travel_Rarely,1,2,5,At Risk
+2014,2,79,No,0,No,Low Risk,7,Mid Tenure,18,7,1,7,7,2,3,Travel_Rarely,2,3,3,Safe
+2015,8,59,No,0,No,Low Risk,18,Long Tenure,20,16,1,11,3,3,3,Travel_Rarely,3,1,3,Safe
+2016,1,34,No,0,No,Low Risk,14,Long Tenure,14,10,5,7,1,3,3,Travel_Rarely,3,3,1,Safe
+2017,8,63,No,0,Yes,High Risk,16,Long Tenure,16,11,6,8,1,2,4,Travel_Rarely,3,4,4,At Risk
+2018,1,188,No,0,Yes,High Risk,5,Mid Tenure,6,3,0,4,0,3,4,Travel_Rarely,2,3,7,Flight Risk
+2019,7,145,No,0,No,Low Risk,9,Long Tenure,16,8,0,0,2,3,3,Non-Travel,1,3,2,Safe
+2020,2,12,No,0,Yes,High Risk,4,Mid Tenure,6,3,1,2,6,2,3,Travel_Rarely,1,3,5,At Risk
+2021,7,73,No,0,Yes,High Risk,2,New Employee,2,2,1,2,1,6,3,Travel_Rarely,1,3,6,At Risk
+2022,9,6,No,0,No,Low Risk,6,Mid Tenure,21,0,1,3,2,3,3,Non-Travel,5,3,0,Safe
+2023,7,228,Yes,1,No,Low Risk,1,New Employee,1,0,1,0,1,3,3,Travel_Frequently,1,3,6,At Risk
+2024,1,17,No,0,No,Low Risk,9,Long Tenure,10,7,3,4,0,2,3,Travel_Rarely,3,2,0,Safe
+2025,4,133,No,0,No,Low Risk,4,Mid Tenure,18,2,0,2,7,3,3,Travel_Frequently,2,3,0,Safe
+2026,5,191,No,0,No,Low Risk,13,Long Tenure,13,12,1,9,1,2,4,Non-Travel,2,3,0,Safe
+2027,2,229,Yes,1,Yes,High Risk,2,New Employee,4,2,2,2,9,3,3,Travel_Rarely,1,3,3,Safe
+2031,9,69,No,0,No,Low Risk,22,Long Tenure,24,6,4,14,5,2,3,Travel_Rarely,5,3,4,At Risk
+2032,3,120,Yes,1,No,Low Risk,10,Long Tenure,14,9,9,8,8,4,3,Travel_Rarely,1,3,3,Safe
+2034,4,9,No,0,No,Low Risk,20,Long Tenure,21,7,0,10,0,3,4,Travel_Rarely,4,2,3,Safe
+2035,1,10,No,0,No,Low Risk,8,Long Tenure,8,7,1,7,1,2,4,Travel_Rarely,2,2,0,Safe
+2036,1,61,No,0,No,Low Risk,15,Long Tenure,15,12,11,11,1,4,4,Non-Travel,2,1,1,Safe
+2037,1,78,No,0,No,Low Risk,5,Mid Tenure,14,4,0,4,2,5,3,Travel_Rarely,2,2,0,Safe
+2038,2,35,No,0,No,Low Risk,4,Mid Tenure,4,2,1,2,1,4,3,Travel_Rarely,1,3,2,Safe
+2040,10,34,No,0,Yes,High Risk,9,Long Tenure,9,0,1,7,1,2,3,Travel_Rarely,3,3,3,Safe
+2041,1,17,No,0,No,Low Risk,10,Long Tenure,10,7,1,9,1,1,3,Travel_Rarely,2,3,0,Safe
+2044,1,37,Yes,1,No,Low Risk,6,Mid Tenure,12,3,0,1,7,3,3,Travel_Frequently,2,3,0,Safe
+2045,1,28,No,0,No,Low Risk,6,Mid Tenure,8,3,0,0,4,2,3,Travel_Rarely,2,2,0,Safe
+2046,1,4,No,0,No,Low Risk,5,Mid Tenure,8,3,0,1,8,3,3,Travel_Rarely,2,3,0,Safe
+2048,2,76,No,0,No,Low Risk,2,New Employee,8,2,2,2,2,2,3,Travel_Rarely,1,2,2,Safe
+2049,5,169,No,0,Yes,High Risk,10,Long Tenure,10,2,0,2,1,2,3,Travel_Frequently,2,3,3,Safe
+2051,2,13,No,0,No,Low Risk,5,Mid Tenure,20,3,0,2,2,2,3,Travel_Rarely,1,3,2,Safe
+2052,2,20,No,0,No,Low Risk,4,Mid Tenure,4,3,1,1,1,5,3,Travel_Rarely,1,1,2,Safe
+2053,3,141,No,0,Yes,High Risk,4,Mid Tenure,10,3,0,3,4,2,3,Travel_Rarely,2,2,3,Safe
+2054,2,215,No,0,No,Low Risk,5,Mid Tenure,5,4,0,4,1,3,3,Travel_Rarely,1,2,0,Safe
+2055,1,121,Yes,1,Yes,High Risk,3,Mid Tenure,20,2,2,0,4,3,3,Travel_Rarely,3,2,3,Safe
+2056,1,28,No,0,No,Low Risk,20,Long Tenure,21,9,9,6,0,2,3,Travel_Rarely,4,2,1,Safe
+2057,4,22,No,0,No,Low Risk,9,Long Tenure,10,4,1,7,0,2,3,Non-Travel,2,3,3,Safe
+2060,7,10,No,0,No,Low Risk,4,Mid Tenure,5,2,0,0,0,2,3,Travel_Rarely,1,2,2,Safe
+2061,3,34,No,0,No,Low Risk,5,Mid Tenure,17,2,0,3,4,3,3,Travel_Frequently,2,4,2,Safe
+2062,5,185,No,0,No,Low Risk,7,Mid Tenure,9,7,1,7,4,5,3,Travel_Rarely,3,2,3,Safe
+2064,4,54,No,0,Yes,High Risk,6,Mid Tenure,6,2,0,3,1,0,4,Travel_Rarely,2,4,6,At Risk
+2065,1,107,No,0,No,Low Risk,9,Long Tenure,17,6,0,8,2,3,3,Travel_Frequently,2,2,0,Safe
+2068,3,178,No,0,No,Low Risk,4,Mid Tenure,6,3,1,2,2,3,3,Travel_Rarely,2,4,3,Safe

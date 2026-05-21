@@ -1,0 +1,12 @@
+Department,JobRole,DepartmentID
+Sales,Sales Executive,1
+Research & Development,Research Scientist,2
+Research & Development,Laboratory Technician,3
+Research & Development,Manufacturing Director,4
+Research & Development,Healthcare Representative,5
+Sales,Manager,6
+Sales,Sales Representative,7
+Research & Development,Research Director,8
+Research & Development,Manager,9
+Human Resources,Human Resources,10
+Human Resources,Manager,11
