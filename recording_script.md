@@ -1,46 +1,72 @@
-# Executive Presentation Walkthrough Script
-**Target Length:** 3–5 Minutes
-**Focus:** Storytelling, DAX Sophistication, Professional Visuals, Executive KPIs, Interactive Analytics, Clean Data Modeling
+# Executive Dashboard Walkthrough Script
+**Target Length:** 3–5 Minutes (~650 words)
+**Focus:** Executive Storytelling, Interactive Analytics, Data Modeling, DAX, and KPIs.
+
+*(Note: Read at a comfortable, professional pace. Click through the left sidebar navigation as you speak.)*
 
 ---
 
-### [0:00 - 0:45] 1. The Hook & The Problem
-"Hello everyone, and thank you for your time. Today, I'm presenting an end-to-end Enterprise HR Attrition Analytics solution. 
+### [0:00] Intro & Tab 1: The Problem
+*(Screen: Start on "1. The Problem")*
 
-The core business challenge we face is that employee turnover is reactive and expensive. High attrition disrupts operations and incurs massive recruitment costs. Currently, HR relies on lagging indicators like exit interviews. 
+"Hello everyone, and thank you for your time. Today I'm walking you through an end-to-end Enterprise HR Analytics solution. 
 
-My objective with this project was to transition us from reactive damage control to proactive retention. To achieve this, I engineered a fully interactive, executive-friendly analytics dashboard designed to identify flight risks *before* they leave, powered by clean data modeling and sophisticated DAX measures."
+The core business challenge we face is that employee turnover is reactive and incredibly expensive. We needed a way to transition from lagging indicators—like exit interviews—to proactive, data-driven retention strategies. 
 
-### [0:45 - 1:30] 2. Data Architecture & Clean Modeling
-"Before we look at the visuals, I want to emphasize the foundation. High-quality analytics require high-quality data architecture. 
+To build this, I orchestrated a complete ETL pipeline using Python to extract our raw HR data, clean it, and perform extensive feature engineering. I then transformed that data into a professional **Star Schema**—centralizing metrics into a Fact table surrounded by optimized Dimension tables. This clean modeling is what powers the dashboard you see here.
 
-Using Python, I orchestrated an ETL pipeline to extract the raw HR data, clean it, and perform extensive feature engineering—creating custom 'Attrition Risk Scores', Income Bands, and Tenure Categories. 
+Looking at our first tab, **The Problem**, we immediately see our executive KPIs: a Total Workforce of 1,470 and a baseline attrition rate of 16.1%. Using sophisticated DAX-style context transitions, these KPIs are dynamic—if we filter the dashboard, the metrics instantly recalculate."
 
-Crucially, I transformed the flat file into a professional **Star Schema**, centralizing the metrics in a `FactEmployeeAttrition` table and branching out into optimized Dimension tables for Employees, Departments, and Compensation. This clean data modeling approach ensures scalable performance and enables the sophisticated DAX calculations that power our dashboard."
+---
 
-### [1:30 - 2:15] 3. DAX Sophistication & Executive KPIs
-"In the BI layer, I authored advanced DAX measures to drive our Executive KPIs. Rather than simple sums, I utilized context-transition functions like `CALCULATE` and `FILTER` to create dynamic, highly responsive metrics. 
+### [1:00] Tab 2: Workforce Overview
+*(Screen: Click to "2. Workforce Overview")*
 
-For instance, our 'Retention Rate' and 'Departmental Attrition' KPIs dynamically recalculate across any cross-filtered dimension. I also implemented dynamic measure switching, allowing executives to pivot the entire dashboard's context from 'Total Employees' to 'Average Income' without cluttering the UI."
+"Moving to the **Workforce Overview**, we get a demographic snapshot of our current employee base. 
 
-### [2:15 - 3:00] 4. Dashboard Storytelling: Attrition Drivers
-"Let's look at the interactive analytics. The dashboard is structured as a narrative. 
+Because of the clean dimensional modeling I mentioned earlier, we can seamlessly slice our data by custom categories I engineered, such as 'Age Groups'. The visuals here show our workforce distribution and exactly where our attrition volume is coming from, split by gender and job role. Notice how the interactive Plotly visuals allow executives to hover and drill down into specific data points without writing any code."
 
-When we drill down into the **Attrition Drivers**, the data tells a stark story. The visuals clearly isolate the 'Overtime Crisis': employees working regular overtime are burning out and leaving at nearly triple the baseline rate. 
+---
 
-Furthermore, our Income vs. Attrition scatter analysis proves we are bleeding entry-level talent in the lowest income quartiles, resulting in a negative ROI on junior hiring."
+### [1:45] Tab 3: Attrition Drivers
+*(Screen: Click to "3. Attrition Drivers")*
 
-### [3:00 - 3:45] 5. High-Risk Segments & Operational Insights
-"But knowing *why* they leave isn't enough; we need to know *who*. 
+"Knowing *that* people leave isn't enough; we need to know *why*. On the **Attrition Drivers** tab, the data tells a stark story. 
 
-Using the engineered Risk Score heuristic, the **High-Risk Segments** page isolates current, active employees classified as 'Flight Risks'. This interactive table allows HR Business Partners to immediately intervene with specific individuals.
+The first major driver is what I call the 'Overtime Crisis.' As you can see in the bar chart, employees working regular overtime are burning out and leaving at vastly higher rates. 
 
-Operationally, I also identified a 'Mid-Tenure Slump'. Our histogram visualizations show a massive spike in attrition at the 3-to-5-year mark—the exact moment employees reach peak productivity."
+Below that, our Income vs. Attrition box plot proves we are bleeding entry-level talent in the lowest income quartiles. We are losing these junior employees before they even reach optimal productivity, resulting in a massively negative ROI on hiring."
 
-### [3:45 - 4:30] 6. Actionable Business Recommendations
-"Finally, the dashboard translates these insights into actionable business recommendations:
-1. **Mandate Overtime Monitoring:** Implement a 'Burnout Dashboard' and require VP approval for sustained team overtime.
-2. **Restructure Junior Compensation:** Introduce staggered micro-promotions at the 12- and 24-month marks to bridge the low-income retention gap.
-3. **Launch Career Pathing:** Attack the Mid-Tenure Slump by forcing career mobility check-ins at the 2.5-year mark.
+---
 
-By leveraging clean data models, sophisticated DAX, and professional storytelling, this solution gives HR the exact tools needed to reduce turnover and save the company millions. Thank you, I'd be happy to answer any technical questions."
+### [2:30] Tab 4: High-Risk Segments
+*(Screen: Click to "4. High-Risk Segments")*
+
+"But we need to know exactly *who* is at risk right now. 
+
+In my ETL pipeline, I engineered a custom 'Attrition Risk Score' heuristic based on a combination of overtime, low satisfaction, and income brackets. 
+
+Here on the **High-Risk Segments** tab, we isolate our current, active employees. The table at the bottom highlights critical 'Flight Risk' employees using dynamic gradient styling. This isn't historical data—this is a targeted action list that HR Business Partners can use today to intervene with specific individuals before they hand in their notice."
+
+---
+
+### [3:15] Tab 5: Operational Insights
+*(Screen: Click to "5. Operational Insights")*
+
+"Operationally, we also have systemic issues to address. 
+
+If we look at the **Operational Insights** tab, the histogram reveals a 'Mid-Tenure Slump.' There is a pronounced spike in attrition when employees hit the 3-to-5-year mark with the company. This means we are losing our talent exactly at the moment they acquire deep institutional knowledge and reach peak productivity."
+
+---
+
+### [4:00] Tab 6: Business Recommendations
+*(Screen: Click to "6. Business Recommendations")*
+
+"Finally, an analytics project is only as good as the actions it drives. On the final tab, I've translated these insights into four concrete **Business Recommendations**:
+
+1. **Mandate Overtime Monitoring:** We need to implement strict thresholds for consecutive weeks of overtime to prevent burnout.
+2. **Address the Junior Comp Gap:** We must review market rates for the bottom 33% of earners and introduce staggered micro-promotions.
+3. **Combat the Mid-Tenure Slump:** We should force career-pathing check-ins at the 2.5-year mark to provide lateral mobility.
+4. **Pulse Surveys:** We need to transition from annual reviews to quarterly pulse surveys to catch satisfaction drops early.
+
+By leveraging a robust data pipeline, clean dimensional modeling, and interactive storytelling, this solution gives HR the exact tools needed to reduce turnover and save millions. Thank you, I'd be happy to answer any questions."
